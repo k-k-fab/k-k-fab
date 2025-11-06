@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player戦績表示（複数プレイヤー切替）</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 1000px;
+            margin: 2rem 1rem;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 340px auto;
+            gap: 12px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+            font-weight: 600;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 14px;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: border-color 0.2s ease;
+            box-sizing: border-box;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.12);
+        }
+
+        .btn {
+            padding: 12px 14px; /* match input padding */
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: 2px solid transparent; /* match input border thickness for equal height */
+            border-radius: 8px;
+            font-size: 15px; /* match input font-size */
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            height: auto;
+            box-sizing: border-box; /* ensure height accounts for border like input */
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+        }
+
+        .status {
+            margin-top: 1rem;
+            color: #555;
+        }
+
+        .results {
+            margin-top: 1.25rem;
+        }
+
+        .round-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            background: #fafafa;
+        }
+
+        .round-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .round-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transform: translateY(-1px);
+            transition: box-shadow 0.15s ease, transform 0.15s ease;
+        }
+
+        .opponent-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .hero-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            margin-right: 4px;
+            vertical-align: middle;
+            object-fit: cover;
+        }
+
+        .decklink a {
+            color: #4f46e5;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .decklink a:hover { text-decoration: underline; }
+
+        .hint {
+            font-size: 12px;
+            color: #666;
+            margin-top: 2px;
+        }
+        .form-group.button-group { display: flex; align-items: center; height: 100%; }
+
+        .presets { margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap; }
+        .preset-btn {
+            padding: 6px 10px;
+            background: #eef2ff;
+            color: #3730a3;
+            border: 1px solid #c7d2fe;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .preset-btn:hover { background: #e0e7ff; }
+
+        .badge { 
+            display: inline-block; 
+            padding: 2px 8px; 
+            border-radius: 9999px; 
+            font-size: 12px; 
+            font-weight: 700;
+        }
+        .badge-win { background: #dcfce7; color: #166534; }
+        .badge-loss { background: #fee2e2; color: #991b1b; }
+        .badge-draw { background: #e5e7eb; color: #374151; }
+        .round-card.win { border-left: 4px solid #16a34a; }
+        .round-card.loss { border-left: 4px solid #dc2626; }
+        .round-card.draw { border-left: 4px solid #6b7280; }
+    </style>
+    <datalist id="playersList"></datalist>
+    <datalist id="playersListFiltered"></datalist>
+    <!-- 予備: フィルタ後の一時リスト（旧ブラウザ向けに保持） -->
+</head>
+<body>
+    <div class="container">
+        <h1>Player戦績表示（複数プレイヤー切替）</h1>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label for="eventUrl">大会URL</label>
+                 <input type="text" id="eventUrl" placeholder="https://fabtcg.com/coverage/calling-xxxx-2025/">
+                 <div class="hint">URLを入れて「取得」→プレイヤー名を選択</div>
+                 <div id="urlPresets" class="presets" role="group" aria-label="URL presets">
+                     <!-- Fallback static presets (will be replaced by JS if available) -->
+                     <button type="button" class="preset-btn" data-url="https://fabtcg.com/coverage/calling-sydney-2025/">Calling Sydney</button>
+                     <button type="button" class="preset-btn" data-url="https://fabtcg.com/coverage/saturday-900-the-calling-classic-constructed/">Calling 静岡</button>
+                 </div>
+            </div>
+            <div class="form-group">
+                <label for="playerSelect">Player（入力で絞り込み可）</label>
+                <input type="text" id="playerSelect" list="playersList" placeholder="例: Michael Feng">
+                <div class="hint">入力文字で候補が自動絞り込みされます</div>
+            </div>
+            <div class="form-group button-group">
+                <button id="fetchBtn" class="btn">取得 / 再取得</button>
+            </div>
+        </div>
+
+        <div id="status" class="status"></div>
+        <div id="results" class="results"></div>
+    </div>
+
+    <script>
+        // 取得先の大会URLプリセット（拡張可能）
+        const urlPresets = [
+            { label: 'Calling Sydney', url: 'https://fabtcg.com/coverage/calling-sydney-2025/' },
+            { label: 'Calling 静岡', url: 'https://fabtcg.com/coverage/saturday-900-the-calling-classic-constructed/' }
+        ];
+
+        // 画像マップ（results.html と同一ルール）
+        const heroImageMap = {
+            'Kayo, Armed and Dangerous': 'Kayo_Armed_and_Dangerous.jpg',
+            'Kayo, Underhanded Cheat': 'Kayo_Underhanded_Cheat.jpg',
+            'Victor Goldmane, High and Mighty': 'Victor Goldmane, High and Mighty.jpg',
+            'Florian, Rotwood Harbinger': 'Florian, Rotwood Harbringer.jpg',
+            'Cindra, Dracai of Retribution': 'Cindra, Dracai of Retribution.jpg',
+            'Oscilio, Constella Intelligence': 'Oscilio, Constella Intelligence.jpg',
+            'Gravy Bones, Shipwrecked Looter': 'Gravy_Bones_Shipwrecked_Looter.jpg',
+            'Verdance, Thorn of the Rose': 'Verdance, Thorn of Rose.jpg',
+            'Kano, Dracai of Aether': 'Kano, Dracai of Aether.jpg',
+            'Arakni, Marionette': 'Arakni, Marionette.jpg',
+            'Kassai of the Golden Sand': 'Kassai, of the Golden Sand.jpg',
+            'Fang, Dracai of Blades': 'Fang, Dracai of Blades.jpg',
+            'Pleiades, Superstar': 'Pleiades_Superstar.jpg',
+            'Ira, Scarlet Revenger': 'Ira, Scarlet Revenger.jpg',
+            'Dorinthea Ironsong': 'Dorinthea Ironsong.jpg',
+            'Levia, Shadowborn Abomination': 'Levia, Shadowborn Abomination.jpg',
+            'Valda, Seismic Impact': 'Valda_Seismic_Impact_cWNA1HW.jpg',
+            'Prism, Awakener of Sol': 'Prism, Awakener of Sol.jpg',
+            'Riptide, Lurker of the Deep': 'Riptide, Lurker of the Deep.jpg',
+            'Jarl Vetreidi': 'Jarl Vetrei?i.jpg',
+            'Arakni, Huntsman': 'Arakni, Huntsman.jpg',
+            'Arakni, Slipped thru the Cracks': 'Arakni_Slipped_thru_the_Cracks.jpg',
+            'Rhinar, Reckless Rampage': 'Rhinar, Reckless Rampage.jpg',
+            'Vynnset, Iron Maiden': 'Vynnset, Iron Maiden.jpg',
+            'Marlynn, Treasure Hunter': 'Marlynn_Treasure_Hunter.jpg',
+            'Puffin, Hightail': 'Puffin_Hightail.jpg',
+            'Betsy, Skin in the Game': 'Betsy, Skin in the Game.jpg',
+            'Bravo, Showstopper': 'Bravo, Showstopper.jpg',
+            'Fai, Rising Rebellion': 'Fai, Rising Rebellion.jpg',
+            'Olympia, Prized Fighter': 'Olympia, Prized Fighter.jpg',
+            'Ser Boltyn, Breaker of Dawn': 'Ser Boltyn, Breaker of Dawn.jpg',
+            'Tuffnut, Bumbling Hulkster': 'Tuffnut_Bumbling_Hulkster.jpg',
+            'Teklovossen, Esteemed Magnate': 'Teklovossen, Esteemed Magnate.jpg',
+            'Lyath Goldmane, Vile Savant': 'Lyath_Goldmane_Vile_Savant.jpg'
+        };
+
+        function getHeroImage(heroName) {
+            const normalizedName = (heroName || '').trim();
+            if (heroImageMap[normalizedName]) {
+                return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${heroImageMap[normalizedName]}`;
+            }
+            for (let [key, filename] of Object.entries(heroImageMap)) {
+                if (key.includes(normalizedName) || normalizedName.includes(key)) {
+                    return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${filename}`;
+                }
+                const keyWords = key.split(/[\,\s]+/).filter(w => w.length > 2);
+                const nameWords = normalizedName.split(/[\,\s]+/).filter(w => w.length > 2);
+                for (let kw of keyWords) {
+                    for (let nw of nameWords) {
+                        if (kw.toLowerCase() === nw.toLowerCase()) {
+                            return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${filename}`;
+                        }
+                    }
+                }
+            }
+            return 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iI2Y4ZjlmYSIvPgo8cGF0aCBkPSJNMTYgMTJMMjAgMTZMMTYgMjBMMTIgMTZMMTYgMTJaIiBmaWxsPSIjNjY3ZWVhIi8+Cjwvc3ZnPgo=';
+        }
+
+        const state = {
+            playersMap: new Map(), // name -> [{ round, opponent, hero, deck, result }]
+            players: [] // sorted list of names
+        };
+
+        document.getElementById('fetchBtn').addEventListener('click', async () => {
+            const baseUrl = document.getElementById('eventUrl').value.trim();
+            const status = document.getElementById('status');
+            const results = document.getElementById('results');
+            results.innerHTML = '';
+            if (!baseUrl) {
+                status.textContent = '大会URLを入力してください。';
+                return;
+            }
+            status.textContent = '全ラウンドを取得中...';
+
+            const playersMap = new Map();
+            let round = 1;
+            const unavailablePhrase = 'Results data is not available for this round at the moment.';
+
+            while (true) {
+                const url = ensureTrailingSlash(baseUrl) + `results/${round}/`;
+                status.textContent = `取得中: ROUND ${round}...`;
+                const htmlText = await fetchViaProxies(url);
+                if (!htmlText) break;
+                if (htmlText.includes(unavailablePhrase)) break;
+
+                const matches = extractMatchesFromRound(htmlText);
+                for (const m of matches) {
+                    // 左右両者分の視点で登録
+                    const leftResult = m.winner === 'P1' ? 'Win' : (m.winner === 'P2' ? 'Loss' : (m.winner === 'DRAW' ? 'Draw' : ''));
+                    const rightResult = m.winner === 'P2' ? 'Win' : (m.winner === 'P1' ? 'Loss' : (m.winner === 'DRAW' ? 'Draw' : ''));
+                    addPlayerEntry(playersMap, m.leftName, {
+                        round: round,
+                        opponent: m.rightName,
+                        hero: m.rightHero,
+                        deck: m.rightDeck,
+                        playerHero: m.leftHero,
+                        playerDeck: m.leftDeck,
+                        result: leftResult
+                    });
+
+        // プリセットボタン生成（読み込みタイミングに依存せず初期化）
+        function initUrlPresets() {
+            try {
+                const wrap = document.getElementById('urlPresets');
+                if (!wrap) return;
+                wrap.innerHTML = '';
+                (urlPresets || []).forEach(p => {
+                    const btn = document.createElement('button');
+                    btn.type = 'button';
+                    btn.className = 'preset-btn';
+                    btn.textContent = p.label;
+                    btn.setAttribute('data-url', p.url);
+                    wrap.appendChild(btn);
+                });
+                wirePresetButtons();
+            } catch (e) {
+                console.error('Failed to init URL presets', e);
+            }
+        }
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initUrlPresets);
+        } else {
+            initUrlPresets();
+        }
+
+        // フォールバック用: 静的ボタンのクリックでURLをセット（JS初期化に依存しない）
+        function wirePresetButtons() {
+            const buttons = document.querySelectorAll('.preset-btn');
+            buttons.forEach((btn) => {
+                btn.addEventListener('click', () => {
+                    const url = btn.getAttribute('data-url') || '';
+                    const el = document.getElementById('eventUrl');
+                    if (el && url) {
+                        try {
+                            el.value = url;
+                            el.setAttribute('value', url);
+                            // 変化を通知（絞り込み等の連動用）
+                            el.dispatchEvent(new Event('input', { bubbles: true }));
+                            el.dispatchEvent(new Event('change', { bubbles: true }));
+                            el.blur();
+                            el.focus();
+                        } catch (_) {
+                            // no-op
+                        }
+                    }
+                });
+            });
+        }
+        // 既存（静的・動的）ボタンに対して委譲で確実に反映
+        (function attachPresetDelegation(){
+            const container = document.getElementById('urlPresets');
+            if (container) {
+                container.addEventListener('click', (e) => {
+                    const target = e.target && (e.target.closest ? e.target.closest('.preset-btn') : null);
+                    if (!target) return;
+                    const url = target.getAttribute('data-url');
+                    const el = document.getElementById('eventUrl');
+                    if (el && url) {
+                        el.value = url;
+                        el.setAttribute('value', url);
+                        el.dispatchEvent(new Event('input', { bubbles: true }));
+                        el.dispatchEvent(new Event('change', { bubbles: true }));
+                        el.blur();
+                        el.focus();
+                    }
+                });
+            } else {
+                // DOM未構築時は後で再試行
+                document.addEventListener('DOMContentLoaded', attachPresetDelegation, { once: true });
+            }
+        })();
+                    addPlayerEntry(playersMap, m.rightName, {
+                        round: round,
+                        opponent: m.leftName,
+                        hero: m.leftHero,
+                        deck: m.leftDeck,
+                        playerHero: m.rightHero,
+                        playerDeck: m.rightDeck,
+                        result: rightResult
+                    });
+                }
+                round++;
+                if (round > 20) break; // 念のため
+            }
+
+            // 状態更新
+            state.playersMap = playersMap;
+            state.players = Array.from(playersMap.keys()).sort((a, b) => a.localeCompare(b));
+            populatePlayersDatalist(state.players);
+
+            status.textContent = `大会内プレイヤー数: ${state.players.length}名。プレイヤーを選択してください。`;
+        });
+
+        // 入力でプルダウン候補を絞り込み & 即時表示（存在する場合）
+        document.getElementById('playerSelect').addEventListener('input', (e) => {
+            const keyword = (e.target.value || '').trim().toLowerCase();
+            if (!state.players.length) return;
+            if (!keyword) {
+                // 元リストに戻す
+                document.getElementById('playerSelect').setAttribute('list', 'playersList');
+                return;
+            }
+            const filtered = state.players.filter(n => n.toLowerCase().includes(keyword));
+            populatePlayersDatalist(filtered, 'playersListFiltered');
+            document.getElementById('playerSelect').setAttribute('list', 'playersListFiltered');
+
+            // 完全一致があれば即描画
+            const exact = state.players.find(n => n.toLowerCase() === keyword);
+            if (exact) renderForPlayer(exact);
+            // 候補が1件のみになったらそれを描画
+            if (!exact && filtered.length === 1) renderForPlayer(filtered[0]);
+        });
+
+        // Enterキーで現在入力値を描画
+        document.getElementById('playerSelect').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                const name = (e.target.value || '').trim();
+                renderForPlayer(name);
+            }
+        });
+
+        function renderForPlayer(playerName) {
+            const status = document.getElementById('status');
+            const container = document.getElementById('results');
+            const rows = state.playersMap.get(playerName) || [];
+            container.innerHTML = '';
+            if (!rows.length) {
+                status.textContent = playerName ? `「${playerName}」の戦績は見つかりません。` : 'プレイヤー名を入力/選択してください。';
+                return;
+            }
+            status.textContent = `「${playerName}」の戦績: ${rows.length} 件`;
+
+            const info = inferPlayerInfo(rows);
+            renderPlayerHeader(container, playerName, info.hero, info.deck);
+            renderResults(rows, container);
+        }
+
+        function inferPlayerInfo(rows) {
+            const heroCounts = new Map();
+            let latestDeck = '';
+            for (const r of rows) {
+                const h = (r.playerHero || '').trim();
+                if (h) heroCounts.set(h, (heroCounts.get(h) || 0) + 1);
+                if (r.playerDeck) latestDeck = r.playerDeck; // 最後に見つかったデッキを採用
+            }
+            let hero = '';
+            let max = -1;
+            for (const [h, c] of heroCounts.entries()) {
+                if (c > max) { hero = h; max = c; }
+            }
+            return { hero, deck: latestDeck };
+        }
+
+        function renderPlayerHeader(container, playerName, hero, deck) {
+            const card = document.createElement('div');
+            card.className = 'round-card';
+            const heroImg = getHeroImage(hero);
+            card.innerHTML = `
+                <div class="round-header">
+                    <div style="font-size:16px;">${escapeHtml(playerName)}</div>
+                    <div class="decklink">${deck ? `<a href="${deck}" target="_blank" rel="noopener">View decklist</a>` : ''}</div>
+                </div>
+                <div class="opponent-row">
+                    <img class="hero-icon" src="${heroImg}" alt="${hero}">
+                    <div>
+                        <div style="color:#444;">HERO: ${escapeHtml(hero || '不明')}</div>
+                    </div>
+                </div>
+            `;
+            container.appendChild(card);
+        }
+
+        function addPlayerEntry(map, name, row) {
+            const key = (name || '').trim();
+            if (!key) return;
+            if (!map.has(key)) map.set(key, []);
+            map.get(key).push(row);
+        }
+
+        function populatePlayersDatalist(players, listId = 'playersList') {
+            const dl = document.getElementById(listId);
+            dl.innerHTML = '';
+            for (const p of players) {
+                const opt = document.createElement('option');
+                opt.value = p;
+                dl.appendChild(opt);
+            }
+        }
+
+        function ensureTrailingSlash(url) {
+            return url.endsWith('/') ? url : url + '/';
+        }
+
+        async function fetchViaProxies(url) {
+            const candidates = [
+                `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+                `https://r.jina.ai/http://` + url.replace(/^https?:\/\//, '')
+            ];
+            for (const proxy of candidates) {
+                try {
+                    const res = await fetch(proxy, { cache: 'no-store' });
+                    if (res.ok) return await res.text();
+                } catch (e) {
+                    continue;
+                }
+            }
+            return '';
+        }
+
+        function extractMatchesFromRound(htmlText) {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(htmlText, 'text/html');
+            const out = [];
+
+            const tables = Array.from(doc.querySelectorAll('table'));
+            for (const table of tables) {
+                const headerCells = Array.from(table.querySelectorAll('thead th, thead td, tr:first-child th, tr:first-child td'));
+                const headerMap = buildHeaderIndex(headerCells);
+
+                const rows = Array.from(table.querySelectorAll('tbody tr')).length
+                    ? Array.from(table.querySelectorAll('tbody tr'))
+                    : Array.from(table.querySelectorAll('tr')).slice(1);
+
+                for (const tr of rows) {
+                    const tds = Array.from(tr.querySelectorAll('td'));
+                    if (!tds.length) continue;
+
+                    const playerCell = pickCell(tds, headerMap, ['player','player 1','p1','name']);
+                    const opponentCell = pickCell(tds, headerMap, ['opponent','opponent player','opp','player 2','p2']);
+                    const heroPlayerCell = pickCell(tds, headerMap, ['player hero','hero (player)','hero p1','player 1 hero','hero']);
+                    const heroOpponentCell = pickCell(tds, headerMap, ['opponent hero','hero (opponent)','hero p2','player 2 hero']);
+
+                    const leftName = extractNameFromCell(playerCell) || getCleanText(playerCell) || inferSideName(tr, 'left');
+                    const rightName = extractNameFromCell(opponentCell) || getCleanText(opponentCell) || inferSideName(tr, 'right');
+                    if (!leftName && !rightName) continue;
+
+                    const leftHD = extractHeroAndDeckFromCell(playerCell);
+                    const rightHD = extractHeroAndDeckFromCell(opponentCell);
+
+                    const leftHero = leftHD.hero || getCleanText(heroPlayerCell) || extractHeroFromImages(tr) || extractHeroByMap(tr);
+                    const rightHero = rightHD.hero || getCleanText(heroOpponentCell) || extractHeroFromImages(tr) || extractHeroByMap(tr);
+
+                    const leftDeck = leftHD.deck || '';
+                    const rightDeck = rightHD.deck || '';
+
+                    const winner = detectWinner(tr); // 'P1' | 'P2' | 'DRAW' | ''
+
+                    out.push({
+                        leftName: leftName || '',
+                        rightName: rightName || '',
+                        leftHero, rightHero,
+                        leftDeck, rightDeck,
+                        winner
+                    });
+                }
+            }
+
+            // 非テーブルの簡易フォールバック（稀）
+            if (!out.length) {
+                const plain = doc.body ? doc.body.textContent || '' : htmlText;
+                const m = plain.match(/(.+?)\s*\((.+?)\)\s*vs\s*(.+?)\s*\((.+?)\)/i);
+                if (m) {
+                    out.push({
+                        leftName: m[1].trim(),
+                        rightName: m[3].trim(),
+                        leftHero: m[2].trim(),
+                        rightHero: m[4].trim(),
+                        leftDeck: '',
+                        rightDeck: '',
+                        winner: ''
+                    });
+                }
+            }
+
+            return out;
+        }
+
+        function buildHeaderIndex(headers) {
+            const map = {};
+            headers.forEach((h, idx) => {
+                const t = (h.textContent || '').toLowerCase().trim();
+                map[t] = idx;
+            });
+            return map;
+        }
+
+        function pickCell(tds, headerMap, candidates) {
+            for (const key of Object.keys(headerMap)) {
+                for (const c of candidates) {
+                    if (key.includes(c)) {
+                        const idx = headerMap[key];
+                        return tds[idx] || null;
+                    }
+                }
+            }
+            return null;
+        }
+
+        function getCleanText(el) {
+            if (!el) return '';
+            return (el.textContent || '').replace(/\s+/g, ' ').trim();
+        }
+
+        function extractNameFromCell(cell) {
+            if (!cell) return '';
+            const strong = cell.querySelector('strong, b');
+            if (strong) {
+                const t = (strong.textContent || '').trim();
+                if (t) return t;
+            }
+            const a = Array.from(cell.querySelectorAll('a')).find(x => !/(view\s+decklist)/i.test(x.textContent || ''));
+            if (a) {
+                const t = (a.textContent || '').trim();
+                if (t) return t;
+            }
+            const text = (cell.textContent || '').replace(/\s+/g, ' ').trim();
+            const m = text.match(/([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3})/);
+            return m ? m[1].trim() : '';
+        }
+
+        function inferSideName(tr, side) {
+            const anchors = findNameAnchors(tr);
+            if (anchors.length >= 2) {
+                return (anchors[side === 'left' ? 0 : 1].textContent || '').trim();
+            }
+            const cells = Array.from(tr.querySelectorAll('td')).map(td => getCleanText(td)).filter(Boolean);
+            if (!cells.length) return '';
+            return side === 'left' ? cells[0] : (cells[1] || '');
+        }
+
+        function extractHeroNearName(scopeEl) {
+            if (!scopeEl) return '';
+            const text = (scopeEl.textContent || '').trim();
+            const m = text.match(/\(([^)]+)\)/);
+            return m ? m[1].trim() : '';
+        }
+
+        function extractHeroAndDeckFromCell(cell) {
+            if (!cell) return { hero: '', deck: '' };
+            let hero = extractHeroNearName(cell);
+            if (!hero) {
+                const imgs = Array.from(cell.querySelectorAll('img'));
+                for (const img of imgs) {
+                    const alt = (img.getAttribute('alt') || '').trim();
+                    const title = (img.getAttribute('title') || '').trim();
+                    const cand = alt || title;
+                    if (cand && matchesAnyHeroKey(cand)) { hero = pickHeroKey(cand); break; }
+                }
+            }
+            if (!hero) {
+                const text = (cell.textContent || '').replace(/\s+/g, ' ').trim();
+                hero = pickHeroKey(text) || '';
+            }
+            let deck = '';
+            const deckA = Array.from(cell.querySelectorAll('a')).find(a => (a.textContent || '').toLowerCase().includes('view decklist'));
+            if (deckA && (deckA.getAttribute('href') || deckA.href)) deck = resolveFabUrl(deckA.getAttribute('href') || deckA.href);
+            return { hero, deck };
+        }
+
+        function resolveFabUrl(href) {
+            if (!href) return '';
+            if (/^https?:\/\//i.test(href)) return href;
+            if (href.startsWith('/')) return 'https://fabtcg.com' + href;
+            return href;
+        }
+
+        function extractHeroFromImages(tr) {
+            const imgs = Array.from(tr.querySelectorAll('img'));
+            for (const img of imgs) {
+                const alt = (img.getAttribute('alt') || '').trim();
+                const title = (img.getAttribute('title') || '').trim();
+                const cand = alt || title;
+                if (!cand) continue;
+                if (matchesAnyHeroKey(cand)) return pickHeroKey(cand);
+            }
+            return '';
+        }
+
+        function extractHeroByMap(tr) {
+            const text = (tr.textContent || '').replace(/\s+/g, ' ').trim();
+            return pickHeroKey(text);
+        }
+
+        function detectWinner(tr) {
+            const text = (tr.textContent || '').toLowerCase();
+            // draw variants
+            if (/\b(draw|drawn|tie|tied|intentional\s+draw|unintentional\s+draw)\b/i.test(text)) return 'DRAW';
+            if (/player\s*1\s*wins?!/i.test(text) || /player\s*1\s*win\b/i.test(text)) return 'P1';
+            if (/player\s*2\s*wins?!/i.test(text) || /player\s*2\s*win\b/i.test(text)) return 'P2';
+            const cells = Array.from(tr.querySelectorAll('td'));
+            for (const td of cells) {
+                const t = (td.textContent || '').toLowerCase();
+                if (/\b(draw|drawn|tie|tied|intentional\s+draw|unintentional\s+draw)\b/i.test(t)) return 'DRAW';
+                if (/player\s*1\s*wins?!/i.test(t) || /player\s*1\s*win\b/i.test(t)) return 'P1';
+                if (/player\s*2\s*wins?!/i.test(t) || /player\s*2\s*win\b/i.test(t)) return 'P2';
+            }
+            return '';
+        }
+
+        function matchesAnyHeroKey(text) {
+            const lower = text.toLowerCase();
+            return Object.keys(heroImageMap).some(k => lower.includes(k.toLowerCase()));
+        }
+
+        function pickHeroKey(text) {
+            const lower = text.toLowerCase();
+            const hit = Object.keys(heroImageMap).find(k => lower.includes(k.toLowerCase()));
+            return hit || '';
+        }
+
+        function findNameAnchors(tr) {
+            return Array.from(tr.querySelectorAll('a')).filter(a => {
+                const txt = (a.textContent || '').trim().toLowerCase();
+                if (!txt) return false;
+                if (txt.includes('view decklist')) return false;
+                const href = (a.getAttribute('href') || '').toLowerCase();
+                return href.includes('/players/') || !href || href.startsWith('#') || href.includes('/results/') || href.includes('/pairings/');
+            });
+        }
+
+        function renderResults(rows, container = document.getElementById('results')) {
+            const sorted = [...rows].sort((a, b) => a.round - b.round);
+            for (const r of sorted) {
+                const heroImg = getHeroImage(r.hero);
+                const card = document.createElement('div');
+                const resultLower = (r.result || '').toLowerCase();
+                const resultClass = resultLower === 'win' ? 'win' : (resultLower === 'loss' ? 'loss' : (resultLower === 'draw' ? 'draw' : ''));
+                const badgeClass = resultClass === 'win' ? 'badge-win' : (resultClass === 'loss' ? 'badge-loss' : (resultClass === 'draw' ? 'badge-draw' : ''));
+                const badge = r.result ? `<span class="badge ${badgeClass}">${r.result}</span>` : '';
+                card.className = `round-card ${resultClass}`.trim();
+                card.innerHTML = `
+                    <div class="round-header">
+                        <div>ROUND ${r.round} ${badge}</div>
+                        <div class="decklink">${r.deck ? `<a href="${r.deck}" target="_blank" rel="noopener">View decklist</a>` : ''}</div>
+                    </div>
+                    <div class="opponent-row">
+                        <img class="hero-icon" src="${heroImg}" alt="${r.hero}">
+                        <div>
+                            <div style="font-weight:700; color:#111;">対戦相手: ${escapeHtml(r.opponent || '')}</div>
+                            <div style="color:#444;">HERO: ${escapeHtml(r.hero || '不明')}</div>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(card);
+            }
+        }
+
+        function escapeHtml(str) {
+            return String(str).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+        }
+        const container = document.getElementById('urlPresets');
+            if (container) {
+                container.addEventListener('click', (e) => {
+                    const target = e.target && (e.target.closest ? e.target.closest('.preset-btn') : null);
+                    if (!target) return;
+                    const url = target.getAttribute('data-url');
+                    const el = document.getElementById('eventUrl');
+                    if (el && url) {
+                        el.value = url;
+                        el.setAttribute('value', url);
+                        el.dispatchEvent(new Event('input', { bubbles: true }));
+                        el.dispatchEvent(new Event('change', { bubbles: true }));
+                        el.blur();
+                        el.focus();
+                    }
+                });
+            }
+    </script>
+</body>
+</html>
+
+
