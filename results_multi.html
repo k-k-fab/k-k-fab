@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player戦績表示（複数プレイヤー切替）</title>
+    <title>Player戦績表示</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -168,6 +168,47 @@
         .round-card.win { border-left: 4px solid #16a34a; }
         .round-card.loss { border-left: 4px solid #dc2626; }
         .round-card.draw { border-left: 4px solid #6b7280; }
+        
+        /* Responsive: iPhone SE などの小幅端末向け調整 */
+        @media (max-width: 420px) {
+            .container {
+                padding: 1rem;
+                margin: 1rem 0.5rem;
+            }
+            h1 {
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
+            }
+            .form-grid {
+                grid-template-columns: 1fr; /* 縦積み */
+                gap: 10px;
+            }
+            .form-group.button-group {
+                height: auto;
+            }
+            .btn {
+                width: 100%; /* ボタンを横幅一杯に */
+            }
+            .round-header {
+                flex-direction: column; /* タイトルとリンクを縦積み */
+                align-items: flex-start;
+                gap: 6px;
+            }
+            .decklink a {
+                word-break: break-all; /* 長いURLの折返し */
+                overflow-wrap: anywhere;
+            }
+            .opponent-row {
+                gap: 8px;
+            }
+            .hero-icon {
+                width: 28px;
+                height: 28px;
+            }
+            .badge {
+                font-size: 11px;
+                padding: 2px 6px;
+            }
     </style>
     <datalist id="playersList"></datalist>
     <datalist id="playersListFiltered"></datalist>
@@ -175,7 +216,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Player戦績表示（複数プレイヤー切替）</h1>
+        <h1>Player戦績表示</h1>
 
         <div class="form-grid">
             <div class="form-group">
@@ -189,17 +230,17 @@
                      <button type="button" class="preset-btn" data-url="https://fabtcg.com/coverage/saturday-900-the-calling-classic-constructed/">Calling 静岡(9/27)</button>
                  </div>
             </div>
+            <div class="form-group button-group">
+                <button id="fetchBtn" class="btn">取得 / 再取得</button>
+            </div>
+            <div id="status" class="status"></div>
             <div class="form-group">
                 <label for="playerSelect">Player（入力で絞り込み可）</label>
                 <input type="text" id="playerSelect" list="playersList" placeholder="例: Michael Feng">
                 <div class="hint">入力文字で候補が自動絞り込みされます</div>
             </div>
-            <div class="form-group button-group">
-                <button id="fetchBtn" class="btn">取得 / 再取得</button>
-            </div>
         </div>
 
-        <div id="status" class="status"></div>
         <div id="results" class="results"></div>
     </div>
 
