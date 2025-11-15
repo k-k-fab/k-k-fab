@@ -248,6 +248,7 @@
     <script>
         // 取得先の大会URLプリセット（拡張可能）
         const urlPresets = [
+            { label: 'World Championships 2025', url: 'https://fabtcg.com/coverage/world-championships-2025/' },
             { label: 'Calling Sydney(11/1)', url: 'https://fabtcg.com/coverage/calling-sydney-2025/' },
             { label: 'Calling Hamburg(10/4)', url: 'https://fabtcg.com/coverage/calling-hamburg/' },
             { label: 'Calling 静岡(9/27)', url: 'https://fabtcg.com/coverage/saturday-900-the-calling-classic-constructed/' }
@@ -279,7 +280,7 @@
             'Riptide, Lurker of the Deep': 'Riptide, Lurker of the Deep.jpg',
             'Jarl Vetreidi': 'Jarl Vetrei?i.jpg',
             'Arakni, Huntsman': 'Arakni, Huntsman.jpg',
-            'Arakni, Slipped thru the Cracks': 'Arakni_Slipped_thru_the_Cracks.jpg',
+            'Arakni, 5L!p3d 7hRu 7h3 cR4X': 'Arakni_Slipped_thru_the_Cracks.jpg',
             'Rhinar, Reckless Rampage': 'Rhinar, Reckless Rampage.jpg',
             'Vynnset, Iron Maiden': 'Vynnset, Iron Maiden.jpg',
             'Marlynn, Treasure Hunter': 'Marlynn_Treasure_Hunter.jpg',
@@ -291,7 +292,19 @@
             'Ser Boltyn, Breaker of Dawn': 'Ser Boltyn, Breaker of Dawn.jpg',
             'Tuffnut, Bumbling Hulkster': 'Tuffnut_Bumbling_Hulkster.jpg',
             'Teklovossen, Esteemed Magnate': 'Teklovossen, Esteemed Magnate.jpg',
-            'Lyath Goldmane, Vile Savant': 'Lyath_Goldmane_Vile_Savant.jpg'
+            'Lyath Goldmane, Vile Savant': 'Lyath_Goldmane_Vile_Savant.jpg',
+            'Bravo, Star of the Show': 'Bravo, Star of the Show.jpg',
+            'Zen, Tamer of Purpose': 'Zen, Tamer of Purpose.jpg',
+            'Nuu, Alluring Desire': 'Nuu, Alluring Desire.jpg',
+            'Chane, Bound by Shadow': 'Chane, Bound by Shadow.jpg',
+            'Viserai, Rune Blood': 'Viserai, Rune Blood.jpg',
+            'Aurora, Shooting Star': 'Aurora_Shooting_Star.jpg',
+            'Dromai, Ash Artist': 'Dromai, Ash Artist.jpg',
+            'Dash, Inventor Extraordinaire': 'Dash, Inventor Extraordinaire.jpg',
+            'Briar, Warden of Thorns': 'Briar, Warden of Thorns.jpg',
+            'Prism, Sculptor of Arc Light': 'Prism, Sculptor of Arc Light.jpg',
+            'Iyslander, Stormbind': 'Iyslander, Stormbind.jpg',
+            'Lexi, Livewire': 'Lexi, Livewire.jpg'
         };
 
         function getHeroImage(heroName) {
@@ -491,24 +504,32 @@
             status.textContent = `「${playerName}」の戦績: ${rows.length} 件`;
 
             const info = inferPlayerInfo(rows);
-            renderPlayerHeader(container, playerName, info.hero, info.deck);
+            for (const i of info) {
+                renderPlayerHeader(container, playerName, i.hero, i.deck);
+            }
+            //renderPlayerHeader(container, playerName, info.hero, info.deck);
             renderResults(rows, container);
         }
 
         function inferPlayerInfo(rows) {
+            let playerData = [];
             const heroCounts = new Map();
             let latestDeck = '';
             for (const r of rows) {
                 const h = (r.playerHero || '').trim();
                 if (h) heroCounts.set(h, (heroCounts.get(h) || 0) + 1);
                 if (r.playerDeck) latestDeck = r.playerDeck; // 最後に見つかったデッキを採用
+                if(heroCounts.get(h) == 1) {
+                    playerData.push({ hero: h, deck: latestDeck });
+                }
             }
             let hero = '';
             let max = -1;
             for (const [h, c] of heroCounts.entries()) {
                 if (c > max) { hero = h; max = c; }
             }
-            return { hero, deck: latestDeck };
+
+            return playerData;
         }
 
         function renderPlayerHeader(container, playerName, hero, deck) {
