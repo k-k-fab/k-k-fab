@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入力フォーム</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #555;
+            font-weight: 600;
+        }
+        
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+            box-sizing: border-box;
+        }
+        
+        input[type="text"]:focus, input[type="number"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        .result {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            display: none;
+        }
+        
+        .result.show {
+            display: block;
+        }
+        
+        .hero-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        
+        .hero-row {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>データ入力フォーム</h1>
+        
+        <form id="dataForm">
+            <div class="form-group">
+                <label for="htmlInput">HTML:</label>
+                <input type="text" id="htmlInput" name="htmlInput" placeholder="HTMLを入力してください">
+            </div>
+            
+            <div class="form-group">
+                <label for="winsInput">勝利数:</label>
+                <input type="number" id="winsInput" name="winsInput" placeholder="勝利数を入力してください" min="0">
+            </div>
+            
+            <button type="submit" class="btn">表示</button>
+        </form>
+        
+        <div id="result" class="result">
+            <h3>入力されたデータ:</h3>
+            <p><strong>HTML:</strong> <span id="htmlResult"></span></p>
+            <p><strong>勝利数:</strong> <span id="winsResult"></span></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('dataForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const htmlValue = document.getElementById('htmlInput').value;
+            const winsValue = document.getElementById('winsInput').value;
+            
+            if (htmlValue.trim() === '' || winsValue.trim() === '') {
+                alert('すべてのフィールドを入力してください。');
+                return;
+            }
+            
+            // スクレイピング処理を実行
+            scrapeAndAnalyze(htmlValue, parseInt(winsValue));
+        });
+
+        // ヒーロー名とファイル名のマッピング（実際のファイル名に基づく）
+        const heroImageMap = {
+            'Kayo, Armed and Dangerous': 'Kayo_Armed_and_Dangerous.jpg',
+            'Kayo, Underhanded Cheat': 'Kayo_Underhanded_Cheat.jpg',
+            'Victor Goldmane, High and Mighty': 'Victor Goldmane, High and Mighty.jpg',
+            'Florian, Rotwood Harbinger': 'Florian, Rotwood Harbringer.jpg',
+            'Cindra, Dracai of Retribution': 'Cindra, Dracai of Retribution.jpg',
+            'Oscilio, Constella Intelligence': 'Oscilio, Constella Intelligence.jpg',
+            'Gravy Bones, Shipwrecked Looter': 'Gravy_Bones_Shipwrecked_Looter.jpg',
+            'Verdance, Thorn of the Rose': 'Verdance, Thorn of Rose.jpg',
+            'Kano, Dracai of Aether': 'Kano, Dracai of Aether.jpg',
+            'Arakni, Marionette': 'Arakni, Marionette.jpg',
+            'Kassai of the Golden Sand': 'Kassai, of the Golden Sand.jpg',
+            'Fang, Dracai of Blades': 'Fang, Dracai of Blades.jpg',
+            'Pleiades, Superstar': 'Pleiades_Superstar.jpg',
+            'Ira, Scarlet Revenger': 'Ira, Scarlet Revenger.jpg',
+            'Dorinthea Ironsong': 'Dorinthea Ironsong.jpg',
+            'Levia, Shadowborn Abomination': 'Levia, Shadowborn Abomination.jpg',
+            'Valda, Seismic Impact': 'Valda_Seismic_Impact_cWNA1HW.jpg',
+            'Prism, Awakener of Sol': 'Prism, Awakener of Sol.jpg',
+            'Riptide, Lurker of the Deep': 'Riptide, Lurker of the Deep.jpg',
+            'Jarl Vetreidi': 'Jarl Vetrei?i.jpg',
+            'Arakni, Huntsman': 'Arakni, Huntsman.jpg',
+            'Arakni, Slipped thru the Cracks': 'Arakni_Slipped_thru_the_Cracks.jpg',
+            'Rhinar, Reckless Rampage': 'Rhinar, Reckless Rampage.jpg',
+            'Vynnset, Iron Maiden': 'Vynnset, Iron Maiden.jpg',
+            'Marlynn, Treasure Hunter': 'Marlynn_Treasure_Hunter.jpg',
+            'Puffin, Hightail': 'Puffin_Hightail.jpg',
+            'Betsy, Skin in the Game': 'Betsy, Skin in the Game.jpg',
+            'Bravo, Showstopper': 'Bravo, Showstopper.jpg',
+            'Fai, Rising Rebellion': 'Fai, Rising Rebellion.jpg',
+            'Olympia, Prized Fighter': 'Olympia, Prized Fighter.jpg',
+            'Ser Boltyn, Breaker of Dawn': 'Ser Boltyn, Breaker of Dawn.jpg',
+            'Tuffnut, Bumbling Hulkster': 'Tuffnut_Bumbling_Hulkster.jpg',
+            'Teklovossen, Esteemed Magnate': 'Teklovossen, Esteemed Magnate.jpg',
+            'Lyath Goldmane, Vile Savant': 'Lyath_Goldmane_Vile_Savant.jpg'
+        };
+        
+        function getHeroImage(heroName) {
+            // ヒーロー名の正規化
+            const normalizedName = heroName.trim();
+            
+            console.log('ヒーロー画像検索:', normalizedName);
+            
+            // 完全一致で検索
+            if (heroImageMap[normalizedName]) {
+                console.log('完全一致で発見:', heroImageMap[normalizedName]);
+                return `img/hero/${heroImageMap[normalizedName]}`;
+            }
+            
+            // より柔軟な検索（部分一致、キーワード検索）
+            for (let [key, filename] of Object.entries(heroImageMap)) {
+                // 部分一致検索
+                if (key.includes(normalizedName) || normalizedName.includes(key)) {
+                    console.log('部分一致で発見:', filename);
+                    return `img/hero/${filename}`;
+                }
+                
+                // キーワード検索（主要な名前部分で検索）
+                const keyWords = key.split(/[,\s]+/).filter(word => word.length > 2);
+                const nameWords = normalizedName.split(/[,\s]+/).filter(word => word.length > 2);
+                
+                for (let keyWord of keyWords) {
+                    for (let nameWord of nameWords) {
+                        if (keyWord.toLowerCase() === nameWord.toLowerCase()) {
+                            console.log('キーワード一致で発見:', filename);
+                            return `img/hero/${filename}`;
+                        }
+                    }
+                }
+            }
+            
+            console.log('画像が見つかりません、デフォルト画像を使用');
+            // デフォルト画像
+            return 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iI2Y4ZjlmYSIvPgo8cGF0aCBkPSJNMTYgMTJMMjAgMTZMMTYgMjBMMTIgMTZMMTYgMTJaIiBmaWxsPSIjNjY3ZWVhIi8+Cjwvc3ZnPgo=';
+        }
+
+        async function scrapeAndAnalyze(url, minWins) {
+            try {
+                // ローディング表示
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = '<p>データを取得中...</p>';
+                resultDiv.classList.add('show');
+                
+                // 複数のCORSプロキシを試行
+                const proxies = [
+                    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                    `https://cors-anywhere.herokuapp.com/${url}`,
+                    `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`
+                ];
+                
+                let htmlContent = '';
+                let response = null;
+                
+                for (let proxyUrl of proxies) {
+                    try {
+                        console.log('プロキシを試行中:', proxyUrl);
+                        response = await fetch(proxyUrl);
+                        if (response.ok) {
+                            htmlContent = await response.text();
+                            console.log('データ取得成功、長さ:', htmlContent.length);
+                            break;
+                        }
+                    } catch (e) {
+                        console.log('プロキシ失敗:', e.message);
+                        continue;
+                    }
+                }
+                
+                if (!htmlContent) {
+                    throw new Error('すべてのプロキシでデータの取得に失敗しました');
+                }
+                
+                // HTMLを解析してテーブルデータを抽出
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(htmlContent, 'text/html');
+                
+                console.log('HTML解析完了');
+                
+                // テーブルを検索（より柔軟な検索）
+                const tables = doc.querySelectorAll('table');
+                console.log('見つかったテーブル数:', tables.length);
+                
+                let targetTable = null;
+                let data = [];
+                
+                // テーブルが見つからない場合は、テキストから直接解析
+                if (tables.length === 0) {
+                    console.log('テーブルが見つからないため、テキスト解析を実行');
+                    data = parseTextData(htmlContent);
+                } else {
+                    // テーブル検索
+                    for (let table of tables) {
+                        const headers = table.querySelectorAll('th, td');
+                        const headerText = Array.from(headers).map(h => h.textContent.trim()).join(' ');
+                        console.log('テーブルヘッダー:', headerText);
+                        
+                        if (headerText.includes('Player') && headerText.includes('Hero') && headerText.includes('Wins')) {
+                            targetTable = table;
+                            break;
+                        }
+                    }
+                    
+                    if (targetTable) {
+                        console.log('対象テーブル発見');
+                        data = parseTableData(targetTable);
+                    } else {
+                        console.log('対象テーブルが見つからないため、テキスト解析を実行');
+                        data = parseTextData(htmlContent);
+                    }
+                }
+                
+                console.log('抽出されたデータ数:', data.length);
+                
+                if (data.length === 0) {
+                    throw new Error('データが抽出できませんでした。HTMLの構造が予想と異なる可能性があります。');
+                }
+                console.log(data);
+                // 指定された勝利数以上でフィルタリング
+                const filteredData = data.filter(item => item.wins >= minWins);
+                console.log('フィルタ後のデータ数:', filteredData.length);
+                
+                // ヒーローごとに勝利数で集計
+                const heroStats = {};
+                filteredData.forEach(item => {
+                    if (!heroStats[item.hero]) {
+                        heroStats[item.hero] = {};
+                    }
+                    if (!heroStats[item.hero][item.wins]) {
+                        heroStats[item.hero][item.wins] = 0;
+                    }
+                    heroStats[item.hero][item.wins]++;
+                });
+                
+                // 結果を表示
+                displayResults(heroStats, minWins, url);
+                
+            } catch (error) {
+                console.error('エラー:', error);
+                document.getElementById('result').innerHTML = `
+                    <h3>エラーが発生しました</h3>
+                    <p>${error.message}</p>
+                    <p>URL: ${url}</p>
+                    <p>最小勝利数: ${minWins}</p>
+                    <p>ブラウザのコンソールで詳細なエラー情報を確認してください。</p>
+                `;
+            }
+        }
+
+        function parseTableData(table) {
+            const rows = table.querySelectorAll('tr');
+            const data = [];
+            
+            console.log('parseTableData: テーブル行数:', rows.length);
+            
+            // ヘッダー行を確認
+            if (rows.length > 0) {
+                const headerCells = rows[0].querySelectorAll('th, td');
+                console.log('ヘッダー行:', Array.from(headerCells).map(cell => cell.textContent.trim()));
+            }
+            
+            for (let i = 1; i < rows.length; i++) { // ヘッダー行をスキップ
+                const cells = rows[i].querySelectorAll('td');
+                console.log(`行 ${i}:`, Array.from(cells).map(cell => cell.textContent.trim()));
+                
+                if (cells.length >= 3) {
+                    // より柔軟な列の検索
+                    let player = '', hero = '', wins = 0;
+                    
+                    for (let j = 0; j < cells.length; j++) {
+                        const cellText = cells[j].textContent.trim();
+                        
+                        // Player列の検出（名前らしき文字列）
+                        if (!player && cellText && !cellText.match(/^\d+$/) && cellText !== 'Dropped') {
+                            player = cellText;
+                        }
+                        // Hero列の検出（ヒーロー名らしき文字列）
+                        else if (!hero && cellText && cellText.includes(',')) {
+                            hero = cellText;
+                        }
+                        // Wins列の検出（数値）
+                        else if (cellText.match(/^\d+$/)) {
+                            wins = parseInt(cellText) || 0;
+                        }
+                    }
+                    
+                    console.log("解析結果 - player:", player, "hero:", hero, "wins:", wins);
+                    
+                    if (player && hero && !isNaN(wins)) {
+                        data.push({ player, hero, wins });
+                        console.log("データ追加成功");
+                    } else {
+                        console.log("データ追加スキップ - 条件不満足");
+                    }
+                    console.log("--------------------------------");
+                }
+            }
+            
+            return data;
+        }
+
+        function parseTextData(htmlContent) {
+            const data = [];
+            
+            console.log('parseTextData: テキスト解析開始');
+            
+            // マークダウンテーブル形式を解析
+            const lines = htmlContent.split('\n');
+            let inTable = false;
+            let headerFound = false;
+            
+            for (let line of lines) {
+                const trimmedLine = line.trim();
+                
+                // テーブル開始を検出
+                if (trimmedLine.includes('|') && (trimmedLine.includes('Player') || trimmedLine.includes('Rank'))) {
+                    inTable = true;
+                    headerFound = true;
+                    console.log('テーブル開始検出:', trimmedLine);
+                    continue;
+                }
+                
+                // テーブル終了を検出
+                if (inTable && trimmedLine.includes('---')) {
+                    console.log('テーブル区切り線:', trimmedLine);
+                    continue;
+                }
+                
+                // テーブル行を解析
+                if (inTable && trimmedLine.includes('|') && headerFound) {
+                    const cells = trimmedLine.split('|').map(cell => cell.trim()).filter(cell => cell);
+                    console.log('テーブル行解析:', cells);
+                    
+                    if (cells.length >= 4) { // Rank, Player, Hero, Wins
+                        const player = cells[1] || '';
+                        const hero = cells[2] || '';
+                        const winsText = cells[3] || '0';
+                        const wins = parseInt(winsText) || 0;
+                        
+                        console.log("テキスト解析結果 - player:", player, "hero:", hero, "wins:", wins);
+                        
+                        if (player && hero && !isNaN(wins) && player !== 'Player') {
+                            data.push({ player, hero, wins });
+                            console.log("テキストデータ追加成功");
+                        } else {
+                            console.log("テキストデータ追加スキップ");
+                        }
+                        console.log("--------------------------------");
+                    }
+                }
+                
+                // テーブル外に出た場合
+                if (inTable && !trimmedLine.includes('|') && trimmedLine !== '') {
+                    inTable = false;
+                    console.log('テーブル終了検出');
+                }
+            }
+            
+            console.log('parseTextData: 抽出されたデータ数:', data.length);
+            return data;
+        }
+
+        function displayResults(heroStats, minWins, url) {
+            let html = `
+                <h3>分析結果</h3>
+                <p><strong>対象URL:</strong> ${url}</p>
+                <p><strong>最小勝利数:</strong> ${minWins}以上</p>
+                <hr>
+                <table style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
+                    <thead>
+                        <tr style="background-color: #f8f9fa;">
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">HERO</th>
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">WINS</th>
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">数</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            // 全データを配列に変換してWINSの降順でソート
+            const allData = [];
+            Object.keys(heroStats).forEach(hero => {
+                Object.keys(heroStats[hero]).forEach(wins => {
+                    allData.push({
+                        hero: hero,
+                        wins: parseInt(wins),
+                        count: heroStats[hero][wins]
+                    });
+                });
+            });
+            
+            // WINSの降順でソート（同じWINSの場合はヒーロー名でソート）
+            allData.sort((a, b) => {
+                if (b.wins !== a.wins) {
+                    return b.wins - a.wins; // WINSの降順
+                }
+                return a.hero.localeCompare(b.hero); // 同じWINSの場合はヒーロー名で昇順
+            });
+            
+             // ソートされたデータを表示
+             allData.forEach((item, index) => {
+                 const rowStyle = index === 0 ? 'background-color: #e3f2fd;' : '';
+                 const heroImage = getHeroImage(item.hero);
+                 html += `
+                     <tr style="${rowStyle}">
+                         <td style="border: 1px solid #ddd; padding: 8px;">
+                             <div class="hero-row">
+                                 <img src="${heroImage}" alt="${item.hero}" class="hero-icon" />
+                                 <span>${item.hero}</span>
+                             </div>
+                         </td>
+                         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${item.wins}</td>
+                         <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">${item.count}</td>
+                     </tr>
+                 `;
+             });
+            
+            html += `
+                    </tbody>
+                </table>
+                <p style="margin-top: 1rem; color: #666;">
+                    合計 ${Object.keys(heroStats).length} 種類のヒーローが ${minWins} 勝以上を記録
+                </p>
+            `;
+            
+            document.getElementById('result').innerHTML = html;
+        }
+    </script>
+</body>
+</html>
