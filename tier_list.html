@@ -135,8 +135,9 @@
         }
 
         .hero-card.dragging {
-            opacity: 0.5;
+            opacity: 0.8;
             cursor: grabbing;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
         }
 
         .hero-image {
@@ -389,6 +390,17 @@
             'unassigned': getSortedHeroNames()
         };
 
+        // タッチドラッグ用の状態管理
+        let touchDragState = {
+            isDragging: false,
+            draggedCard: null,
+            draggedHeroName: null,
+            startX: 0,
+            startY: 0,
+            offsetX: 0,
+            offsetY: 0
+        };
+
         // 初期化
         function init() {
             loadTierList(true); // 初期化時はメッセージを表示しない
@@ -421,6 +433,12 @@
             container.querySelectorAll('.hero-card').forEach(card => {
                 card.addEventListener('dragstart', handleDragStart);
                 card.addEventListener('dragend', handleDragEnd);
+                
+                // タッチイベント対応
+                card.addEventListener('touchstart', handleTouchStart, { passive: false });
+                card.addEventListener('touchmove', handleTouchMove, { passive: false });
+                card.addEventListener('touchend', handleTouchEnd, { passive: false });
+                card.addEventListener('touchcancel', handleTouchEnd, { passive: false });
             });
         }
 
@@ -483,6 +501,11 @@
                 return;
             }
 
+            moveHeroToTier(heroName, targetTier);
+        }
+
+        // ヒーローをTierに移動する共通関数
+        function moveHeroToTier(heroName, targetTier) {
             // 元のTierから削除
             Object.keys(tierData).forEach(tier => {
                 tierData[tier] = tierData[tier].filter(name => name !== heroName);
@@ -499,6 +522,116 @@
             // 再描画
             renderAllTiers();
             saveTierList();
+        }
+
+        // タッチ開始
+        function handleTouchStart(e) {
+            const card = e.target.closest('.hero-card');
+            if (!card) return;
+            
+            const heroName = card.dataset.hero;
+            if (!heroName) return;
+            
+            const touch = e.touches[0];
+            const rect = card.getBoundingClientRect();
+            
+            touchDragState.isDragging = true;
+            touchDragState.draggedCard = card;
+            touchDragState.draggedHeroName = heroName;
+            touchDragState.startX = touch.clientX;
+            touchDragState.startY = touch.clientY;
+            touchDragState.offsetX = touch.clientX - rect.left;
+            touchDragState.offsetY = touch.clientY - rect.top;
+            
+            card.classList.add('dragging');
+            card.style.position = 'fixed';
+            card.style.zIndex = '10000';
+            card.style.pointerEvents = 'none';
+            card.style.transform = 'scale(1.1)';
+            card.style.transition = 'none';
+            
+            // ページスクロールを防ぐ
+            document.body.style.overflow = 'hidden';
+            document.body.style.touchAction = 'none';
+            
+            updateCardPosition(card, touch.clientX, touch.clientY);
+            
+            e.preventDefault();
+        }
+
+        // タッチ移動
+        function handleTouchMove(e) {
+            if (!touchDragState.isDragging) return;
+            
+            const touch = e.touches[0];
+            const card = touchDragState.draggedCard;
+            
+            if (card) {
+                updateCardPosition(card, touch.clientX, touch.clientY);
+                
+                // ドロップゾーンの検出
+                const dropzone = document.elementFromPoint(touch.clientX, touch.clientY)?.closest('.tier-dropzone');
+                document.querySelectorAll('.tier-dropzone').forEach(zone => {
+                    zone.classList.remove('drag-over');
+                });
+                if (dropzone) {
+                    dropzone.classList.add('drag-over');
+                }
+            }
+            
+            e.preventDefault();
+        }
+
+        // タッチ終了
+        function handleTouchEnd(e) {
+            if (!touchDragState.isDragging) return;
+            
+            const card = touchDragState.draggedCard;
+            const heroName = touchDragState.draggedHeroName;
+            
+            if (card && heroName) {
+                const touch = e.changedTouches[0];
+                const dropzone = document.elementFromPoint(touch.clientX, touch.clientY)?.closest('.tier-dropzone');
+                
+                // カードのスタイルをリセット
+                card.classList.remove('dragging');
+                card.style.position = '';
+                card.style.zIndex = '';
+                card.style.pointerEvents = '';
+                card.style.transform = '';
+                card.style.left = '';
+                card.style.top = '';
+                card.style.transition = '';
+                
+                // ドロップゾーンの検出
+                document.querySelectorAll('.tier-dropzone').forEach(zone => {
+                    zone.classList.remove('drag-over');
+                });
+                
+                if (dropzone) {
+                    const targetTier = dropzone.dataset.tier;
+                    if (targetTier) {
+                        moveHeroToTier(heroName, targetTier);
+                    }
+                }
+            }
+            
+            // 状態をリセット
+            touchDragState.isDragging = false;
+            touchDragState.draggedCard = null;
+            touchDragState.draggedHeroName = null;
+            
+            // ページスクロールを復元
+            document.body.style.overflow = '';
+            document.body.style.touchAction = '';
+            
+            e.preventDefault();
+        }
+
+        // カードの位置を更新
+        function updateCardPosition(card, x, y) {
+            card.style.left = (x - touchDragState.offsetX) + 'px';
+            card.style.top = (y - touchDragState.offsetY) + 'px';
         }
 
         // HTMLエスケープ
