@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier表</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #6b7280;
+        }
+
+        .tier-container {
+            margin-bottom: 20px;
+        }
+
+        .tier-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .tier-s { background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); }
+        .tier-a { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); }
+        .tier-b { background: linear-gradient(135deg, #10b981 0%, #059669 100%); }
+        .tier-c { background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); }
+        .tier-d { background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); }
+        .tier-f { background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%); }
+
+        .tier-label {
+            min-width: 60px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .tier-dropzone {
+            min-height: 100px;
+            padding: 15px;
+            border: 3px dashed #e5e7eb;
+            border-radius: 10px;
+            background: #f9fafb;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .tier-dropzone.drag-over {
+            background: #eff6ff;
+            border-color: #3b82f6;
+        }
+
+        .tier-content {
+            display: contents;
+        }
+
+        .hero-card {
+            position: relative;
+            width: 120px;
+            height: 160px;
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: grab;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .hero-card.dragging {
+            opacity: 0.5;
+            cursor: grabbing;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 6px;
+            background: #f3f4f6;
+        }
+
+        .hero-name {
+            font-size: 11px;
+            text-align: center;
+            color: #333;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-top: 5px;
+            word-break: break-word;
+        }
+
+        .unassigned-container {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #e5e7eb;
+        }
+
+        .unassigned-header {
+            padding: 15px 20px;
+            background: #f3f4f6;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #6b7280;
+        }
+
+        .empty-message {
+            text-align: center;
+            color: #9ca3af;
+            padding: 20px;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-card {
+                width: 100px;
+                height: 140px;
+            }
+
+            .hero-image {
+                height: 80px;
+            }
+
+            .hero-name {
+                font-size: 10px;
+            }
+
+            .tier-header {
+                font-size: 1rem;
+                padding: 12px 15px;
+            }
+
+            .tier-label {
+                min-width: 50px;
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Tier表</h1>
+        
+        <div class="controls">
+            <button class="btn" onclick="resetTierList()">リセット</button>
+            <button class="btn btn-secondary" onclick="saveTierList()">保存</button>
+            <button class="btn btn-secondary" onclick="loadTierList()">読み込み</button>
+        </div>
+
+        <div class="tier-container">
+            <div class="tier-header tier-s">
+                <span class="tier-label">S</span>
+                <span>Tier S - 最強</span>
+            </div>
+            <div class="tier-dropzone" data-tier="S" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
+                <div id="tier-S" class="tier-content"></div>
+            </div>
+        </div>
+
+        <div class="tier-container">
+            <div class="tier-header tier-a">
+                <span class="tier-label">A</span>
+                <span>Tier A - 強い</span>
+            </div>
+            <div class="tier-dropzone" data-tier="A" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
+                <div id="tier-A" class="tier-content"></div>
+            </div>
+        </div>
+
+        <div class="tier-container">
+            <div class="tier-header tier-b">
+                <span class="tier-label">B</span>
+                <span>Tier B - 普通</span>
+            </div>
+            <div class="tier-dropzone" data-tier="B" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
+                <div id="tier-B" class="tier-content"></div>
+            </div>
+        </div>
+
+        <div class="tier-container">
+            <div class="tier-header tier-c">
+                <span class="tier-label">C</span>
+                <span>Tier C - 弱い</span>
+            </div>
+            <div class="tier-dropzone" data-tier="C" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
+                <div id="tier-C" class="tier-content"></div>
+            </div>
+        </div>
+
+        <div class="tier-container">
+            <div class="tier-header tier-d">
+                <span class="tier-label">D</span>
+                <span>Tier D - かなり弱い</span>
+            </div>
+            <div class="tier-dropzone" data-tier="D" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
+                <div id="tier-D" class="tier-content"></div>
+            </div>
+        </div>
+
+        <div class="tier-container">
+            <div class="tier-header tier-f">
+                <span class="tier-label">F</span>
+                <span>Tier F - 最弱</span>
+            </div>
+            <div class="tier-dropzone" data-tier="F" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
+                <div id="tier-F" class="tier-content"></div>
+            </div>
+        </div>
+
+        <div class="unassigned-container">
+            <div class="unassigned-header">未分類</div>
+            <div class="tier-dropzone" data-tier="unassigned" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
+                <div id="tier-unassigned" class="tier-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 画像マップ（results_multi.html と同一ルール）
+        const heroImageMap = {
+            'Kayo, Armed and Dangerous': 'Kayo_Armed_and_Dangerous.jpg',
+            'Kayo, Underhanded Cheat': 'Kayo_Underhanded_Cheat.jpg',
+            'Dash I/O': 'Dash I:O.jpg',
+            'Katsu, the Wanderer': 'Katsu, the Wanderer.jpg',
+            'Uzuri, Switchblade': 'Uzuri, Switchblade.jpg',
+            'Victor Goldmane, High and Mighty': 'Victor Goldmane, High and Mighty.jpg',
+            'Florian, Rotwood Harbinger': 'Florian, Rotwood Harbringer.jpg',
+            'Cindra, Dracai of Retribution': 'Cindra, Dracai of Retribution.jpg',
+            'Oscilio, Constella Intelligence': 'Oscilio, Constella Intelligence.jpg',
+            'Gravy Bones, Shipwrecked Looter': 'Gravy_Bones_Shipwrecked_Looter.jpg',
+            'Verdance, Thorn of the Rose': 'Verdance, Thorn of Rose.jpg',
+            //'Kano, Dracai of Aether': 'Kano, Dracai of Aether.jpg',
+            'Arakni, Marionette': 'Arakni, Marionette.jpg',
+            'Kassai of the Golden Sand': 'Kassai, of the Golden Sand.jpg',
+            'Fang, Dracai of Blades': 'Fang, Dracai of Blades.jpg',
+            'Pleiades, Superstar': 'Pleiades_Superstar.jpg',
+            'Ira, Scarlet Revenger': 'Ira, Scarlet Revenger.jpg',
+            'Dorinthea Ironsong': 'Dorinthea Ironsong.jpg',
+            'Levia, Shadowborn Abomination': 'Levia, Shadowborn Abomination.jpg',
+            'Valda, Seismic Impact': 'Valda_Seismic_Impact_cWNA1HW.jpg',
+            'Prism, Awakener of Sol': 'Prism, Awakener of Sol.jpg',
+            'Riptide, Lurker of the Deep': 'Riptide, Lurker of the Deep.jpg',
+            'Jarl Vetreidi': 'Jarl%20Vetreiđi.jpg',
+            'Arakni, Huntsman': 'Arakni, Huntsman.jpg',
+            'Arakni, 5L!p3d 7hRu 7h3 cR4X': 'Arakni_Slipped_thru_the_Cracks.jpg',
+            'Rhinar, Reckless Rampage': 'Rhinar, Reckless Rampage.jpg',
+            'Vynnset, Iron Maiden': 'Vynnset, Iron Maiden.jpg',
+            'Marlynn, Treasure Hunter': 'Marlynn_Treasure_Hunter.jpg',
+            'Puffin, Hightail': 'Puffin_Hightail.jpg',
+            'Betsy, Skin in the Game': 'Betsy, Skin in the Game.jpg',
+            'Bravo, Showstopper': 'Bravo, Showstopper.jpg',
+            'Fai, Rising Rebellion': 'Fai, Rising Rebellion.jpg',
+            'Olympia, Prized Fighter': 'Olympia, Prized Fighter.jpg',
+            'Ser Boltyn, Breaker of Dawn': 'Ser Boltyn, Breaker of Dawn.jpg',
+            'Tuffnut, Bumbling Hulkster': 'Tuffnut_Bumbling_Hulkster.jpg',
+            'Teklovossen, Esteemed Magnate': 'Teklovossen, Esteemed Magnate.jpg',
+            'Lyath Goldmane, Vile Savant': 'Lyath_Goldmane_Vile_Savant.jpg',
+            //'Bravo, Star of the Show': 'Bravo, Star of the Show.jpg',
+            //'Zen, Tamer of Purpose': 'Zen, Tamer of Purpose.jpg',
+            //'Nuu, Alluring Desire': 'Nuu, Alluring Desire.jpg',
+            //'Chane, Bound by Shadow': 'Chane, Bound by Shadow.jpg',
+            //'Viserai, Rune Blood': 'Viserai, Rune Blood.jpg',
+            //'Aurora, Shooting Star': 'Aurora_Shooting_Star.jpg',
+            //'Dromai, Ash Artist': 'Dromai, Ash Artist.jpg',
+            //'Dash, Inventor Extraordinaire': 'Dash, Inventor Extraordinaire.jpg',
+            //'Briar, Warden of Thorns': 'Briar, Warden of Thorns.jpg',
+            //'Prism, Sculptor of Arc Light': 'Prism, Sculptor of Arc Light.jpg',
+            //'Iyslander, Stormbind': 'Iyslander, Stormbind.jpg',
+            //'Lexi, Livewire': 'Lexi, Livewire.jpg',
+        };
+
+        // heroImageMapのキーをアルファベット順にソートして返す関数
+        function getSortedHeroNames() {
+            return Object.keys(heroImageMap)
+                .filter(key => heroImageMap[key] !== undefined) // 有効なエントリのみ
+                .sort((a, b) => {
+                    // アルファベット順（大文字小文字を区別しない）
+                    return a.localeCompare(b, 'en', { sensitivity: 'base' });
+                });
+        }
+
+        function getHeroImage(heroName) {
+            const normalizedName = (heroName || '').trim();
+            if (heroImageMap[normalizedName]) {
+                return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${heroImageMap[normalizedName]}`;
+            }
+            for (let [key, filename] of Object.entries(heroImageMap)) {
+                if (key.includes(normalizedName) || normalizedName.includes(key)) {
+                    return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${filename}`;
+                }
+                const keyWords = key.split(/[\,\s]+/).filter(w => w.length > 2);
+                const nameWords = normalizedName.split(/[\,\s]+/).filter(w => w.length > 2);
+                for (let kw of keyWords) {
+                    for (let nw of nameWords) {
+                        if (kw.toLowerCase() === nw.toLowerCase()) {
+                            return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${filename}`;
+                        }
+                    }
+                }
+            }
+            return 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iI2Y4ZjlmYSIvPgo8cGF0aCBkPSJNMTYgMTJMMjAgMTZMMTYgMjBMMTIgMTZMMTYgMTJaIiBmaWxsPSIjNjY3ZWVhIi8+Cjwvc3ZnPgo=';
+        }
+
+        // Tierデータの管理
+        let tierData = {
+            'S': [],
+            'A': [],
+            'B': [],
+            'C': [],
+            'D': [],
+            'F': [],
+            'unassigned': getSortedHeroNames()
+        };
+
+        // 初期化
+        function init() {
+            loadTierList(true); // 初期化時はメッセージを表示しない
+            renderAllTiers();
+        }
+
+        // 全Tierを描画
+        function renderAllTiers() {
+            const tiers = ['S', 'A', 'B', 'C', 'D', 'F', 'unassigned'];
+            tiers.forEach(tier => {
+                renderTier(tier);
+            });
+        }
+
+        // 特定のTierを描画
+        function renderTier(tier) {
+            const container = document.getElementById(`tier-${tier}`);
+            if (!container) return;
+
+            const heroes = tierData[tier] || [];
+            
+            if (heroes.length === 0) {
+                container.innerHTML = '<div class="empty-message">キャラクターをドラッグ&ドロップしてください</div>';
+                return;
+            }
+
+            container.innerHTML = heroes.map(heroName => createHeroCard(heroName, tier)).join('');
+            
+            // ドラッグイベントを再設定
+            container.querySelectorAll('.hero-card').forEach(card => {
+                card.addEventListener('dragstart', handleDragStart);
+                card.addEventListener('dragend', handleDragEnd);
+            });
+        }
+
+        // ヒーローカードを作成
+        function createHeroCard(heroName, tier) {
+            const imageUrl = getHeroImage(heroName);
+            return `
+                <div class="hero-card" draggable="true" data-hero="${escapeHtml(heroName)}" data-tier="${tier}">
+                    <img src="${imageUrl}" alt="${escapeHtml(heroName)}" class="hero-image" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEyMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iMTAwIiByeD0iNiIgZmlsbD0iI2Y4ZjlmYSIvPgo8cGF0aCBkPSJNNjAgNDBMNzAgNTBMNjAgNjBMNTAgNTBMNjAgNDBaIiBmaWxsPSIjNjY3ZWVhIi8+Cjwvc3ZnPgo='">
+                    <div class="hero-name">${escapeHtml(heroName)}</div>
+                </div>
+            `;
+        }
+
+        // ドラッグ開始
+        function handleDragStart(e) {
+            // クリックされた要素が子要素の場合、親の.hero-cardを取得
+            const card = e.target.closest('.hero-card');
+            if (!card) return;
+            
+            const heroName = card.dataset.hero;
+            if (!heroName) return;
+            
+            e.dataTransfer.effectAllowed = 'move';
+            e.dataTransfer.setData('text/plain', heroName);
+            card.classList.add('dragging');
+        }
+
+        // ドラッグ終了
+        function handleDragEnd(e) {
+            const card = e.target.closest('.hero-card');
+            if (card) {
+                card.classList.remove('dragging');
+            }
+        }
+
+        // ドラッグオーバー
+        function handleDragOver(e) {
+            e.preventDefault();
+            e.dataTransfer.dropEffect = 'move';
+            e.currentTarget.classList.add('drag-over');
+        }
+
+        // ドラッグリーブ
+        function handleDragLeave(e) {
+            e.currentTarget.classList.remove('drag-over');
+        }
+
+        // ドロップ
+        function handleDrop(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.currentTarget.classList.remove('drag-over');
+            
+            const heroName = e.dataTransfer.getData('text/plain');
+            const targetTier = e.currentTarget.dataset.tier;
+            
+            if (!heroName || !targetTier) {
+                console.error('ドロップ失敗: heroName=', heroName, 'targetTier=', targetTier);
+                return;
+            }
+
+            // 元のTierから削除
+            Object.keys(tierData).forEach(tier => {
+                tierData[tier] = tierData[tier].filter(name => name !== heroName);
+            });
+
+            // 新しいTierに追加（重複チェック）
+            if (!tierData[targetTier]) {
+                tierData[targetTier] = [];
+            }
+            if (!tierData[targetTier].includes(heroName)) {
+                tierData[targetTier].push(heroName);
+            }
+
+            // 再描画
+            renderAllTiers();
+            saveTierList();
+        }
+
+        // HTMLエスケープ
+        function escapeHtml(str) {
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        // Tierリストをリセット
+        function resetTierList() {
+            if (!confirm('Tier表をリセットしますか？')) return;
+            
+            tierData = {
+                'S': [],
+                'A': [],
+                'B': [],
+                'C': [],
+                'D': [],
+                'F': [],
+                'unassigned': getSortedHeroNames()
+            };
+            
+            renderAllTiers();
+            localStorage.removeItem('tierListData');
+        }
+
+        // Tierリストを保存
+        function saveTierList(silent = true) {
+            try {
+                localStorage.setItem('tierListData', JSON.stringify(tierData));
+                if (!silent) {
+                    showMessage('保存しました', 'success');
+                }
+            } catch (e) {
+                showMessage('保存に失敗しました', 'error');
+            }
+        }
+
+        // Tierリストを読み込み
+        function loadTierList(silent = false) {
+            try {
+                const saved = localStorage.getItem('tierListData');
+                if (saved) {
+                    const parsed = JSON.parse(saved);
+                    // 全ヒーローが含まれているか確認
+                    const allHeroes = new Set();
+                    Object.values(parsed).forEach(heroes => {
+                        heroes.forEach(hero => allHeroes.add(hero));
+                    });
+                    
+                    // 未分類に存在しないヒーローを追加
+                    const allHeroNames = getSortedHeroNames();
+                    const missingHeroes = allHeroNames.filter(hero => !allHeroes.has(hero));
+                    if (missingHeroes.length > 0) {
+                        parsed.unassigned = (parsed.unassigned || []).concat(missingHeroes);
+                    }
+                    
+                    // unassignedをソート
+                    if (parsed.unassigned) {
+                        parsed.unassigned = parsed.unassigned.sort((a, b) => {
+                            return a.localeCompare(b, 'en', { sensitivity: 'base' });
+                        });
+                    }
+                    
+                    tierData = parsed;
+                    renderAllTiers();
+                    if (!silent) {
+                        showMessage('読み込みました', 'success');
+                    }
+                } else {
+                    if (!silent) {
+                        showMessage('保存データが見つかりません', 'info');
+                    }
+                }
+            } catch (e) {
+                if (!silent) {
+                    showMessage('読み込みに失敗しました', 'error');
+                }
+            }
+        }
+
+        // メッセージ表示
+        function showMessage(text, type = 'info') {
+            // 既存のメッセージを削除
+            const existing = document.querySelector('.message');
+            if (existing) existing.remove();
+
+            const message = document.createElement('div');
+            message.className = `message ${type}`;
+            message.textContent = text;
+            message.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 12px 20px;
+                background: ${type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6'};
+                color: white;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+                z-index: 1000;
+                animation: slideIn 0.3s ease;
+            `;
+            
+            document.body.appendChild(message);
+            
+            setTimeout(() => {
+                message.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => message.remove(), 300);
+            }, 2000);
+        }
+
+        // ページ読み込み時に初期化
+        document.addEventListener('DOMContentLoaded', init);
+
+        // アニメーション用CSS（動的に追加）
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            @keyframes slideOut {
+                from {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                to {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
+
