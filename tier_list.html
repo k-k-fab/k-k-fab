@@ -223,6 +223,7 @@
             <button class="btn" onclick="resetTierList()">リセット</button>
             <button class="btn btn-secondary" onclick="saveTierList()">保存</button>
             <button class="btn btn-secondary" onclick="loadTierList()">読み込み</button>
+            <button class="btn" onclick="exportAsImage()" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">別タブで表示</button>
         </div>
 
         <div class="tier-container">
@@ -799,6 +800,272 @@
                 message.style.animation = 'slideOut 0.3s ease';
                 setTimeout(() => message.remove(), 300);
             }, 2000);
+        }
+
+        // 別タブでTier表を表示
+        function exportAsImage() {
+            try {
+                // 現在のTier表の状態を取得
+                const tierDataJson = JSON.stringify(tierData);
+                const heroImageMapJson = JSON.stringify(heroImageMap);
+                
+                // 新しいタブで表示するHTMLを生成
+                const htmlContent = generateExportHTML(tierDataJson, heroImageMapJson);
+                
+                // 新しいタブで開く
+                const newWindow = window.open('', '_blank');
+                if (!newWindow) {
+                    showMessage('ポップアップがブロックされています。ポップアップを許可してください。', 'error');
+                    return;
+                }
+                
+                newWindow.document.write(htmlContent);
+                newWindow.document.close();
+                
+                showMessage('新しいタブでTier表を表示しました', 'success');
+            } catch (e) {
+                console.error('出力エラー:', e);
+                showMessage('表示に失敗しました', 'error');
+            }
+        }
+
+        // エクスポート用HTMLを生成
+        function generateExportHTML(tierDataJson, heroImageMapJson) {
+            return `<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier表 - エクスポート</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            padding: 1rem;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .tier-container {
+            margin-bottom: 15px;
+        }
+
+        .tier-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            font-weight: 700;
+            font-size: 1rem;
+            color: white;
+        }
+
+        .tier-s { background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); }
+        .tier-a { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); }
+        .tier-b { background: linear-gradient(135deg, #10b981 0%, #059669 100%); }
+        .tier-c { background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); }
+        .tier-d { background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); }
+        .tier-f { background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%); }
+
+        .tier-label {
+            min-width: 40px;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .tier-dropzone {
+            min-height: 80px;
+            padding: 10px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            background: #f9fafb;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tier-content {
+            display: contents;
+        }
+
+        .hero-card {
+            position: relative;
+            width: 80px;
+            height: 110px;
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 6px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 65px;
+            object-fit: cover;
+            border-radius: 4px;
+            background: #f3f4f6;
+        }
+
+        .hero-name {
+            font-size: 9px;
+            text-align: center;
+            color: #333;
+            font-weight: 600;
+            line-height: 1.1;
+            margin-top: 4px;
+            word-break: break-word;
+        }
+
+        .unassigned-container {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 2px solid #e5e7eb;
+        }
+
+        .unassigned-header {
+            padding: 10px 12px;
+            background: #f3f4f6;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: #6b7280;
+        }
+
+        .empty-message {
+            text-align: center;
+            color: #9ca3af;
+            padding: 15px;
+            font-style: italic;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Tier表</h1>
+        ${generateTierHTML(tierDataJson, heroImageMapJson)}
+    </div>
+</body>
+</html>`;
+        }
+
+        // Tier表のHTMLを生成
+        function generateTierHTML(tierDataJson, heroImageMapJson) {
+            const tierData = JSON.parse(tierDataJson);
+            const heroImageMap = JSON.parse(heroImageMapJson);
+            
+            function getHeroImage(heroName) {
+                const normalizedName = (heroName || '').trim();
+                if (heroImageMap[normalizedName]) {
+                    return 'https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/' + heroImageMap[normalizedName];
+                }
+                for (let [key, filename] of Object.entries(heroImageMap)) {
+                    if (key.includes(normalizedName) || normalizedName.includes(key)) {
+                        return 'https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/' + filename;
+                    }
+                }
+                return 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iI2Y4ZjlmYSIvPgo8cGF0aCBkPSJNMTYgMTJMMjAgMTZMMTYgMjBMMTIgMTZMMTYgMTJaIiBmaWxsPSIjNjY3ZWVhIi8+Cjwvc3ZnPgo=';
+            }
+            
+            function escapeHtml(str) {
+                return String(str)
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;');
+            }
+            
+            function createHeroCard(heroName) {
+                const imageUrl = getHeroImage(heroName);
+                const escapedName = escapeHtml(heroName);
+                return '<div class="hero-card">' +
+                    '<img src="' + imageUrl + '" alt="' + escapedName + '" class="hero-image" onerror="this.src=\'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEyMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iMTAwIiByeD0iNiIgZmlsbD0iI2Y4ZjlmYSIvPgo8cGF0aCBkPSJNNjAgNDBMNzAgNTBMNjAgNjBMNTAgNTBMNjAgNDBaIiBmaWxsPSIjNjY3ZWVhIi8+Cjwvc3ZnPgo=\'">' +
+                    '<div class="hero-name">' + escapedName + '</div>' +
+                    '</div>';
+            }
+            
+            const tiers = [
+                { key: 'S', label: 'S', title: 'Tier S - 最強', class: 'tier-s' },
+                { key: 'A', label: 'A', title: 'Tier A - 強い', class: 'tier-a' },
+                { key: 'B', label: 'B', title: 'Tier B - 普通', class: 'tier-b' },
+                { key: 'C', label: 'C', title: 'Tier C - 弱い', class: 'tier-c' },
+                { key: 'D', label: 'D', title: 'Tier D - かなり弱い', class: 'tier-d' },
+                { key: 'F', label: 'F', title: 'Tier F - 最弱', class: 'tier-f' }
+            ];
+            
+            let html = '';
+            
+            tiers.forEach(tier => {
+                const heroes = tierData[tier.key] || [];
+                html += '<div class="tier-container">' +
+                    '<div class="tier-header ' + tier.class + '">' +
+                    '<span class="tier-label">' + tier.label + '</span>' +
+                    '<span>' + tier.title + '</span>' +
+                    '</div>' +
+                    '<div class="tier-dropzone">' +
+                    '<div class="tier-content">';
+                
+                if (heroes.length === 0) {
+                    html += '<div class="empty-message">キャラクターをドラッグ&ドロップしてください</div>';
+                } else {
+                    heroes.forEach(heroName => {
+                        html += createHeroCard(heroName);
+                    });
+                }
+                
+                html += '</div>' +
+                    '</div>' +
+                    '</div>';
+            });
+            
+            // 未分類
+            const unassignedHeroes = tierData.unassigned || [];
+            html += '<div class="unassigned-container">' +
+                '<div class="unassigned-header">未分類</div>' +
+                '<div class="tier-dropzone">' +
+                '<div class="tier-content">';
+            
+            if (unassignedHeroes.length === 0) {
+                html += '<div class="empty-message">キャラクターをドラッグ&ドロップしてください</div>';
+            } else {
+                unassignedHeroes.forEach(heroName => {
+                    html += createHeroCard(heroName);
+                });
+            }
+            
+            html += '</div>' +
+                '</div>' +
+                '</div>';
+            
+            return html;
         }
 
         // ページ読み込み時に初期化
