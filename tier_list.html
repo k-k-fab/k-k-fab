@@ -501,11 +501,14 @@
                 return;
             }
 
-            moveHeroToTier(heroName, targetTier);
+            // ドロップ位置を取得
+            const dropX = e.clientX;
+            const dropY = e.clientY;
+            moveHeroToTier(heroName, targetTier, dropX, dropY);
         }
 
         // ヒーローをTierに移動する共通関数
-        function moveHeroToTier(heroName, targetTier) {
+        function moveHeroToTier(heroName, targetTier, dropX = null, dropY = null) {
             // 元のTierから削除
             Object.keys(tierData).forEach(tier => {
                 tierData[tier] = tierData[tier].filter(name => name !== heroName);
@@ -515,13 +518,60 @@
             if (!tierData[targetTier]) {
                 tierData[targetTier] = [];
             }
-            if (!tierData[targetTier].includes(heroName)) {
-                tierData[targetTier].push(heroName);
+            
+            // ドロップ位置が指定されている場合、挿入位置を計算
+            // 再描画前に現在のカードの位置を確認
+            if (dropX !== null && dropY !== null) {
+                const insertIndex = getInsertIndex(targetTier, dropX, dropY);
+                if (insertIndex !== -1 && !tierData[targetTier].includes(heroName)) {
+                    tierData[targetTier].splice(insertIndex, 0, heroName);
+                } else if (insertIndex === -1 && !tierData[targetTier].includes(heroName)) {
+                    tierData[targetTier].push(heroName);
+                }
+            } else {
+                // 位置が指定されていない場合は末尾に追加
+                if (!tierData[targetTier].includes(heroName)) {
+                    tierData[targetTier].push(heroName);
+                }
             }
 
             // 再描画
             renderAllTiers();
             saveTierList();
+        }
+
+        // ドロップ位置に基づいて挿入位置を計算
+        function getInsertIndex(targetTier, dropX, dropY) {
+            const container = document.getElementById(`tier-${targetTier}`);
+            if (!container) return -1;
+            
+            const cards = Array.from(container.querySelectorAll('.hero-card'));
+            if (cards.length === 0) return 0;
+            
+            // ドラッグ中のカードを除外（自分自身を除外）
+            const filteredCards = cards.filter(card => !card.classList.contains('dragging'));
+            
+            if (filteredCards.length === 0) return 0;
+            
+            // 各カードの位置を確認
+            for (let i = 0; i < filteredCards.length; i++) {
+                const card = filteredCards[i];
+                const rect = card.getBoundingClientRect();
+                
+                // カードの中央X座標を計算
+                const cardCenterX = rect.left + rect.width / 2;
+                
+                // ドロップ位置がカードの左側にある場合、その位置に挿入
+                if (dropX < cardCenterX) {
+                    // 元の配列でのインデックスを取得
+                    const heroName = card.dataset.hero;
+                    const indexInTier = tierData[targetTier].indexOf(heroName);
+                    return indexInTier !== -1 ? indexInTier : i;
+                }
+            }
+            
+            // すべてのカードの右側にドロップされた場合は末尾
+            return tierData[targetTier].length;
         }
 
         // タッチ開始
@@ -611,7 +661,10 @@
                 if (dropzone) {
                     const targetTier = dropzone.dataset.tier;
                     if (targetTier) {
-                        moveHeroToTier(heroName, targetTier);
+                        // ドロップ位置を取得
+                        const dropX = touch.clientX;
+                        const dropY = touch.clientY;
+                        moveHeroToTier(heroName, targetTier, dropX, dropY);
                     }
                 }
             }
