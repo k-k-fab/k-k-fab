@@ -196,7 +196,7 @@
             // 完全一致で検索
             if (heroImageMap[normalizedName]) {
                 console.log('完全一致で発見:', heroImageMap[normalizedName]);
-                return `img/hero/${heroImageMap[normalizedName]}`;
+                return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${heroImageMap[normalizedName]}`;
             }
             
             // より柔軟な検索（部分一致、キーワード検索）
@@ -204,7 +204,7 @@
                 // 部分一致検索
                 if (key.includes(normalizedName) || normalizedName.includes(key)) {
                     console.log('部分一致で発見:', filename);
-                    return `img/hero/${filename}`;
+                    return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${filename}`;
                 }
                 
                 // キーワード検索（主要な名前部分で検索）
@@ -215,7 +215,7 @@
                     for (let nameWord of nameWords) {
                         if (keyWord.toLowerCase() === nameWord.toLowerCase()) {
                             console.log('キーワード一致で発見:', filename);
-                            return `img/hero/${filename}`;
+                            return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${filename}`;
                         }
                     }
                 }
