@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FaB Results JSON Viewer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 1000px;
+      margin: 2rem 1rem;
+    }
+    h1 { text-align: center; color: #333; margin: 0 0 1rem; font-size: 1.6rem; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr auto; gap: 12px; align-items: end; }
+    label { display: block; margin-bottom: 6px; color: #555; font-weight: 600; font-size: 13px; }
+    input[type="text"], input[type="file"] {
+      width: 100%;
+      padding: 12px 14px;
+      border: 2px solid #e1e5e9;
+      border-radius: 8px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    input[type="text"]:focus { outline: none; border-color: #667eea; box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.12); }
+    .btn {
+      padding: 12px 14px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      box-sizing: border-box;
+    }
+    .btn:disabled { opacity: 0.6; cursor: not-allowed; }
+    .status { margin-top: 1rem; color: #333; font-size: 13px; white-space: pre-wrap; }
+    .hint { font-size: 12px; color: #666; margin-top: 4px; }
+    .presets { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
+    .preset-btn {
+      padding: 4px 8px;
+      border-radius: 9999px;
+      border: 1px solid #d4d4ff;
+      background: #eef2ff;
+      color: #3730a3;
+      font-size: 11px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .preset-btn:hover { background: #e0e7ff; }
+    .results { margin-top: 1.25rem; }
+    .round-card {
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      background: #fafafa;
+    }
+    .round-header { display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px; font-weight: 800; color:#333; gap: 10px; }
+    .opponent-row { display:flex; align-items:center; gap: 10px; }
+    .hero-icon { width: 32px; height: 32px; border-radius: 4px; object-fit: cover; }
+    .decklink a { color: #4f46e5; text-decoration: none; font-weight: 700; }
+    .decklink a:hover { text-decoration: underline; }
+    .badge { display:inline-block; padding:2px 8px; border-radius:9999px; font-size: 12px; font-weight: 800; }
+    .badge-win { background:#dcfce7; color:#166534; }
+    .badge-loss { background:#fee2e2; color:#991b1b; }
+    .badge-draw { background:#e5e7eb; color:#374151; }
+    .round-card.win { border-left: 4px solid #16a34a; }
+    .round-card.loss { border-left: 4px solid #dc2626; }
+    .round-card.draw { border-left: 4px solid #6b7280; }
+    @media (max-width: 560px) {
+      .container { padding: 1rem; margin: 1rem 0.5rem; }
+      .grid { grid-template-columns: 1fr; }
+      .btn { width: 100%; }
+      .round-header { flex-direction: column; align-items: flex-start; }
+      .decklink a { word-break: break-all; overflow-wrap: anywhere; }
+    }
+  </style>
+  <datalist id="playersList"></datalist>
+</head>
+<body>
+  <div class="container">
+    <h1>FaB Results JSON Viewer</h1>
+
+    <div class="grid">
+      <div>
+        <label for="jsonUrl">JSON URL（GitHub Pages上のJSONなど）</label>
+        <input type="text" id="jsonUrl" placeholder="例: ./data/calling_brisbane.json  もしくは https://.../xxx.json">
+        <div class="hint">URLパラメータでも指定可: <code>?json=...</code></div>
+        <div id="jsonPresets" class="presets" role="group" aria-label="JSON presets">
+          <button type="button" class="preset-btn" data-url="./data/calling_brisbane.json">Calling Brisbane</button>
+        </div>
+      </div>
+      <div>
+        <label for="jsonFile">JSONファイル（ローカル）</label>
+        <input type="file" id="jsonFile" accept="application/json">
+        <div class="hint">Chrome拡張で出力したJSONを選択</div>
+      </div>
+      <div>
+        <button id="loadBtn" class="btn">読み込み</button>
+      </div>
+    </div>
+
+    <div style="height:12px"></div>
+
+    <div class="grid" style="grid-template-columns: 1fr auto; align-items:end;">
+      <div>
+        <label for="playerSelect">Player（入力で絞り込み可）</label>
+        <input type="text" id="playerSelect" list="playersList" placeholder="例: Michael Feng">
+        <div class="hint">JSON読み込み後に候補が出ます</div>
+      </div>
+      <div>
+        <button id="renderBtn" class="btn" disabled>表示</button>
+      </div>
+    </div>
+
+    <div id="status" class="status">待機中</div>
+    <div id="results" class="results"></div>
+  </div>
+
+  <script>
+    // hero画像（results_multi.html と同一：CloudFront）
+    const heroImageMap = {
+      'Kayo, Armed and Dangerous': 'Kayo_Armed_and_Dangerous.jpg',
+      'Kayo, Underhanded Cheat': 'Kayo_Underhanded_Cheat.jpg',
+      'Dash I/O': 'Dash I:O.jpg',
+      'Katsu, the Wanderer': 'Katsu, the Wanderer.jpg',
+      'Uzuri, Switchblade': 'Uzuri, Switchblade.jpg',
+      'Victor Goldmane, High and Mighty': 'Victor Goldmane, High and Mighty.jpg',
+      'Florian, Rotwood Harbinger': 'Florian, Rotwood Harbringer.jpg',
+      'Cindra, Dracai of Retribution': 'Cindra, Dracai of Retribution.jpg',
+      'Oscilio, Constella Intelligence': 'Oscilio, Constella Intelligence.jpg',
+      'Gravy Bones, Shipwrecked Looter': 'Gravy_Bones_Shipwrecked_Looter.jpg',
+      'Verdance, Thorn of the Rose': 'Verdance, Thorn of Rose.jpg',
+      'Kano, Dracai of Aether': 'Kano, Dracai of Aether.jpg',
+      'Arakni, Marionette': 'Arakni, Marionette.jpg',
+      'Kassai of the Golden Sand': 'Kassai, of the Golden Sand.jpg',
+      'Fang, Dracai of Blades': 'Fang, Dracai of Blades.jpg',
+      'Pleiades, Superstar': 'Pleiades_Superstar.jpg',
+      'Ira, Scarlet Revenger': 'Ira, Scarlet Revenger.jpg',
+      'Dorinthea Ironsong': 'Dorinthea Ironsong.jpg',
+      'Levia, Shadowborn Abomination': 'Levia, Shadowborn Abomination.jpg',
+      'Valda, Seismic Impact': 'Valda_Seismic_Impact_cWNA1HW.jpg',
+      'Prism, Awakener of Sol': 'Prism, Awakener of Sol.jpg',
+      'Riptide, Lurker of the Deep': 'Riptide, Lurker of the Deep.jpg',
+      'Arakni, Huntsman': 'Arakni, Huntsman.jpg',
+      'Arakni, 5L!p3d 7hRu 7h3 cR4X': 'Arakni_Slipped_thru_the_Cracks.jpg',
+      'Rhinar, Reckless Rampage': 'Rhinar, Reckless Rampage.jpg',
+      'Vynnset, Iron Maiden': 'Vynnset, Iron Maiden.jpg',
+      'Marlynn, Treasure Hunter': 'Marlynn_Treasure_Hunter.jpg',
+      'Puffin, Hightail': 'Puffin_Hightail.jpg',
+      'Betsy, Skin in the Game': 'Betsy, Skin in the Game.jpg',
+      'Bravo, Showstopper': 'Bravo, Showstopper.jpg',
+      'Fai, Rising Rebellion': 'Fai, Rising Rebellion.jpg',
+      'Olympia, Prized Fighter': 'Olympia, Prized Fighter.jpg',
+      'Ser Boltyn, Breaker of Dawn': 'Ser Boltyn, Breaker of Dawn.jpg',
+      'Tuffnut, Bumbling Hulkster': 'Tuffnut_Bumbling_Hulkster.jpg',
+      'Teklovossen, Esteemed Magnate': 'Teklovossen, Esteemed Magnate.jpg',
+      'Lyath Goldmane, Vile Savant': 'Lyath_Goldmane_Vile_Savant.jpg',
+      'Bravo, Star of the Show': 'Bravo, Star of the Show.jpg',
+      'Zen, Tamer of Purpose': 'Zen, Tamer of Purpose.jpg',
+      'Nuu, Alluring Desire': 'Nuu, Alluring Desire.jpg',
+      'Chane, Bound by Shadow': 'Chane, Bound by Shadow.jpg',
+      'Viserai, Rune Blood': 'Viserai, Rune Blood.jpg',
+      'Aurora, Shooting Star': 'Aurora_Shooting_Star.jpg',
+      'Dromai, Ash Artist': 'Dromai, Ash Artist.jpg',
+      'Dash, Inventor Extraordinaire': 'Dash, Inventor Extraordinaire.jpg',
+      'Briar, Warden of Thorns': 'Briar, Warden of Thorns.jpg',
+      'Prism, Sculptor of Arc Light': 'Prism, Sculptor of Arc Light.jpg',
+      'Iyslander, Stormbind': 'Iyslander, Stormbind.jpg',
+      'Lexi, Livewire': 'Lexi, Livewire.jpg'
+    };
+
+    function getHeroImage(heroName) {
+      const normalizedName = (heroName || '').trim();
+      if (heroImageMap[normalizedName]) {
+        return `https://dgmi4fxzalveh.cloudfront.net/media/images/heroes/${heroImageMap[normalizedName]}`;
+      }
+      return 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iI2Y4ZjlmYSIvPgo8cGF0aCBkPSJNMTYgMTJMMjAgMTZMMTYgMjBMMTIgMTZMMTYgMTJaIiBmaWxsPSIjNjY3ZWVhIi8+Cjwvc3ZnPgo=';
+    }
+
+    const state = { raw: null, players: [], playersMap: {} };
+    const statusEl = document.getElementById('status');
+    const resultsEl = document.getElementById('results');
+    const jsonUrlEl = document.getElementById('jsonUrl');
+    const jsonFileEl = document.getElementById('jsonFile');
+    const loadBtn = document.getElementById('loadBtn');
+    const playerSelect = document.getElementById('playerSelect');
+    const renderBtn = document.getElementById('renderBtn');
+    const jsonPresets = document.getElementById('jsonPresets');
+
+    function setStatus(msg) { statusEl.textContent = String(msg || ''); }
+    function escapeHtml(str) {
+      return String(str).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+    }
+    function populatePlayersDatalist(players) {
+      const dl = document.getElementById('playersList');
+      dl.innerHTML = '';
+      for (const p of players) {
+        const opt = document.createElement('option');
+        opt.value = p;
+        dl.appendChild(opt);
+      }
+    }
+    function renderPlayerHeader(container, playerName, hero, deck) {
+      const card = document.createElement('div');
+      card.className = 'round-card';
+      const heroImg = getHeroImage(hero);
+      card.innerHTML = `
+        <div class="round-header">
+          <div style="font-size:16px;">${escapeHtml(playerName)}</div>
+          <div class="decklink">${deck ? `<a href="${deck}" target="_blank" rel="noopener">View decklist</a>` : ''}</div>
+        </div>
+        <div class="opponent-row">
+          <img class="hero-icon" src="${heroImg}" alt="${escapeHtml(hero || '')}">
+          <div><div style="color:#444;">HERO: ${escapeHtml(hero || '不明')}</div></div>
+        </div>
+      `;
+      container.appendChild(card);
+    }
+    function inferPlayerMainInfo(rows) {
+      const heroCounts = new Map();
+      let latestDeck = '';
+      for (const r of rows) {
+        const h = (r.playerHero || '').trim();
+        if (h) heroCounts.set(h, (heroCounts.get(h) || 0) + 1);
+        if (r.playerDeck) latestDeck = r.playerDeck;
+      }
+      let hero = '';
+      let max = -1;
+      for (const [h, c] of heroCounts.entries()) if (c > max) { hero = h; max = c; }
+      return { hero, deck: latestDeck };
+    }
+    function renderResults(rows) {
+      const sorted = [...rows].sort((a, b) => (a.round || 0) - (b.round || 0));
+      for (const r of sorted) {
+        const heroImg = getHeroImage(r.hero);
+        const card = document.createElement('div');
+        const resultLower = (r.result || '').toLowerCase();
+        const resultClass = resultLower === 'win' ? 'win' : (resultLower === 'loss' ? 'loss' : (resultLower === 'draw' ? 'draw' : ''));
+        const badgeClass = resultClass === 'win' ? 'badge-win' : (resultClass === 'loss' ? 'badge-loss' : (resultClass === 'draw' ? 'badge-draw' : ''));
+        const badge = r.result ? `<span class="badge ${badgeClass}">${escapeHtml(r.result)}</span>` : '';
+        card.className = `round-card ${resultClass}`.trim();
+        card.innerHTML = `
+          <div class="round-header">
+            <div>ROUND ${escapeHtml(r.round)} ${badge}</div>
+            <div class="decklink">${r.deck ? `<a href="${r.deck}" target="_blank" rel="noopener">View decklist</a>` : ''}</div>
+          </div>
+          <div class="opponent-row">
+            <img class="hero-icon" src="${heroImg}" alt="${escapeHtml(r.hero || '')}">
+            <div>
+              <div style="font-weight:800; color:#111;">対戦相手: ${escapeHtml(r.opponent || '')}</div>
+              <div style="color:#444;">HERO: ${escapeHtml(r.hero || '不明')}</div>
+            </div>
+          </div>
+        `;
+        resultsEl.appendChild(card);
+      }
+    }
+    async function loadFromUrl(url) {
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    }
+    async function loadFromFile(file) {
+      const text = await file.text();
+      return JSON.parse(text);
+    }
+    function acceptJson(json) {
+      const playersMap = json && json.players ? json.players : {};
+      const players = Object.keys(playersMap).sort((a, b) => a.localeCompare(b));
+      state.raw = json; state.playersMap = playersMap; state.players = players;
+      populatePlayersDatalist(players);
+      renderBtn.disabled = players.length === 0;
+      setStatus(`読み込み完了: players=${players.length}\n${json?.eventUrl ? `eventUrl=${json.eventUrl}` : ''}`);
+    }
+
+    // プリセットボタン: クリックでURL欄に反映
+    if (jsonPresets) {
+      jsonPresets.addEventListener('click', (e) => {
+        const target = e.target && (e.target.closest ? e.target.closest('.preset-btn') : null);
+        if (!target) return;
+        const url = target.getAttribute('data-url') || '';
+        if (!url) return;
+        jsonUrlEl.value = url;
+        jsonUrlEl.setAttribute('value', url);
+        jsonUrlEl.focus();
+      });
+    }
+
+    loadBtn.addEventListener('click', async () => {
+      resultsEl.innerHTML = '';
+      try {
+        setStatus('読み込み中...');
+        const url = (jsonUrlEl.value || '').trim();
+        const file = jsonFileEl.files && jsonFileEl.files[0];
+        if (!url && !file) { setStatus('JSON URL または JSONファイルを指定してください。'); return; }
+        const json = url ? await loadFromUrl(url) : await loadFromFile(file);
+        acceptJson(json);
+      } catch (e) {
+        setStatus(`読み込み失敗: ${e?.message || e}`);
+      }
+    });
+
+    renderBtn.addEventListener('click', () => {
+      const name = (playerSelect.value || '').trim();
+      resultsEl.innerHTML = '';
+      if (!name) { setStatus('プレイヤー名を入力/選択してください。'); return; }
+      const rows = state.playersMap[name] || [];
+      if (!rows.length) { setStatus(`「${name}」の戦績は見つかりません。`); return; }
+      const info = inferPlayerMainInfo(rows);
+      renderPlayerHeader(resultsEl, name, info.hero, info.deck);
+      renderResults(rows);
+      setStatus(`「${name}」の戦績: ${rows.length}件`);
+    });
+
+    (function initFromQuery() {
+      try {
+        const p = new URLSearchParams(location.search);
+        const json = p.get('json');
+        if (json) jsonUrlEl.value = json;
+      } catch (_) {}
+    })();
+  </script>
+</body>
+</html>
+
