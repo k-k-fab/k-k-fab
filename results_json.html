@@ -73,6 +73,7 @@
     .round-header { display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px; font-weight: 800; color:#333; gap: 10px; }
     .opponent-row { display:flex; align-items:center; gap: 10px; }
     .hero-icon { width: 32px; height: 32px; border-radius: 4px; object-fit: cover; }
+    .opponent-name-clickable { cursor: pointer; text-decoration: underline; text-decoration-style: dotted; }
     .decklink a { color: #4f46e5; text-decoration: none; font-weight: 700; }
     .decklink a:hover { text-decoration: underline; }
     .badge { display:inline-block; padding:2px 8px; border-radius:9999px; font-size: 12px; font-weight: 800; }
@@ -264,7 +265,7 @@
           <div class="opponent-row">
             <img class="hero-icon" src="${heroImg}" alt="${escapeHtml(r.hero || '')}">
             <div>
-              <div style="font-weight:800; color:#111;">対戦相手: ${escapeHtml(r.opponent || '')}</div>
+              <div class="opponent-name-clickable" data-opponent="${escapeHtml(r.opponent || '')}" style="font-weight:800; color:#111;">対戦相手: ${escapeHtml(r.opponent || '')}</div>
               <div style="color:#444;">HERO: ${escapeHtml(r.hero || '不明')}</div>
             </div>
           </div>
@@ -317,16 +318,31 @@
       }
     });
 
+    function renderPlayerByName(name) {
+      const trimmed = (name || '').trim();
+      resultsEl.innerHTML = '';
+      if (!trimmed) { setStatus('プレイヤー名を入力/選択してください。'); return; }
+      const rows = state.playersMap[trimmed] || [];
+      if (!rows.length) { setStatus(`「${trimmed}」の戦績は見つかりません。`); return; }
+      const info = inferPlayerMainInfo(rows);
+      renderPlayerHeader(resultsEl, trimmed, info.hero, info.deck);
+      renderResults(rows);
+      setStatus(`「${trimmed}」の戦績: ${rows.length}件`);
+    }
+
     renderBtn.addEventListener('click', () => {
       const name = (playerSelect.value || '').trim();
-      resultsEl.innerHTML = '';
-      if (!name) { setStatus('プレイヤー名を入力/選択してください。'); return; }
-      const rows = state.playersMap[name] || [];
-      if (!rows.length) { setStatus(`「${name}」の戦績は見つかりません。`); return; }
-      const info = inferPlayerMainInfo(rows);
-      renderPlayerHeader(resultsEl, name, info.hero, info.deck);
-      renderResults(rows);
-      setStatus(`「${name}」の戦績: ${rows.length}件`);
+      renderPlayerByName(name);
+    });
+
+    // 対戦相手名クリックでそのプレイヤーの戦績を表示
+    resultsEl.addEventListener('click', (e) => {
+      const target = e.target && (e.target.closest ? e.target.closest('.opponent-name-clickable') : null);
+      if (!target) return;
+      const name = target.getAttribute('data-opponent') || '';
+      if (!name) return;
+      playerSelect.value = name;
+      renderPlayerByName(name);
     });
 
     (function initFromQuery() {
