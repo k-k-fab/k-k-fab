@@ -1,6 +1,6 @@
 {
   "eventUrl": "https://fabtcg.com/coverage/calling-brisbane/",
-  "generatedAt": "2026-03-14T11:05:30.809Z",
+  "generatedAt": "2026-03-14T14:30:11.982Z",
   "rounds": [
     {
       "round": 1,
@@ -386,7 +386,7 @@
         {
           "leftName": "Andrew Marr",
           "rightName": "Gavin Wu",
-          "leftHero": "Arakni, Huntsman",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Arakni, Huntsman",
           "leftDeck": "",
           "rightDeck": "",
@@ -486,7 +486,7 @@
           "leftName": "Jackson CASANOVA",
           "rightName": "Jonathan Asquith",
           "leftHero": "Dash I/O",
-          "rightHero": "Dash I/O",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -630,7 +630,7 @@
           "leftName": "Rhyan Wellwood",
           "rightName": "Rhys McMillan",
           "leftHero": "Tuffnut, Bumbling Hulkster",
-          "rightHero": "Tuffnut, Bumbling Hulkster",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -674,7 +674,7 @@
         {
           "leftName": "Samuel Coffey",
           "rightName": "Casey Wilson",
-          "leftHero": "Oscilio, Constella Intelligence",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Oscilio, Constella Intelligence",
           "leftDeck": "",
           "rightDeck": "",
@@ -864,7 +864,7 @@
           "leftName": "Christopher Rosiak",
           "rightName": "Ken Hickey",
           "leftHero": "Dash I/O",
-          "rightHero": "Dash I/O",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -1112,7 +1112,7 @@
           "leftName": "Xiu Meng Yip",
           "rightName": "Jonathan Asquith",
           "leftHero": "Verdance, Thorn of the Rose",
-          "rightHero": "Verdance, Thorn of the Rose",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -1229,7 +1229,7 @@
           "leftName": "Keegan Walls",
           "rightName": "Andrew Marr",
           "leftHero": "Arakni, Huntsman",
-          "rightHero": "Arakni, Huntsman",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -1282,7 +1282,7 @@
         {
           "leftName": "Samuel Coffey",
           "rightName": "Michael Glover",
-          "leftHero": "Vynnset, Iron Maiden",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Vynnset, Iron Maiden",
           "leftDeck": "",
           "rightDeck": "",
@@ -1679,7 +1679,7 @@
           "leftName": "Tye Soens",
           "rightName": "Ken Hickey",
           "leftHero": "Victor Goldmane, High and Mighty",
-          "rightHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -1750,8 +1750,8 @@
         {
           "leftName": "Rhys McMillan",
           "rightName": "Player 2",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Jarl Vetreidi",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -1818,7 +1818,7 @@
         {
           "leftName": "Jonathan Asquith",
           "rightName": "Thomas Boorman",
-          "leftHero": "Cindra, Dracai of Retribution",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Cindra, Dracai of Retribution",
           "leftDeck": "",
           "rightDeck": "",
@@ -1845,7 +1845,7 @@
         {
           "leftName": "Andrew Marr",
           "rightName": "Dr. Daniel McKay",
-          "leftHero": "Arakni, Huntsman",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Arakni, Huntsman",
           "leftDeck": "",
           "rightDeck": "",
@@ -1971,7 +1971,7 @@
         {
           "leftName": "Samuel Coffey",
           "rightName": "Steven Young",
-          "leftHero": "Verdance, Thorn of the Rose",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Verdance, Thorn of the Rose",
           "leftDeck": "",
           "rightDeck": "",
@@ -2359,7 +2359,7 @@
           "leftName": "Mark Phillips",
           "rightName": "Rhys McMillan",
           "leftHero": "Valda, Seismic Impact",
-          "rightHero": "Valda, Seismic Impact",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "DRAW"
@@ -2610,7 +2610,7 @@
         {
           "leftName": "Ken Hickey",
           "rightName": "Samuel Tulloch",
-          "leftHero": "Arakni, Huntsman",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Arakni, Huntsman",
           "leftDeck": "",
           "rightDeck": "",
@@ -2705,8 +2705,8 @@
         {
           "leftName": "Jonathan Asquith",
           "rightName": "Samuel Coffey",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Jarl Vetreidi",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2786,7 +2786,7 @@
         {
           "leftName": "Andrew Marr",
           "rightName": "Gary Manttan",
-          "leftHero": "Victor Goldmane, High and Mighty",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Victor Goldmane, High and Mighty",
           "leftDeck": "",
           "rightDeck": "",
@@ -3236,7 +3236,7 @@
         {
           "leftName": "Rhys McMillan",
           "rightName": "Richard Gillingham",
-          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Gravy Bones, Shipwrecked Looter",
           "leftDeck": "",
           "rightDeck": "",
@@ -3390,7 +3390,7 @@
           "leftName": "Josh Rosin",
           "rightName": "Ken Hickey",
           "leftHero": "Ira, Scarlet Revenger",
-          "rightHero": "Ira, Scarlet Revenger",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3440,7 +3440,7 @@
           "leftName": "Taufik Indrakesuma",
           "rightName": "Samuel Coffey",
           "leftHero": "Fai, Rising Rebellion",
-          "rightHero": "Fai, Rising Rebellion",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3520,7 +3520,7 @@
         {
           "leftName": "Jonathan Asquith",
           "rightName": "Daniil Matveyev",
-          "leftHero": "Cindra, Dracai of Retribution",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Cindra, Dracai of Retribution",
           "leftDeck": "",
           "rightDeck": "",
@@ -3745,7 +3745,7 @@
         {
           "leftName": "Andrew Marr",
           "rightName": "Troy Wilson",
-          "leftHero": "Oscilio, Constella Intelligence",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Oscilio, Constella Intelligence",
           "leftDeck": "",
           "rightDeck": "",
@@ -3980,7 +3980,7 @@
           "leftName": "Jy Jenkins",
           "rightName": "Rhys McMillan",
           "leftHero": "Arakni, Marionette",
-          "rightHero": "Arakni, Marionette",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -4173,7 +4173,7 @@
         {
           "leftName": "Samuel Coffey",
           "rightName": "Joshua Baines",
-          "leftHero": "Arakni, Marionette",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Arakni, Marionette",
           "leftDeck": "",
           "rightDeck": "",
@@ -4191,7 +4191,7 @@
         {
           "leftName": "Jonathan Asquith",
           "rightName": "Benjamin Ryan",
-          "leftHero": "Victor Goldmane, High and Mighty",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Victor Goldmane, High and Mighty",
           "leftDeck": "",
           "rightDeck": "",
@@ -4363,7 +4363,7 @@
           "leftName": "Kurtis phelps",
           "rightName": "Andrew Marr",
           "leftHero": "Fai, Rising Rebellion",
-          "rightHero": "Fai, Rising Rebellion",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -4533,7 +4533,7 @@
         {
           "leftName": "Rhys McMillan",
           "rightName": "Jess Arnesen",
-          "leftHero": "Verdance, Thorn of the Rose",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Verdance, Thorn of the Rose",
           "leftDeck": "",
           "rightDeck": "",
@@ -4727,7 +4727,7 @@
         {
           "leftName": "Samuel Coffey",
           "rightName": "Benjamin Ryan",
-          "leftHero": "Victor Goldmane, High and Mighty",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Victor Goldmane, High and Mighty",
           "leftDeck": "",
           "rightDeck": "",
@@ -4799,7 +4799,7 @@
         {
           "leftName": "Jonathan Asquith",
           "rightName": "Valentine Nguyen",
-          "leftHero": "Arakni, Huntsman",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Arakni, Huntsman",
           "leftDeck": "",
           "rightDeck": "",
@@ -4809,7 +4809,7 @@
           "leftName": "Matthew Miotto",
           "rightName": "Andrew Marr",
           "leftHero": "Dash I/O",
-          "rightHero": "Dash I/O",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5370,7 +5370,7 @@
       {
         "round": 2,
         "opponent": "Ken Hickey",
-        "hero": "Victor Goldmane, High and Mighty",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
@@ -5556,7 +5556,7 @@
       {
         "round": 6,
         "opponent": "Samuel Coffey",
-        "hero": "Arakni, Marionette",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
@@ -6452,7 +6452,7 @@
       {
         "round": 4,
         "opponent": "Rhys McMillan",
-        "hero": "Gravy Bones, Shipwrecked Looter",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Gravy Bones, Shipwrecked Looter",
         "playerDeck": "",
@@ -6985,7 +6985,7 @@
       {
         "round": 5,
         "opponent": "Samuel Coffey",
-        "hero": "Fai, Rising Rebellion",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Fai, Rising Rebellion",
         "playerDeck": "",
@@ -7106,7 +7106,7 @@
       {
         "round": 6,
         "opponent": "Jonathan Asquith",
-        "hero": "Victor Goldmane, High and Mighty",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
@@ -7115,7 +7115,7 @@
       {
         "round": 7,
         "opponent": "Samuel Coffey",
-        "hero": "Victor Goldmane, High and Mighty",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
@@ -8094,7 +8094,7 @@
       {
         "round": 5,
         "opponent": "Jonathan Asquith",
-        "hero": "Cindra, Dracai of Retribution",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Cindra, Dracai of Retribution",
         "playerDeck": "",
@@ -8188,7 +8188,7 @@
       {
         "round": 2,
         "opponent": "Samuel Coffey",
-        "hero": "Vynnset, Iron Maiden",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
@@ -8356,7 +8356,7 @@
       {
         "round": 2,
         "opponent": "Jonathan Asquith",
-        "hero": "Verdance, Thorn of the Rose",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Verdance, Thorn of the Rose",
         "playerDeck": "",
@@ -9671,7 +9671,7 @@
       {
         "round": 7,
         "opponent": "Andrew Marr",
-        "hero": "Dash I/O",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Dash I/O",
         "playerDeck": "",
@@ -9794,7 +9794,7 @@
       {
         "round": 2,
         "opponent": "Andrew Marr",
-        "hero": "Arakni, Huntsman",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
@@ -9852,7 +9852,7 @@
         "opponent": "Gavin Wu",
         "hero": "Arakni, Huntsman",
         "deck": "",
-        "playerHero": "Arakni, Huntsman",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9861,7 +9861,7 @@
         "opponent": "Keegan Walls",
         "hero": "Arakni, Huntsman",
         "deck": "",
-        "playerHero": "Arakni, Huntsman",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9870,7 +9870,7 @@
         "opponent": "Dr. Daniel McKay",
         "hero": "Arakni, Huntsman",
         "deck": "",
-        "playerHero": "Arakni, Huntsman",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -9879,7 +9879,7 @@
         "opponent": "Gary Manttan",
         "hero": "Victor Goldmane, High and Mighty",
         "deck": "",
-        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -9888,7 +9888,7 @@
         "opponent": "Troy Wilson",
         "hero": "Oscilio, Constella Intelligence",
         "deck": "",
-        "playerHero": "Oscilio, Constella Intelligence",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9897,7 +9897,7 @@
         "opponent": "Kurtis phelps",
         "hero": "Fai, Rising Rebellion",
         "deck": "",
-        "playerHero": "Fai, Rising Rebellion",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9906,7 +9906,7 @@
         "opponent": "Matthew Miotto",
         "hero": "Dash I/O",
         "deck": "",
-        "playerHero": "Dash I/O",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -9915,7 +9915,7 @@
       {
         "round": 1,
         "opponent": "Andrew Marr",
-        "hero": "Arakni, Huntsman",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
@@ -11089,7 +11089,7 @@
       {
         "round": 6,
         "opponent": "Rhys McMillan",
-        "hero": "Verdance, Thorn of the Rose",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Verdance, Thorn of the Rose",
         "playerDeck": "",
@@ -11109,7 +11109,7 @@
       {
         "round": 1,
         "opponent": "Jonathan Asquith",
-        "hero": "Dash I/O",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Dash I/O",
         "playerDeck": "",
@@ -11149,7 +11149,7 @@
         "opponent": "Jackson CASANOVA",
         "hero": "Dash I/O",
         "deck": "",
-        "playerHero": "Dash I/O",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11158,7 +11158,7 @@
         "opponent": "Xiu Meng Yip",
         "hero": "Verdance, Thorn of the Rose",
         "deck": "",
-        "playerHero": "Verdance, Thorn of the Rose",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11167,16 +11167,16 @@
         "opponent": "Thomas Boorman",
         "hero": "Cindra, Dracai of Retribution",
         "deck": "",
-        "playerHero": "Cindra, Dracai of Retribution",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 4,
         "opponent": "Samuel Coffey",
-        "hero": "",
+        "hero": "Jarl Vetreidi",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -11185,7 +11185,7 @@
         "opponent": "Daniil Matveyev",
         "hero": "Cindra, Dracai of Retribution",
         "deck": "",
-        "playerHero": "Cindra, Dracai of Retribution",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11194,7 +11194,7 @@
         "opponent": "Benjamin Ryan",
         "hero": "Victor Goldmane, High and Mighty",
         "deck": "",
-        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -11203,7 +11203,7 @@
         "opponent": "Valentine Nguyen",
         "hero": "Arakni, Huntsman",
         "deck": "",
-        "playerHero": "Arakni, Huntsman",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       }
@@ -11658,7 +11658,7 @@
       {
         "round": 3,
         "opponent": "Andrew Marr",
-        "hero": "Arakni, Huntsman",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
@@ -11815,7 +11815,7 @@
       {
         "round": 6,
         "opponent": "Andrew Marr",
-        "hero": "Fai, Rising Rebellion",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Fai, Rising Rebellion",
         "playerDeck": "",
@@ -11882,7 +11882,7 @@
       {
         "round": 3,
         "opponent": "Samuel Coffey",
-        "hero": "Verdance, Thorn of the Rose",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Verdance, Thorn of the Rose",
         "playerDeck": "",
@@ -12847,7 +12847,7 @@
       {
         "round": 1,
         "opponent": "Rhys McMillan",
-        "hero": "Tuffnut, Bumbling Hulkster",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Tuffnut, Bumbling Hulkster",
         "playerDeck": "",
@@ -12887,16 +12887,16 @@
         "opponent": "Rhyan Wellwood",
         "hero": "Tuffnut, Bumbling Hulkster",
         "deck": "",
-        "playerHero": "Tuffnut, Bumbling Hulkster",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 2,
         "opponent": "Player 2",
-        "hero": "",
+        "hero": "Jarl Vetreidi",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12905,7 +12905,7 @@
         "opponent": "Mark Phillips",
         "hero": "Valda, Seismic Impact",
         "deck": "",
-        "playerHero": "Valda, Seismic Impact",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Draw"
       },
@@ -12914,7 +12914,7 @@
         "opponent": "Richard Gillingham",
         "hero": "Gravy Bones, Shipwrecked Looter",
         "deck": "",
-        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12923,7 +12923,7 @@
         "opponent": "Jy Jenkins",
         "hero": "Arakni, Marionette",
         "deck": "",
-        "playerHero": "Arakni, Marionette",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12932,7 +12932,7 @@
         "opponent": "Jess Arnesen",
         "hero": "Verdance, Thorn of the Rose",
         "deck": "",
-        "playerHero": "Verdance, Thorn of the Rose",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -12977,7 +12977,7 @@
       {
         "round": 5,
         "opponent": "Andrew Marr",
-        "hero": "Oscilio, Constella Intelligence",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
@@ -13024,7 +13024,7 @@
       {
         "round": 3,
         "opponent": "Rhys McMillan",
-        "hero": "Valda, Seismic Impact",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Valda, Seismic Impact",
         "playerDeck": "",
@@ -13071,7 +13071,7 @@
       {
         "round": 3,
         "opponent": "Jonathan Asquith",
-        "hero": "Cindra, Dracai of Retribution",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Cindra, Dracai of Retribution",
         "playerDeck": "",
@@ -13319,7 +13319,7 @@
         "opponent": "Casey Wilson",
         "hero": "Oscilio, Constella Intelligence",
         "deck": "",
-        "playerHero": "Oscilio, Constella Intelligence",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -13328,7 +13328,7 @@
         "opponent": "Michael Glover",
         "hero": "Vynnset, Iron Maiden",
         "deck": "",
-        "playerHero": "Vynnset, Iron Maiden",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -13337,16 +13337,16 @@
         "opponent": "Steven Young",
         "hero": "Verdance, Thorn of the Rose",
         "deck": "",
-        "playerHero": "Verdance, Thorn of the Rose",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 4,
         "opponent": "Jonathan Asquith",
-        "hero": "",
+        "hero": "Jarl Vetreidi",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -13355,7 +13355,7 @@
         "opponent": "Taufik Indrakesuma",
         "hero": "Fai, Rising Rebellion",
         "deck": "",
-        "playerHero": "Fai, Rising Rebellion",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -13364,7 +13364,7 @@
         "opponent": "Joshua Baines",
         "hero": "Arakni, Marionette",
         "deck": "",
-        "playerHero": "Arakni, Marionette",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -13373,7 +13373,7 @@
         "opponent": "Benjamin Ryan",
         "hero": "Victor Goldmane, High and Mighty",
         "deck": "",
-        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -13382,7 +13382,7 @@
       {
         "round": 1,
         "opponent": "Samuel Coffey",
-        "hero": "Oscilio, Constella Intelligence",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
@@ -13763,7 +13763,7 @@
       {
         "round": 7,
         "opponent": "Jonathan Asquith",
-        "hero": "Arakni, Huntsman",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
@@ -14155,7 +14155,7 @@
       {
         "round": 4,
         "opponent": "Ken Hickey",
-        "hero": "Ira, Scarlet Revenger",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Ira, Scarlet Revenger",
         "playerDeck": "",
@@ -14921,7 +14921,7 @@
       {
         "round": 5,
         "opponent": "Rhys McMillan",
-        "hero": "Arakni, Marionette",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
@@ -15053,7 +15053,7 @@
       {
         "round": 4,
         "opponent": "Andrew Marr",
-        "hero": "Victor Goldmane, High and Mighty",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
@@ -15268,7 +15268,7 @@
       {
         "round": 3,
         "opponent": "Ken Hickey",
-        "hero": "Arakni, Huntsman",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
@@ -15561,7 +15561,7 @@
       {
         "round": 1,
         "opponent": "Ken Hickey",
-        "hero": "Dash I/O",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Dash I/O",
         "playerDeck": "",
@@ -15601,7 +15601,7 @@
         "opponent": "Christopher Rosiak",
         "hero": "Dash I/O",
         "deck": "",
-        "playerHero": "Dash I/O",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -15610,7 +15610,7 @@
         "opponent": "Tye Soens",
         "hero": "Victor Goldmane, High and Mighty",
         "deck": "",
-        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -15619,7 +15619,7 @@
         "opponent": "Samuel Tulloch",
         "hero": "Arakni, Huntsman",
         "deck": "",
-        "playerHero": "Arakni, Huntsman",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -15628,7 +15628,7 @@
         "opponent": "Josh Rosin",
         "hero": "Ira, Scarlet Revenger",
         "deck": "",
-        "playerHero": "Ira, Scarlet Revenger",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -15767,9 +15767,9 @@
       {
         "round": 2,
         "opponent": "Rhys McMillan",
-        "hero": "",
+        "hero": "Jarl Vetreidi",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },

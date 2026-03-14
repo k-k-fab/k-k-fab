@@ -1,6 +1,6 @@
 {
   "eventUrl": "https://fabtcg.com/coverage/calling-toulouse/",
-  "generatedAt": "2026-03-14T12:27:05.780Z",
+  "generatedAt": "2026-03-14T14:37:52.635Z",
   "rounds": [
     {
       "round": 1,
@@ -369,7 +369,7 @@
           "leftName": "Kim Barroso",
           "rightName": "Julien Desuter",
           "leftHero": "Victor Goldmane, High and Mighty",
-          "rightHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -413,7 +413,7 @@
         {
           "leftName": "Daniel Mulato",
           "rightName": "Léo Baty",
-          "leftHero": "Kassai of the Golden Sand",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Kassai of the Golden Sand",
           "leftDeck": "",
           "rightDeck": "",
@@ -620,7 +620,7 @@
         {
           "leftName": "Alexandre Guichenay",
           "rightName": "Nuno Amaral",
-          "leftHero": "Vynnset, Iron Maiden",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Vynnset, Iron Maiden",
           "leftDeck": "",
           "rightDeck": "",
@@ -1494,7 +1494,7 @@
           "leftName": "Ethan Moraine",
           "rightName": "Benjamin Charleux",
           "leftHero": "Vynnset, Iron Maiden",
-          "rightHero": "Vynnset, Iron Maiden",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2506,7 +2506,7 @@
         {
           "leftName": "Benjamin Charleux",
           "rightName": "Vincent Weinzierl",
-          "leftHero": "Fai, Rising Rebellion",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Fai, Rising Rebellion",
           "leftDeck": "",
           "rightDeck": "",
@@ -2552,7 +2552,7 @@
           "leftName": "Bartosz Ziemba",
           "rightName": "Alexandre Guichenay",
           "leftHero": "Cindra, Dracai of Retribution",
-          "rightHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2795,7 +2795,7 @@
           "leftName": "Arnaud Oglaza",
           "rightName": "Julien Desuter",
           "leftHero": "Valda, Seismic Impact",
-          "rightHero": "Valda, Seismic Impact",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -3218,7 +3218,7 @@
           "leftName": "Frederik Pedersen",
           "rightName": "Daniel Mulato",
           "leftHero": "Dash I/O",
-          "rightHero": "Dash I/O",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3745,7 +3745,7 @@
           "leftName": "Gilles Molina",
           "rightName": "Benjamin Charleux",
           "leftHero": "Prism, Awakener of Sol",
-          "rightHero": "Prism, Awakener of Sol",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3969,7 +3969,7 @@
         {
           "leftName": "Alexandre Guichenay",
           "rightName": "Michael Gut",
-          "leftHero": "Verdance, Thorn of the Rose",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Verdance, Thorn of the Rose",
           "leftDeck": "",
           "rightDeck": "",
@@ -4626,7 +4626,7 @@
         {
           "leftName": "Julien Desuter",
           "rightName": "Sergio Bravo Aranda",
-          "leftHero": "Ira, Scarlet Revenger",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Ira, Scarlet Revenger",
           "leftDeck": "",
           "rightDeck": "",
@@ -4798,7 +4798,7 @@
           "leftName": "Noa Loisy",
           "rightName": "Daniel Mulato",
           "leftHero": "Arakni, Marionette",
-          "rightHero": "Arakni, Marionette",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5505,7 +5505,7 @@
           "leftName": "José Guimarães",
           "rightName": "Benjamin Charleux",
           "leftHero": "Arakni, Marionette",
-          "rightHero": "Arakni, Marionette",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6233,7 +6233,7 @@
         {
           "leftName": "Alexandre Guichenay",
           "rightName": "Jean Mattio",
-          "leftHero": "Verdance, Thorn of the Rose",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Verdance, Thorn of the Rose",
           "leftDeck": "",
           "rightDeck": "",
@@ -6395,7 +6395,7 @@
         {
           "leftName": "Julien Desuter",
           "rightName": "David Muntwyler",
-          "leftHero": "Prism, Awakener of Sol",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Prism, Awakener of Sol",
           "leftDeck": "",
           "rightDeck": "",
@@ -6477,7 +6477,7 @@
           "leftName": "François BARAT",
           "rightName": "Daniel Mulato",
           "leftHero": "Prism, Awakener of Sol",
-          "rightHero": "Prism, Awakener of Sol",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7345,7 +7345,7 @@
         {
           "leftName": "Benjamin Charleux",
           "rightName": "Stefan Dyjak",
-          "leftHero": "Vynnset, Iron Maiden",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Vynnset, Iron Maiden",
           "leftDeck": "",
           "rightDeck": "",
@@ -7364,7 +7364,7 @@
           "leftName": "Antoine Talbot",
           "rightName": "Julien Desuter",
           "leftHero": "Dorinthea Ironsong",
-          "rightHero": "Dorinthea Ironsong",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7382,7 +7382,7 @@
           "leftName": "William Castaingt-Tailleur",
           "rightName": "Alexandre Guichenay",
           "leftHero": "Kassai of the Golden Sand",
-          "rightHero": "Kassai of the Golden Sand",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -7769,7 +7769,7 @@
           "leftName": "Guillaume ADOUANI",
           "rightName": "Daniel Mulato",
           "leftHero": "Verdance, Thorn of the Rose",
-          "rightHero": "Verdance, Thorn of the Rose",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -8826,7 +8826,7 @@
         {
           "leftName": "Benjamin Charleux",
           "rightName": "Alexis HAYOIT",
-          "leftHero": "Arakni, Huntsman",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Arakni, Huntsman",
           "leftDeck": "",
           "rightDeck": "",
@@ -8952,8 +8952,8 @@
         {
           "leftName": "Julien Desuter",
           "rightName": "Daniel Mulato",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Jarl Vetreidi",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -9186,7 +9186,7 @@
         {
           "leftName": "Alexandre Guichenay",
           "rightName": "Alexandre Godon",
-          "leftHero": "Fang, Dracai of Blades",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Fang, Dracai of Blades",
           "leftDeck": "",
           "rightDeck": "",
@@ -9714,7 +9714,7 @@
           "leftName": "Xavier Aubert",
           "rightName": "Julien Desuter",
           "leftHero": "Dash I/O",
-          "rightHero": "Dash I/O",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "DRAW"
@@ -9920,7 +9920,7 @@
         {
           "leftName": "Benjamin Charleux",
           "rightName": "Yoann Moine",
-          "leftHero": "Arakni, Marionette",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Arakni, Marionette",
           "leftDeck": "",
           "rightDeck": "",
@@ -10235,7 +10235,7 @@
         {
           "leftName": "Daniel Mulato",
           "rightName": "Gabriel Gindri",
-          "leftHero": "Oscilio, Constella Intelligence",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Oscilio, Constella Intelligence",
           "leftDeck": "",
           "rightDeck": "",
@@ -10317,7 +10317,7 @@
           "leftName": "Manuel Wachouschek",
           "rightName": "Alexandre Guichenay",
           "leftHero": "Valda, Seismic Impact",
-          "rightHero": "Valda, Seismic Impact",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -12844,7 +12844,7 @@
       {
         "round": 5,
         "opponent": "Daniel Mulato",
-        "hero": "Verdance, Thorn of the Rose",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Verdance, Thorn of the Rose",
         "playerDeck": "",
@@ -13687,7 +13687,7 @@
       {
         "round": 5,
         "opponent": "Alexandre Guichenay",
-        "hero": "Kassai of the Golden Sand",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Kassai of the Golden Sand",
         "playerDeck": "",
@@ -15234,7 +15234,7 @@
       {
         "round": 7,
         "opponent": "Benjamin Charleux",
-        "hero": "Arakni, Marionette",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
@@ -16743,7 +16743,7 @@
       {
         "round": 4,
         "opponent": "Julien Desuter",
-        "hero": "Prism, Awakener of Sol",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Prism, Awakener of Sol",
         "playerDeck": "",
@@ -16994,7 +16994,7 @@
       {
         "round": 4,
         "opponent": "Daniel Mulato",
-        "hero": "Prism, Awakener of Sol",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Prism, Awakener of Sol",
         "playerDeck": "",
@@ -17937,7 +17937,7 @@
       {
         "round": 1,
         "opponent": "Julien Desuter",
-        "hero": "Victor Goldmane, High and Mighty",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
@@ -18031,7 +18031,7 @@
         "opponent": "Kim Barroso",
         "hero": "Victor Goldmane, High and Mighty",
         "deck": "",
-        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -18040,7 +18040,7 @@
         "opponent": "Arnaud Oglaza",
         "hero": "Valda, Seismic Impact",
         "deck": "",
-        "playerHero": "Valda, Seismic Impact",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18049,7 +18049,7 @@
         "opponent": "Sergio Bravo Aranda",
         "hero": "Ira, Scarlet Revenger",
         "deck": "",
-        "playerHero": "Ira, Scarlet Revenger",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -18058,7 +18058,7 @@
         "opponent": "David Muntwyler",
         "hero": "Prism, Awakener of Sol",
         "deck": "",
-        "playerHero": "Prism, Awakener of Sol",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18067,16 +18067,16 @@
         "opponent": "Antoine Talbot",
         "hero": "Dorinthea Ironsong",
         "deck": "",
-        "playerHero": "Dorinthea Ironsong",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 6,
         "opponent": "Daniel Mulato",
-        "hero": "",
+        "hero": "Jarl Vetreidi",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18085,7 +18085,7 @@
         "opponent": "Xavier Aubert",
         "hero": "Dash I/O",
         "deck": "",
-        "playerHero": "Dash I/O",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Draw"
       }
@@ -18688,7 +18688,7 @@
         "opponent": "Léo Baty",
         "hero": "Kassai of the Golden Sand",
         "deck": "",
-        "playerHero": "Kassai of the Golden Sand",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -18697,7 +18697,7 @@
         "opponent": "Frederik Pedersen",
         "hero": "Dash I/O",
         "deck": "",
-        "playerHero": "Dash I/O",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -18706,7 +18706,7 @@
         "opponent": "Noa Loisy",
         "hero": "Arakni, Marionette",
         "deck": "",
-        "playerHero": "Arakni, Marionette",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18715,7 +18715,7 @@
         "opponent": "François BARAT",
         "hero": "Prism, Awakener of Sol",
         "deck": "",
-        "playerHero": "Prism, Awakener of Sol",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18724,16 +18724,16 @@
         "opponent": "Guillaume ADOUANI",
         "hero": "Verdance, Thorn of the Rose",
         "deck": "",
-        "playerHero": "Verdance, Thorn of the Rose",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 6,
         "opponent": "Julien Desuter",
-        "hero": "",
+        "hero": "Jarl Vetreidi",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -18742,7 +18742,7 @@
         "opponent": "Gabriel Gindri",
         "hero": "Oscilio, Constella Intelligence",
         "deck": "",
-        "playerHero": "Oscilio, Constella Intelligence",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -18751,7 +18751,7 @@
       {
         "round": 1,
         "opponent": "Daniel Mulato",
-        "hero": "Kassai of the Golden Sand",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Kassai of the Golden Sand",
         "playerDeck": "",
@@ -21867,7 +21867,7 @@
         "opponent": "Nuno Amaral",
         "hero": "Vynnset, Iron Maiden",
         "deck": "",
-        "playerHero": "Vynnset, Iron Maiden",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -21876,7 +21876,7 @@
         "opponent": "Bartosz Ziemba",
         "hero": "Cindra, Dracai of Retribution",
         "deck": "",
-        "playerHero": "Cindra, Dracai of Retribution",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -21885,7 +21885,7 @@
         "opponent": "Michael Gut",
         "hero": "Verdance, Thorn of the Rose",
         "deck": "",
-        "playerHero": "Verdance, Thorn of the Rose",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -21894,7 +21894,7 @@
         "opponent": "Jean Mattio",
         "hero": "Verdance, Thorn of the Rose",
         "deck": "",
-        "playerHero": "Verdance, Thorn of the Rose",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -21903,7 +21903,7 @@
         "opponent": "William Castaingt-Tailleur",
         "hero": "Kassai of the Golden Sand",
         "deck": "",
-        "playerHero": "Kassai of the Golden Sand",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -21912,7 +21912,7 @@
         "opponent": "Alexandre Godon",
         "hero": "Fang, Dracai of Blades",
         "deck": "",
-        "playerHero": "Fang, Dracai of Blades",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -21921,7 +21921,7 @@
         "opponent": "Manuel Wachouschek",
         "hero": "Valda, Seismic Impact",
         "deck": "",
-        "playerHero": "Valda, Seismic Impact",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -21930,7 +21930,7 @@
       {
         "round": 1,
         "opponent": "Alexandre Guichenay",
-        "hero": "Vynnset, Iron Maiden",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
@@ -22634,7 +22634,7 @@
       {
         "round": 6,
         "opponent": "Benjamin Charleux",
-        "hero": "Arakni, Huntsman",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
@@ -23755,7 +23755,7 @@
       {
         "round": 2,
         "opponent": "Benjamin Charleux",
-        "hero": "Fai, Rising Rebellion",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Fai, Rising Rebellion",
         "playerDeck": "",
@@ -24327,7 +24327,7 @@
       {
         "round": 5,
         "opponent": "Benjamin Charleux",
-        "hero": "Vynnset, Iron Maiden",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
@@ -25694,7 +25694,7 @@
       {
         "round": 3,
         "opponent": "Daniel Mulato",
-        "hero": "Arakni, Marionette",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
@@ -26346,7 +26346,7 @@
       {
         "round": 2,
         "opponent": "Julien Desuter",
-        "hero": "Valda, Seismic Impact",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Valda, Seismic Impact",
         "playerDeck": "",
@@ -27550,7 +27550,7 @@
       {
         "round": 7,
         "opponent": "Alexandre Guichenay",
-        "hero": "Valda, Seismic Impact",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Valda, Seismic Impact",
         "playerDeck": "",
@@ -30193,7 +30193,7 @@
       {
         "round": 4,
         "opponent": "Alexandre Guichenay",
-        "hero": "Verdance, Thorn of the Rose",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Verdance, Thorn of the Rose",
         "playerDeck": "",
@@ -30904,7 +30904,7 @@
       {
         "round": 3,
         "opponent": "Benjamin Charleux",
-        "hero": "Prism, Awakener of Sol",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Prism, Awakener of Sol",
         "playerDeck": "",
@@ -32036,7 +32036,7 @@
       {
         "round": 3,
         "opponent": "Julien Desuter",
-        "hero": "Ira, Scarlet Revenger",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Ira, Scarlet Revenger",
         "playerDeck": "",
@@ -32296,7 +32296,7 @@
       {
         "round": 5,
         "opponent": "Julien Desuter",
-        "hero": "Dorinthea Ironsong",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Dorinthea Ironsong",
         "playerDeck": "",
@@ -32934,7 +32934,7 @@
       {
         "round": 2,
         "opponent": "Alexandre Guichenay",
-        "hero": "Cindra, Dracai of Retribution",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Cindra, Dracai of Retribution",
         "playerDeck": "",
@@ -33044,7 +33044,7 @@
       {
         "round": 2,
         "opponent": "Daniel Mulato",
-        "hero": "Dash I/O",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Dash I/O",
         "playerDeck": "",
@@ -33145,7 +33145,7 @@
       {
         "round": 6,
         "opponent": "Alexandre Guichenay",
-        "hero": "Fang, Dracai of Blades",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Fang, Dracai of Blades",
         "playerDeck": "",
@@ -33183,7 +33183,7 @@
       {
         "round": 3,
         "opponent": "Alexandre Guichenay",
-        "hero": "Verdance, Thorn of the Rose",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Verdance, Thorn of the Rose",
         "playerDeck": "",
@@ -34723,7 +34723,7 @@
       {
         "round": 7,
         "opponent": "Daniel Mulato",
-        "hero": "Oscilio, Constella Intelligence",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
@@ -34799,7 +34799,7 @@
       {
         "round": 1,
         "opponent": "Benjamin Charleux",
-        "hero": "Vynnset, Iron Maiden",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
@@ -34839,7 +34839,7 @@
         "opponent": "Ethan Moraine",
         "hero": "Vynnset, Iron Maiden",
         "deck": "",
-        "playerHero": "Vynnset, Iron Maiden",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -34848,7 +34848,7 @@
         "opponent": "Vincent Weinzierl",
         "hero": "Fai, Rising Rebellion",
         "deck": "",
-        "playerHero": "Fai, Rising Rebellion",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -34857,7 +34857,7 @@
         "opponent": "Gilles Molina",
         "hero": "Prism, Awakener of Sol",
         "deck": "",
-        "playerHero": "Prism, Awakener of Sol",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -34866,7 +34866,7 @@
         "opponent": "José Guimarães",
         "hero": "Arakni, Marionette",
         "deck": "",
-        "playerHero": "Arakni, Marionette",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -34875,7 +34875,7 @@
         "opponent": "Stefan Dyjak",
         "hero": "Vynnset, Iron Maiden",
         "deck": "",
-        "playerHero": "Vynnset, Iron Maiden",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -34884,7 +34884,7 @@
         "opponent": "Alexis HAYOIT",
         "hero": "Arakni, Huntsman",
         "deck": "",
-        "playerHero": "Arakni, Huntsman",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
       },
@@ -34893,7 +34893,7 @@
         "opponent": "Yoann Moine",
         "hero": "Arakni, Marionette",
         "deck": "",
-        "playerHero": "Arakni, Marionette",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -36967,7 +36967,7 @@
       {
         "round": 7,
         "opponent": "Julien Desuter",
-        "hero": "Dash I/O",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Dash I/O",
         "playerDeck": "",
@@ -37144,7 +37144,7 @@
       {
         "round": 4,
         "opponent": "Benjamin Charleux",
-        "hero": "Arakni, Marionette",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",

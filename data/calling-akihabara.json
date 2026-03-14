@@ -1,6 +1,6 @@
 {
   "eventUrl": "https://fabtcg.com/coverage/saturday-900-the-calling-classic-constructed-2/",
-  "generatedAt": "2026-03-14T11:41:57.083Z",
+  "generatedAt": "2026-03-14T14:39:58.541Z",
   "rounds": [
     {
       "round": 1,
@@ -900,7 +900,7 @@
           "leftName": "satoshi kurokawa",
           "rightName": "Mu Kyun Kim",
           "leftHero": "Gravy Bones, Shipwrecked Looter",
-          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Jarl Vetreidi",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "DRAW"
@@ -1975,7 +1975,7 @@
         {
           "leftName": "Mu Kyun Kim",
           "rightName": "Yuto Mori",
-          "leftHero": "Arakni, Marionette",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Arakni, Marionette",
           "leftDeck": "",
           "rightDeck": "",
@@ -3546,7 +3546,7 @@
         {
           "leftName": "Mu Kyun Kim",
           "rightName": "Kevin Lindenmayer",
-          "leftHero": "Kayo, Armed and Dangerous",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Kayo, Armed and Dangerous",
           "leftDeck": "",
           "rightDeck": "",
@@ -4964,7 +4964,7 @@
         {
           "leftName": "Mu Kyun Kim",
           "rightName": "Tatsuki Komata",
-          "leftHero": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
+          "leftHero": "Jarl Vetreidi",
           "rightHero": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
           "leftDeck": "",
           "rightDeck": "",
@@ -12898,7 +12898,7 @@
       {
         "round": 4,
         "opponent": "Mu Kyun Kim",
-        "hero": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
         "playerDeck": "",
@@ -17538,7 +17538,7 @@
       {
         "round": 3,
         "opponent": "Mu Kyun Kim",
-        "hero": "Kayo, Armed and Dangerous",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Kayo, Armed and Dangerous",
         "playerDeck": "",
@@ -22151,7 +22151,7 @@
       {
         "round": 1,
         "opponent": "Mu Kyun Kim",
-        "hero": "Gravy Bones, Shipwrecked Looter",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Gravy Bones, Shipwrecked Looter",
         "playerDeck": "",
@@ -22200,7 +22200,7 @@
         "opponent": "satoshi kurokawa",
         "hero": "Gravy Bones, Shipwrecked Looter",
         "deck": "",
-        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Draw"
       },
@@ -22209,7 +22209,7 @@
         "opponent": "Yuto Mori",
         "hero": "Arakni, Marionette",
         "deck": "",
-        "playerHero": "Arakni, Marionette",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Draw"
       },
@@ -22218,7 +22218,7 @@
         "opponent": "Kevin Lindenmayer",
         "hero": "Kayo, Armed and Dangerous",
         "deck": "",
-        "playerHero": "Kayo, Armed and Dangerous",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Draw"
       },
@@ -22227,7 +22227,7 @@
         "opponent": "Tatsuki Komata",
         "hero": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
         "deck": "",
-        "playerHero": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
+        "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -27172,7 +27172,7 @@
       {
         "round": 2,
         "opponent": "Mu Kyun Kim",
-        "hero": "Arakni, Marionette",
+        "hero": "Jarl Vetreidi",
         "deck": "",
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
