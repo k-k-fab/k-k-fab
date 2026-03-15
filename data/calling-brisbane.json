@@ -1,6 +1,6 @@
 {
   "eventUrl": "https://fabtcg.com/coverage/calling-brisbane/",
-  "generatedAt": "2026-03-14T14:30:11.982Z",
+  "generatedAt": "2026-03-15T09:35:43.624Z",
   "rounds": [
     {
       "round": 1,
@@ -5157,6 +5157,959 @@
           "winner": "P1"
         }
       ]
+    },
+    {
+      "round": 8,
+      "matches": [
+        {
+          "leftName": "Matthew Clark",
+          "rightName": "Dr. Daniel McKay",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Huntsman",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Kuan Li",
+          "rightName": "Benjamin Ryan",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Taufik Indrakesuma",
+          "rightName": "Zachary Gardiner",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Sam Sutherland",
+          "rightName": "Dennis Zhang",
+          "leftHero": "Dash I/O",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "David Marshall",
+          "rightName": "Gary Manttan",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Brodie Spurlock",
+          "rightName": "Justin Cu",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "David Huang",
+          "rightName": "Anthony O’Hara",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Jesse McDonald",
+          "rightName": "Alessandro Pena",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Samuel Coffey",
+          "rightName": "Ian Zhong",
+          "leftHero": "Jarl Vetreidi",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Sam Davison",
+          "rightName": "Jaden De-Arth",
+          "leftHero": "Dash I/O",
+          "rightHero": "Verdance, Thorn of the Rose",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Tom Nguyen",
+          "rightName": "Frank Karamaroudis",
+          "leftHero": "Katsu, the Wanderer",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "David Peng",
+          "rightName": "Maxim Zervos",
+          "leftHero": "Dorinthea Ironsong",
+          "rightHero": "Ser Boltyn, Breaker of Dawn",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Nik Malev",
+          "rightName": "Daniel Chan",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Matthew Ta",
+          "rightName": "Lachlan Buchan",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Declan Bradley",
+          "rightName": "Freeman Monika",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Nick McGrath",
+          "rightName": "Zachary Cauchi",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Jonathan Asquith",
+          "rightName": "Rhys Hopley-Weir",
+          "leftHero": "Jarl Vetreidi",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Matthew Miotto",
+          "rightName": "Andrew Qi",
+          "leftHero": "Dash I/O",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "James Storey",
+          "rightName": "Oliver Hill",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Puffin, Hightail",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Joshua Baines",
+          "rightName": "Emil Tan",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Kayo, Underhanded Cheat",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Tristan Sampson",
+          "rightName": "Madeline Southwood",
+          "leftHero": "Dash I/O",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Samuel Graham-Walker",
+          "rightName": "Daniel Madden",
+          "leftHero": "Katsu, the Wanderer",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Dom Nappa",
+          "rightName": "Luis Henriques",
+          "leftHero": "Dash I/O",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Valentine Nguyen",
+          "rightName": "Greg Mansfield",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Kayo, Underhanded Cheat",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "matches": [
+        {
+          "leftName": "Dr. Daniel McKay",
+          "rightName": "Kuan Li",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Matthew Clark",
+          "rightName": "Zachary Gardiner",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Dennis Zhang",
+          "rightName": "Gary Manttan",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Taufik Indrakesuma",
+          "rightName": "Zachary Cauchi",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Sam Sutherland",
+          "rightName": "Benjamin Ryan",
+          "leftHero": "Dash I/O",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "David Marshall",
+          "rightName": "Jaden De-Arth",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Verdance, Thorn of the Rose",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Brodie Spurlock",
+          "rightName": "Madeline Southwood",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "David Huang",
+          "rightName": "David Peng",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Nik Malev",
+          "rightName": "Alessandro Pena",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Declan Bradley",
+          "rightName": "Ian Zhong",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Matthew Miotto",
+          "rightName": "Samuel Graham-Walker",
+          "leftHero": "Dash I/O",
+          "rightHero": "Katsu, the Wanderer",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Joshua Baines",
+          "rightName": "Lachlan Buchan",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Oliver Hill",
+          "rightName": "Rhys Hopley-Weir",
+          "leftHero": "Puffin, Hightail",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Frank Karamaroudis",
+          "rightName": "Justin Cu",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Jesse McDonald",
+          "rightName": "Tristan Sampson",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Samuel Coffey",
+          "rightName": "Maxim Zervos",
+          "leftHero": "Jarl Vetreidi",
+          "rightHero": "Ser Boltyn, Breaker of Dawn",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Sam Davison",
+          "rightName": "Luis Henriques",
+          "leftHero": "Dash I/O",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Tom Nguyen",
+          "rightName": "Greg Mansfield",
+          "leftHero": "Katsu, the Wanderer",
+          "rightHero": "Kayo, Underhanded Cheat",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Matthew Ta",
+          "rightName": "Anthony O’Hara",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Nick McGrath",
+          "rightName": "Jonathan Asquith",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Jarl Vetreidi",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Daniel Chan",
+          "rightName": "James Storey",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Cindra, Dracai of Retribution",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Andrew Qi",
+          "rightName": "Freeman Monika",
+          "leftHero": "Dorinthea Ironsong",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Emil Tan",
+          "rightName": "Dom Nappa",
+          "leftHero": "Kayo, Underhanded Cheat",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Daniel Madden",
+          "rightName": "Player 2",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "matches": [
+        {
+          "leftName": "Dr. Daniel McKay",
+          "rightName": "Zachary Gardiner",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Kuan Li",
+          "rightName": "Gary Manttan",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Dennis Zhang",
+          "rightName": "Matthew Clark",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Sam Sutherland",
+          "rightName": "Frank Karamaroudis",
+          "leftHero": "Dash I/O",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "David Marshall",
+          "rightName": "Justin Cu",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "David Huang",
+          "rightName": "Madeline Southwood",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Nik Malev",
+          "rightName": "Rhys Hopley-Weir",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Matthew Miotto",
+          "rightName": "Zachary Cauchi",
+          "leftHero": "Dash I/O",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Lachlan Buchan",
+          "rightName": "Ian Zhong",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Taufik Indrakesuma",
+          "rightName": "Jaden De-Arth",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Verdance, Thorn of the Rose",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Benjamin Ryan",
+          "rightName": "Samuel Graham-Walker",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Katsu, the Wanderer",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Brodie Spurlock",
+          "rightName": "David Peng",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Declan Bradley",
+          "rightName": "Emil Tan",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Kayo, Underhanded Cheat",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Joshua Baines",
+          "rightName": "James Storey",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Cindra, Dracai of Retribution",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Oliver Hill",
+          "rightName": "Tom Nguyen",
+          "leftHero": "Puffin, Hightail",
+          "rightHero": "Katsu, the Wanderer",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Alessandro Pena",
+          "rightName": "Anthony O’Hara",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Jesse McDonald",
+          "rightName": "Jonathan Asquith",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Jarl Vetreidi",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Samuel Coffey",
+          "rightName": "Andrew Qi",
+          "leftHero": "Jarl Vetreidi",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Sam Davison",
+          "rightName": "Maxim Zervos",
+          "leftHero": "Dash I/O",
+          "rightHero": "Ser Boltyn, Breaker of Dawn",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Nick McGrath",
+          "rightName": "Freeman Monika",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Daniel Chan",
+          "rightName": "Daniel Madden",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Tristan Sampson",
+          "rightName": "Luis Henriques",
+          "leftHero": "Dash I/O",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Dom Nappa",
+          "rightName": "Greg Mansfield",
+          "leftHero": "Dash I/O",
+          "rightHero": "Kayo, Underhanded Cheat",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Matthew Ta",
+          "rightName": "Player 2",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "matches": [
+        {
+          "leftName": "Dr. Daniel McKay",
+          "rightName": "Madeline Southwood",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Kuan Li",
+          "rightName": "Sam Sutherland",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Zachary Gardiner",
+          "rightName": "Ian Zhong",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Dennis Zhang",
+          "rightName": "Zachary Cauchi",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Matthew Clark",
+          "rightName": "Nik Malev",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Gary Manttan",
+          "rightName": "Benjamin Ryan",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "David Marshall",
+          "rightName": "Rhys Hopley-Weir",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "David Huang",
+          "rightName": "James Storey",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Cindra, Dracai of Retribution",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Matthew Miotto",
+          "rightName": "Justin Cu",
+          "leftHero": "Dash I/O",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Lachlan Buchan",
+          "rightName": "Samuel Coffey",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Jarl Vetreidi",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Frank Karamaroudis",
+          "rightName": "David Peng",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Oliver Hill",
+          "rightName": "Anthony O’Hara",
+          "leftHero": "Puffin, Hightail",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Jaden De-Arth",
+          "rightName": "Emil Tan",
+          "leftHero": "Verdance, Thorn of the Rose",
+          "rightHero": "Kayo, Underhanded Cheat",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Jesse McDonald",
+          "rightName": "Declan Bradley",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Taufik Indrakesuma",
+          "rightName": "Andrew Qi",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Brodie Spurlock",
+          "rightName": "Sam Davison",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Joshua Baines",
+          "rightName": "Matthew Ta",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Samuel Graham-Walker",
+          "rightName": "Daniel Chan",
+          "leftHero": "Katsu, the Wanderer",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Alessandro Pena",
+          "rightName": "Tristan Sampson",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Tom Nguyen",
+          "rightName": "Jonathan Asquith",
+          "leftHero": "Katsu, the Wanderer",
+          "rightHero": "Jarl Vetreidi",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Freeman Monika",
+          "rightName": "Greg Mansfield",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Kayo, Underhanded Cheat",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Nick McGrath",
+          "rightName": "Dom Nappa",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Maxim Zervos",
+          "rightName": "Luis Henriques",
+          "leftHero": "Ser Boltyn, Breaker of Dawn",
+          "rightHero": "Dorinthea Ironsong",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "matches": [
+        {
+          "leftName": "Dr. Daniel McKay",
+          "rightName": "Matthew Clark",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Dennis Zhang",
+          "rightName": "Sam Sutherland",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Zachary Gardiner",
+          "rightName": "Nik Malev",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Kuan Li",
+          "rightName": "Madeline Southwood",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 13,
+      "matches": [
+        {
+          "leftName": "Dr. Daniel McKay",
+          "rightName": "Dennis Zhang",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Kuan Li",
+          "rightName": "Nik Malev",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        }
+      ]
+    },
+    {
+      "round": 14,
+      "matches": [
+        {
+          "leftName": "Dennis Zhang",
+          "rightName": "Nik Malev",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        }
+      ]
     }
   ],
   "players": {
@@ -5570,6 +6523,42 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Emil Tan",
+        "hero": "Kayo, Underhanded Cheat",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Lachlan Buchan",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "James Storey",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Matthew Ta",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Evan Bicknell": [
@@ -5951,6 +6940,60 @@
         "playerHero": "Gravy Bones, Shipwrecked Looter",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Benjamin Ryan",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Dr. Daniel McKay",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Gary Manttan",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Sam Sutherland",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Madeline Southwood",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 13,
+        "opponent": "Nik Malev",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "David Huang": [
@@ -6016,6 +7059,42 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Anthony O’Hara",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "David Peng",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Madeline Southwood",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "James Storey",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Hamish Dickson": [
@@ -6128,6 +7207,51 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Dr. Daniel McKay",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Zachary Gardiner",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Dennis Zhang",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Nik Malev",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Dr. Daniel McKay",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Sarah Nicholas": [
@@ -6522,6 +7646,69 @@
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Daniel Chan",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Alessandro Pena",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Rhys Hopley-Weir",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Matthew Clark",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Zachary Gardiner",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 13,
+        "opponent": "Kuan Li",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 14,
+        "opponent": "Dennis Zhang",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Dennis Zhang": [
@@ -6587,6 +7774,69 @@
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Sam Sutherland",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Gary Manttan",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Matthew Clark",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Zachary Cauchi",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Sam Sutherland",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 13,
+        "opponent": "Dr. Daniel McKay",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 14,
+        "opponent": "Nik Malev",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "benji muehlebach": [
@@ -6896,6 +8146,42 @@
         "playerHero": "Kayo, Underhanded Cheat",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Joshua Baines",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Kayo, Underhanded Cheat",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Dom Nappa",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Kayo, Underhanded Cheat",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Declan Bradley",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Kayo, Underhanded Cheat",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Jaden De-Arth",
+        "hero": "Verdance, Thorn of the Rose",
+        "deck": "",
+        "playerHero": "Kayo, Underhanded Cheat",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Mitchell Burton": [
@@ -7004,6 +8290,42 @@
         "round": 7,
         "opponent": "Sam Davison",
         "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Zachary Gardiner",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Zachary Cauchi",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Jaden De-Arth",
+        "hero": "Verdance, Thorn of the Rose",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Andrew Qi",
+        "hero": "Dorinthea Ironsong",
         "deck": "",
         "playerHero": "Fai, Rising Rebellion",
         "playerDeck": "",
@@ -7120,6 +8442,42 @@
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Kuan Li",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Sam Sutherland",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Samuel Graham-Walker",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Gary Manttan",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Gus Drummond": [
@@ -7223,6 +8581,51 @@
         "playerHero": "Pleiades, Superstar",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Tristan Sampson",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Brodie Spurlock",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "David Huang",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Dr. Daniel McKay",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Kuan Li",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Alister Ling": [
@@ -7353,6 +8756,42 @@
         "playerHero": "Fai, Rising Rebellion",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Tom Nguyen",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Justin Cu",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Sam Sutherland",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "David Peng",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Jesse McDonald": [
@@ -7414,6 +8853,42 @@
         "round": 7,
         "opponent": "Dr. Daniel McKay",
         "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Alessandro Pena",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Tristan Sampson",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Jonathan Asquith",
+        "hero": "Jarl Vetreidi",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Declan Bradley",
+        "hero": "Fai, Rising Rebellion",
         "deck": "",
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
@@ -7483,6 +8958,42 @@
         "playerHero": "Katsu, the Wanderer",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Daniel Madden",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Matthew Miotto",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Benjamin Ryan",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Daniel Chan",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Daniel Chan": [
@@ -7544,6 +9055,42 @@
         "round": 7,
         "opponent": "Philip Nagle",
         "hero": "Puffin, Hightail",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Nik Malev",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "James Storey",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Daniel Madden",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Samuel Graham-Walker",
+        "hero": "Katsu, the Wanderer",
         "deck": "",
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
@@ -7674,6 +9221,33 @@
         "round": 7,
         "opponent": "Madeline Southwood",
         "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Samuel Graham-Walker",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Player 2",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Daniel Chan",
+        "hero": "Oscilio, Constella Intelligence",
         "deck": "",
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
@@ -7940,6 +9514,42 @@
         "playerHero": "Fai, Rising Rebellion",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Samuel Coffey",
+        "hero": "Jarl Vetreidi",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Declan Bradley",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Lachlan Buchan",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Zachary Gardiner",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "James Drummond": [
@@ -8341,6 +9951,42 @@
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "David Huang",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Matthew Ta",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Alessandro Pena",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Oliver Hill",
+        "hero": "Puffin, Hightail",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Xiu Meng Yip": [
@@ -8514,6 +10160,42 @@
         "round": 7,
         "opponent": "Jerry Kaonang",
         "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Brodie Spurlock",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Frank Karamaroudis",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "David Marshall",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Matthew Miotto",
+        "hero": "Dash I/O",
         "deck": "",
         "playerHero": "Gravy Bones, Shipwrecked Looter",
         "playerDeck": "",
@@ -8713,6 +10395,42 @@
         "playerHero": "Fai, Rising Rebellion",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Freeman Monika",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Ian Zhong",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Emil Tan",
+        "hero": "Kayo, Underhanded Cheat",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Jesse McDonald",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Brodie Spurlock": [
@@ -8774,6 +10492,42 @@
         "round": 7,
         "opponent": "Nik Malev",
         "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Justin Cu",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Madeline Southwood",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "David Peng",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Sam Davison",
+        "hero": "Dash I/O",
         "deck": "",
         "playerHero": "Gravy Bones, Shipwrecked Looter",
         "playerDeck": "",
@@ -9087,6 +10841,42 @@
         "playerHero": "Gravy Bones, Shipwrecked Looter",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Declan Bradley",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Andrew Qi",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Nick McGrath",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Greg Mansfield",
+        "hero": "Kayo, Underhanded Cheat",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Greg Mansfield": [
@@ -9152,6 +10942,42 @@
         "playerHero": "Kayo, Underhanded Cheat",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Valentine Nguyen",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Kayo, Underhanded Cheat",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Tom Nguyen",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Kayo, Underhanded Cheat",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Dom Nappa",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Kayo, Underhanded Cheat",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Freeman Monika",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Kayo, Underhanded Cheat",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Shaun Leow": [
@@ -9611,6 +11437,42 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Lachlan Buchan",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Anthony O’Hara",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Player 2",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Joshua Baines",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Matthew Miotto": [
@@ -9676,6 +11538,42 @@
         "playerHero": "Dash I/O",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Andrew Qi",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Samuel Graham-Walker",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Zachary Cauchi",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Justin Cu",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Jaden De-Arth": [
@@ -9737,6 +11635,42 @@
         "round": 7,
         "opponent": "Scott Mackenzie",
         "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Verdance, Thorn of the Rose",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Sam Davison",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Verdance, Thorn of the Rose",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "David Marshall",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Verdance, Thorn of the Rose",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Taufik Indrakesuma",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Verdance, Thorn of the Rose",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Emil Tan",
+        "hero": "Kayo, Underhanded Cheat",
         "deck": "",
         "playerHero": "Verdance, Thorn of the Rose",
         "playerDeck": "",
@@ -10021,6 +11955,42 @@
         "playerHero": "Puffin, Hightail",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "James Storey",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Puffin, Hightail",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Rhys Hopley-Weir",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Puffin, Hightail",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Tom Nguyen",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Puffin, Hightail",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Anthony O’Hara",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Puffin, Hightail",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Geoff Wong": [
@@ -10115,6 +12085,51 @@
         "playerHero": "Dash I/O",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Dennis Zhang",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Benjamin Ryan",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Frank Karamaroudis",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Kuan Li",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Dennis Zhang",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Harry Boulton": [
@@ -10498,6 +12513,42 @@
         "playerHero": "Dash I/O",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Jaden De-Arth",
+        "hero": "Verdance, Thorn of the Rose",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Luis Henriques",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Maxim Zervos",
+        "hero": "Ser Boltyn, Breaker of Dawn",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Brodie Spurlock",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Willem Van Den Broek": [
@@ -10628,6 +12679,42 @@
         "playerHero": "Cindra, Dracai of Retribution",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Oliver Hill",
+        "hero": "Puffin, Hightail",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Daniel Chan",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Joshua Baines",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "David Huang",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Leroy Martin-McEwen": [
@@ -10879,6 +12966,51 @@
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Taufik Indrakesuma",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Matthew Clark",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Dr. Daniel McKay",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Ian Zhong",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Nik Malev",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Eric Hu": [
@@ -11206,6 +13338,42 @@
         "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Rhys Hopley-Weir",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Jarl Vetreidi",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Nick McGrath",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Jarl Vetreidi",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Jesse McDonald",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Jarl Vetreidi",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Tom Nguyen",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Jarl Vetreidi",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Zac Whyte": [
@@ -11374,6 +13542,42 @@
         "playerHero": "Fai, Rising Rebellion",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Jesse McDonald",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Nik Malev",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Anthony O’Hara",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Tristan Sampson",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Jordan Finch": [
@@ -11569,6 +13773,42 @@
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Zachary Cauchi",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Jonathan Asquith",
+        "hero": "Jarl Vetreidi",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Freeman Monika",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Dom Nappa",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Rhys Hopley-Weir": [
@@ -11634,6 +13874,42 @@
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Jonathan Asquith",
+        "hero": "Jarl Vetreidi",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Oliver Hill",
+        "hero": "Puffin, Hightail",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Nik Malev",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "David Marshall",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Dr. Daniel McKay": [
@@ -11699,6 +13975,60 @@
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Matthew Clark",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Kuan Li",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Zachary Gardiner",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Madeline Southwood",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Matthew Clark",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 13,
+        "opponent": "Dennis Zhang",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Vincent Lim": [
@@ -12465,6 +14795,42 @@
         "playerHero": "Gravy Bones, Shipwrecked Looter",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Matthew Ta",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Joshua Baines",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Ian Zhong",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Samuel Coffey",
+        "hero": "Jarl Vetreidi",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "James Wilson": [
@@ -12615,6 +14981,42 @@
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Nick McGrath",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Taufik Indrakesuma",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Matthew Miotto",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Dennis Zhang",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Jesse Mann": [
@@ -13376,6 +15778,42 @@
         "playerHero": "Jarl Vetreidi",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Ian Zhong",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Jarl Vetreidi",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Maxim Zervos",
+        "hero": "Ser Boltyn, Breaker of Dawn",
+        "deck": "",
+        "playerHero": "Jarl Vetreidi",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Andrew Qi",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Jarl Vetreidi",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Lachlan Buchan",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Jarl Vetreidi",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Casey Wilson": [
@@ -13768,6 +16206,15 @@
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Greg Mansfield",
+        "hero": "Kayo, Underhanded Cheat",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Daniel McKeating": [
@@ -14122,6 +16569,42 @@
         "playerHero": "Dorinthea Ironsong",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Matthew Miotto",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Freeman Monika",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Samuel Coffey",
+        "hero": "Jarl Vetreidi",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Taufik Indrakesuma",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Josh Rosin": [
@@ -14440,6 +16923,42 @@
         "playerHero": "Dash I/O",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Luis Henriques",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Emil Tan",
+        "hero": "Kayo, Underhanded Cheat",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Greg Mansfield",
+        "hero": "Kayo, Underhanded Cheat",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Nick McGrath",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Alex Crowther": [
@@ -14682,6 +17201,42 @@
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Gary Manttan",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Jaden De-Arth",
+        "hero": "Verdance, Thorn of the Rose",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Justin Cu",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Rhys Hopley-Weir",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Maxim Zervos": [
@@ -14743,6 +17298,42 @@
         "round": 7,
         "opponent": "Louis Shum",
         "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Ser Boltyn, Breaker of Dawn",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "David Peng",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Ser Boltyn, Breaker of Dawn",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Samuel Coffey",
+        "hero": "Jarl Vetreidi",
+        "deck": "",
+        "playerHero": "Ser Boltyn, Breaker of Dawn",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Sam Davison",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Ser Boltyn, Breaker of Dawn",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Luis Henriques",
+        "hero": "Dorinthea Ironsong",
         "deck": "",
         "playerHero": "Ser Boltyn, Breaker of Dawn",
         "playerDeck": "",
@@ -15085,6 +17676,42 @@
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "David Marshall",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Dennis Zhang",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Kuan Li",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Benjamin Ryan",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Taine Markley": [
@@ -15244,6 +17871,42 @@
         "playerHero": "Dorinthea Ironsong",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Maxim Zervos",
+        "hero": "Ser Boltyn, Breaker of Dawn",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "David Huang",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Brodie Spurlock",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Frank Karamaroudis",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Samuel Tulloch": [
@@ -15470,6 +18133,42 @@
         "playerHero": "Dorinthea Ironsong",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Dom Nappa",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Sam Davison",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Tristan Sampson",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Maxim Zervos",
+        "hero": "Ser Boltyn, Breaker of Dawn",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Andrew Anderson": [
@@ -15555,6 +18254,42 @@
         "playerHero": "Katsu, the Wanderer",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Frank Karamaroudis",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Greg Mansfield",
+        "hero": "Kayo, Underhanded Cheat",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Oliver Hill",
+        "hero": "Puffin, Hightail",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Jonathan Asquith",
+        "hero": "Jarl Vetreidi",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Christopher Rosiak": [
@@ -15761,6 +18496,42 @@
         "playerHero": "Dash I/O",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Madeline Southwood",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Jesse McDonald",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Luis Henriques",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Alessandro Pena",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Player 2": [
@@ -15788,6 +18559,24 @@
         "hero": "Arakni, Huntsman",
         "deck": "",
         "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Daniel Madden",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Matthew Ta",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Loss"
       }
