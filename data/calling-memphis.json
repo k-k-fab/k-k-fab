@@ -1,6 +1,6 @@
 {
   "eventUrl": "https://fabtcg.com/coverage/calling-memphis/",
-  "generatedAt": "2026-03-22T00:31:24.582Z",
+  "generatedAt": "2026-03-23T08:33:02.014Z",
   "rounds": [
     {
       "round": 1,
@@ -7839,6 +7839,1441 @@
           "winner": "P1"
         }
       ]
+    },
+    {
+      "round": 8,
+      "matches": [
+        {
+          "leftName": "Kyle McKeough",
+          "rightName": "Lucas Oswald",
+          "leftHero": "Dorinthea Ironsong",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Phillip Kendall",
+          "rightName": "Austin Redington",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Prism, Awakener of Sol",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Mara Faris",
+          "rightName": "Evan Bridges",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Teklovossen, Esteemed Magnate",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Sean Baker",
+          "rightName": "Jacob Clements",
+          "leftHero": "Dash I/O",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "ZACHARY JENSEN",
+          "rightName": "Ed Bracamontes",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Prism, Awakener of Sol",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Theodore Tan",
+          "rightName": "Dan Mui",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Cindra, Dracai of Retribution",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Matthew Bowar",
+          "rightName": "Michael Hamilton",
+          "leftHero": "Teklovossen, Esteemed Magnate",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Chandler To",
+          "rightName": "Caleb Lolley",
+          "leftHero": "Marlynn, Treasure Hunter",
+          "rightHero": "Katsu, the Wanderer",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Bea Budnik",
+          "rightName": "Thomas Johnson-Averette",
+          "leftHero": "Bravo, Showstopper",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Charlie Heavilin",
+          "rightName": "Corwin Benton",
+          "leftHero": "Dash I/O",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Naib Mobassir",
+          "rightName": "Noah Beygelman",
+          "leftHero": "Kassai of the Golden Sand",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Matthew Renz",
+          "rightName": "Emery Powell",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Yuki Lee Bender",
+          "rightName": "Brodie Spurlock",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Yasunari Sakuma",
+          "rightName": "Chase Keeton",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Drew Peastrel",
+          "rightName": "Patrick Weiss",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Fang, Dracai of Blades",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Jacob Baugh",
+          "rightName": "Arjun Garg",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Phillip Spader",
+          "rightName": "Wesley Dong",
+          "leftHero": "Ira, Scarlet Revenger",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Matthew McInnis",
+          "rightName": "Shane Martin",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Andrew Lorenz",
+          "rightName": "Jeremy Chen",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Cavin Saravanan",
+          "rightName": "Damien Riggins",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Robert Sexton",
+          "rightName": "Hunter Platt",
+          "leftHero": "Valda, Seismic Impact",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Nathanael Frautschy",
+          "rightName": "Taylor Nifong",
+          "leftHero": "Marlynn, Treasure Hunter",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Justin Kinison",
+          "rightName": "Micheal Porter",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Emanuel Corps-Ortiz",
+          "rightName": "Austin Revera",
+          "leftHero": "Dash I/O",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Jesse Kennon",
+          "rightName": "Brian Hoffman",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Mark Morrison",
+          "rightName": "Andrew Cook",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Joseph Marchant",
+          "rightName": "Andrew Rothermel",
+          "leftHero": "Fai, Rising Rebellion",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Brenden Jones",
+          "rightName": "Ethan Davison",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Huntsman",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Dagan White",
+          "rightName": "Barrett Goss",
+          "leftHero": "Pleiades, Superstar",
+          "rightHero": "Ira, Scarlet Revenger",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Timothy Bowar",
+          "rightName": "Robin Andrews",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Prism, Awakener of Sol",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Norberto Hernandez",
+          "rightName": "Justin Anthony",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Zachary Lyons",
+          "rightName": "Zachary Knutson",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "matches": [
+        {
+          "leftName": "Lucas Oswald",
+          "rightName": "Emanuel Corps-Ortiz",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Kyle McKeough",
+          "rightName": "Evan Bridges",
+          "leftHero": "Dorinthea Ironsong",
+          "rightHero": "Teklovossen, Esteemed Magnate",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Austin Redington",
+          "rightName": "Michael Hamilton",
+          "leftHero": "Prism, Awakener of Sol",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Theodore Tan",
+          "rightName": "Ed Bracamontes",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Prism, Awakener of Sol",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Chandler To",
+          "rightName": "Jacob Clements",
+          "leftHero": "Marlynn, Treasure Hunter",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Phillip Kendall",
+          "rightName": "Mara Faris",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Sean Baker",
+          "rightName": "Nathanael Frautschy",
+          "leftHero": "Dash I/O",
+          "rightHero": "Marlynn, Treasure Hunter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "ZACHARY JENSEN",
+          "rightName": "Arjun Garg",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Dan Mui",
+          "rightName": "Emery Powell",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Matthew Bowar",
+          "rightName": "Justin Kinison",
+          "leftHero": "Teklovossen, Esteemed Magnate",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Caleb Lolley",
+          "rightName": "Naib Mobassir",
+          "leftHero": "Katsu, the Wanderer",
+          "rightHero": "Kassai of the Golden Sand",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Charlie Heavilin",
+          "rightName": "Hunter Platt",
+          "leftHero": "Dash I/O",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Yasunari Sakuma",
+          "rightName": "Justin Anthony",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Thomas Johnson-Averette",
+          "rightName": "Brodie Spurlock",
+          "leftHero": "Pleiades, Superstar",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Patrick Weiss",
+          "rightName": "Brian Hoffman",
+          "leftHero": "Fang, Dracai of Blades",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Andrew Lorenz",
+          "rightName": "Andrew Cook",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Wesley Dong",
+          "rightName": "Andrew Rothermel",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Shane Martin",
+          "rightName": "Robin Andrews",
+          "leftHero": "Valda, Seismic Impact",
+          "rightHero": "Prism, Awakener of Sol",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Dagan White",
+          "rightName": "Ethan Davison",
+          "leftHero": "Pleiades, Superstar",
+          "rightHero": "Arakni, Huntsman",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Bea Budnik",
+          "rightName": "Joseph Marchant",
+          "leftHero": "Bravo, Showstopper",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Matthew Renz",
+          "rightName": "Taylor Nifong",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Yuki Lee Bender",
+          "rightName": "Phillip Spader",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Ira, Scarlet Revenger",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Corwin Benton",
+          "rightName": "Mark Morrison",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Austin Revera",
+          "rightName": "Damien Riggins",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Drew Peastrel",
+          "rightName": "Timothy Bowar",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Matthew McInnis",
+          "rightName": "Zachary Lyons",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Cavin Saravanan",
+          "rightName": "Jeremy Chen",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Robert Sexton",
+          "rightName": "Barrett Goss",
+          "leftHero": "Valda, Seismic Impact",
+          "rightHero": "Ira, Scarlet Revenger",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Noah Beygelman",
+          "rightName": "Jesse Kennon",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Brenden Jones",
+          "rightName": "Norberto Hernandez",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Cindra, Dracai of Retribution",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Zachary Knutson",
+          "rightName": "Player 2",
+          "leftHero": "Valda, Seismic Impact",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "matches": [
+        {
+          "leftName": "Emanuel Corps-Ortiz",
+          "rightName": "Michael Hamilton",
+          "leftHero": "Dash I/O",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Lucas Oswald",
+          "rightName": "Evan Bridges",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Teklovossen, Esteemed Magnate",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Theodore Tan",
+          "rightName": "Jacob Clements",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Kyle McKeough",
+          "rightName": "Nathanael Frautschy",
+          "leftHero": "Dorinthea Ironsong",
+          "rightHero": "Marlynn, Treasure Hunter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Austin Redington",
+          "rightName": "Emery Powell",
+          "leftHero": "Prism, Awakener of Sol",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Ed Bracamontes",
+          "rightName": "Brodie Spurlock",
+          "leftHero": "Prism, Awakener of Sol",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Chandler To",
+          "rightName": "Dagan White",
+          "leftHero": "Marlynn, Treasure Hunter",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Mara Faris",
+          "rightName": "Shane Martin",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "ZACHARY JENSEN",
+          "rightName": "Andrew Cook",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Matthew Bowar",
+          "rightName": "Patrick Weiss",
+          "leftHero": "Teklovossen, Esteemed Magnate",
+          "rightHero": "Fang, Dracai of Blades",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Caleb Lolley",
+          "rightName": "Damien Riggins",
+          "leftHero": "Katsu, the Wanderer",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Wesley Dong",
+          "rightName": "Hunter Platt",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Justin Anthony",
+          "rightName": "Matthew McInnis",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Phillip Kendall",
+          "rightName": "Arjun Garg",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Sean Baker",
+          "rightName": "Noah Beygelman",
+          "leftHero": "Dash I/O",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Dan Mui",
+          "rightName": "Barrett Goss",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Ira, Scarlet Revenger",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Charlie Heavilin",
+          "rightName": "Jeremy Chen",
+          "leftHero": "Dash I/O",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Naib Mobassir",
+          "rightName": "Yasunari Sakuma",
+          "leftHero": "Kassai of the Golden Sand",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Thomas Johnson-Averette",
+          "rightName": "Brian Hoffman",
+          "leftHero": "Pleiades, Superstar",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Andrew Lorenz",
+          "rightName": "Mark Morrison",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Justin Kinison",
+          "rightName": "Bea Budnik",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Bravo, Showstopper",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Andrew Rothermel",
+          "rightName": "Timothy Bowar",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Gravy Bones, Shipwrecked Looter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Robin Andrews",
+          "rightName": "Matthew Renz",
+          "leftHero": "Prism, Awakener of Sol",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Austin Revera",
+          "rightName": "Ethan Davison",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Arakni, Huntsman",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Yuki Lee Bender",
+          "rightName": "Norberto Hernandez",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Cindra, Dracai of Retribution",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Corwin Benton",
+          "rightName": "Joseph Marchant",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Fai, Rising Rebellion",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Cavin Saravanan",
+          "rightName": "Zachary Knutson",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Robert Sexton",
+          "rightName": "Taylor Nifong",
+          "leftHero": "Valda, Seismic Impact",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Brenden Jones",
+          "rightName": "Zachary Lyons",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Phillip Spader",
+          "rightName": "Player 2",
+          "leftHero": "Ira, Scarlet Revenger",
+          "rightHero": "Ira, Scarlet Revenger",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "matches": [
+        {
+          "leftName": "Emanuel Corps-Ortiz",
+          "rightName": "Jacob Clements",
+          "leftHero": "Dash I/O",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Lucas Oswald",
+          "rightName": "Michael Hamilton",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Evan Bridges",
+          "rightName": "Damien Riggins",
+          "leftHero": "Teklovossen, Esteemed Magnate",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Theodore Tan",
+          "rightName": "Justin Anthony",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Kyle McKeough",
+          "rightName": "Matthew Bowar",
+          "leftHero": "Dorinthea Ironsong",
+          "rightHero": "Teklovossen, Esteemed Magnate",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Austin Redington",
+          "rightName": "Chandler To",
+          "leftHero": "Prism, Awakener of Sol",
+          "rightHero": "Marlynn, Treasure Hunter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "ZACHARY JENSEN",
+          "rightName": "Hunter Platt",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Brodie Spurlock",
+          "rightName": "Shane Martin",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Mara Faris",
+          "rightName": "Arjun Garg",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Caleb Lolley",
+          "rightName": "Dagan White",
+          "leftHero": "Katsu, the Wanderer",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Patrick Weiss",
+          "rightName": "Emery Powell",
+          "leftHero": "Fang, Dracai of Blades",
+          "rightHero": "Pleiades, Superstar",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Nathanael Frautschy",
+          "rightName": "Jeremy Chen",
+          "leftHero": "Marlynn, Treasure Hunter",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Wesley Dong",
+          "rightName": "Robin Andrews",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Prism, Awakener of Sol",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Andrew Cook",
+          "rightName": "Yuki Lee Bender",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Yasunari Sakuma",
+          "rightName": "Barrett Goss",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Ira, Scarlet Revenger",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Thomas Johnson-Averette",
+          "rightName": "Mark Morrison",
+          "leftHero": "Pleiades, Superstar",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Andrew Rothermel",
+          "rightName": "Ethan Davison",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Arakni, Huntsman",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Bea Budnik",
+          "rightName": "Noah Beygelman",
+          "leftHero": "Bravo, Showstopper",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Phillip Kendall",
+          "rightName": "Sean Baker",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Dan Mui",
+          "rightName": "Brian Hoffman",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Charlie Heavilin",
+          "rightName": "Matthew Renz",
+          "leftHero": "Dash I/O",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Naib Mobassir",
+          "rightName": "Taylor Nifong",
+          "leftHero": "Kassai of the Golden Sand",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Justin Kinison",
+          "rightName": "Matthew McInnis",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Ed Bracamontes",
+          "rightName": "Austin Revera",
+          "leftHero": "Prism, Awakener of Sol",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Timothy Bowar",
+          "rightName": "Norberto Hernandez",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Cindra, Dracai of Retribution",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Corwin Benton",
+          "rightName": "Zachary Knutson",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Zachary Lyons",
+          "rightName": "Robert Sexton",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Brenden Jones",
+          "rightName": "Player 2",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "matches": [
+        {
+          "leftName": "Lucas Oswald",
+          "rightName": "Jacob Clements",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Emanuel Corps-Ortiz",
+          "rightName": "Shane Martin",
+          "leftHero": "Dash I/O",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Michael Hamilton",
+          "rightName": "ZACHARY JENSEN",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Evan Bridges",
+          "rightName": "Austin Redington",
+          "leftHero": "Teklovossen, Esteemed Magnate",
+          "rightHero": "Prism, Awakener of Sol",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Matthew Bowar",
+          "rightName": "Justin Anthony",
+          "leftHero": "Teklovossen, Esteemed Magnate",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Theodore Tan",
+          "rightName": "Nathanael Frautschy",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Marlynn, Treasure Hunter",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Kyle McKeough",
+          "rightName": "Mark Morrison",
+          "leftHero": "Dorinthea Ironsong",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Chandler To",
+          "rightName": "Andrew Rothermel",
+          "leftHero": "Marlynn, Treasure Hunter",
+          "rightHero": "Vynnset, Iron Maiden",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Damien Riggins",
+          "rightName": "Yasunari Sakuma",
+          "leftHero": "Pleiades, Superstar",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Brodie Spurlock",
+          "rightName": "Andrew Cook",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Caleb Lolley",
+          "rightName": "Wesley Dong",
+          "leftHero": "Katsu, the Wanderer",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Emery Powell",
+          "rightName": "Noah Beygelman",
+          "leftHero": "Pleiades, Superstar",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Arjun Garg",
+          "rightName": "Yuki Lee Bender",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Ed Bracamontes",
+          "rightName": "Sean Baker",
+          "leftHero": "Prism, Awakener of Sol",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Mara Faris",
+          "rightName": "Barrett Goss",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Ira, Scarlet Revenger",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Patrick Weiss",
+          "rightName": "Matthew McInnis",
+          "leftHero": "Fang, Dracai of Blades",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Dagan White",
+          "rightName": "Naib Mobassir",
+          "leftHero": "Pleiades, Superstar",
+          "rightHero": "Kassai of the Golden Sand",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Thomas Johnson-Averette",
+          "rightName": "Jeremy Chen",
+          "leftHero": "Pleiades, Superstar",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Robin Andrews",
+          "rightName": "Bea Budnik",
+          "leftHero": "Prism, Awakener of Sol",
+          "rightHero": "Bravo, Showstopper",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Dan Mui",
+          "rightName": "Charlie Heavilin",
+          "leftHero": "Cindra, Dracai of Retribution",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Timothy Bowar",
+          "rightName": "Zachary Knutson",
+          "leftHero": "Gravy Bones, Shipwrecked Looter",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Justin Kinison",
+          "rightName": "Brian Hoffman",
+          "leftHero": "Vynnset, Iron Maiden",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Ethan Davison",
+          "rightName": "Robert Sexton",
+          "leftHero": "Arakni, Huntsman",
+          "rightHero": "Valda, Seismic Impact",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Hunter Platt",
+          "rightName": "Austin Revera",
+          "leftHero": "Valda, Seismic Impact",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Matthew Renz",
+          "rightName": "Norberto Hernandez",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Cindra, Dracai of Retribution",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Corwin Benton",
+          "rightName": "Brenden Jones",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Phillip Kendall",
+          "rightName": "Player 2",
+          "leftHero": "Victor Goldmane, High and Mighty",
+          "rightHero": "Victor Goldmane, High and Mighty",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 13,
+      "matches": [
+        {
+          "leftName": "Lucas Oswald",
+          "rightName": "ZACHARY JENSEN",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P2"
+        },
+        {
+          "leftName": "Michael Hamilton",
+          "rightName": "Austin Redington",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Prism, Awakener of Sol",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Emanuel Corps-Ortiz",
+          "rightName": "Matthew Bowar",
+          "leftHero": "Dash I/O",
+          "rightHero": "Teklovossen, Esteemed Magnate",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Jacob Clements",
+          "rightName": "Evan Bridges",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Teklovossen, Esteemed Magnate",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 14,
+      "matches": [
+        {
+          "leftName": "Jacob Clements",
+          "rightName": "ZACHARY JENSEN",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Arakni, Marionette",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        },
+        {
+          "leftName": "Michael Hamilton",
+          "rightName": "Emanuel Corps-Ortiz",
+          "leftHero": "Oscilio, Constella Intelligence",
+          "rightHero": "Dash I/O",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
+    },
+    {
+      "round": 15,
+      "matches": [
+        {
+          "leftName": "Jacob Clements",
+          "rightName": "Michael Hamilton",
+          "leftHero": "Arakni, Marionette",
+          "rightHero": "Oscilio, Constella Intelligence",
+          "leftDeck": "",
+          "rightDeck": "",
+          "winner": "P1"
+        }
+      ]
     }
   ],
   "players": {
@@ -8017,6 +9452,69 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Ed Bracamontes",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Arjun Garg",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Andrew Cook",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Hunter Platt",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Michael Hamilton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 13,
+        "opponent": "Lucas Oswald",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 14,
+        "opponent": "Jacob Clements",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Nathan Crawford": [
@@ -8203,6 +9701,42 @@
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Nathanael Frautschy",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Matthew Renz",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Robert Sexton",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Naib Mobassir",
+        "hero": "Kassai of the Golden Sand",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Andrew Cook": [
@@ -8268,6 +9802,51 @@
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Mark Morrison",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Andrew Lorenz",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "ZACHARY JENSEN",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Yuki Lee Bender",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Brodie Spurlock",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Austin Redington": [
@@ -8333,6 +9912,60 @@
         "playerHero": "Prism, Awakener of Sol",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Phillip Kendall",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Michael Hamilton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Emery Powell",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Chandler To",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Evan Bridges",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 13,
+        "opponent": "Michael Hamilton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Andy truong": [
@@ -8436,6 +10069,33 @@
         "playerHero": "Ira, Scarlet Revenger",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Wesley Dong",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Ira, Scarlet Revenger",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Yuki Lee Bender",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Ira, Scarlet Revenger",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Player 2",
+        "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Ira, Scarlet Revenger",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Robert Sexton": [
@@ -8497,6 +10157,51 @@
         "round": 7,
         "opponent": "Aaron Grace",
         "hero": "Rhinar, Reckless Rampage",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Hunter Platt",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Barrett Goss",
+        "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Taylor Nifong",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Zachary Lyons",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Ethan Davison",
+        "hero": "Arakni, Huntsman",
         "deck": "",
         "playerHero": "Valda, Seismic Impact",
         "playerDeck": "",
@@ -8833,6 +10538,51 @@
         "round": 7,
         "opponent": "Matthew Renz",
         "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "ZACHARY JENSEN",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Theodore Tan",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Brodie Spurlock",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Austin Revera",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Sean Baker",
+        "hero": "Dash I/O",
         "deck": "",
         "playerHero": "Prism, Awakener of Sol",
         "playerDeck": "",
@@ -9285,6 +11035,51 @@
         "playerHero": "Valda, Seismic Impact",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Matthew McInnis",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Robin Andrews",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Mara Faris",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Brodie Spurlock",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Emanuel Corps-Ortiz",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Mark Morrison": [
@@ -9346,6 +11141,51 @@
         "round": 7,
         "opponent": "Timothy Scroggs",
         "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Andrew Cook",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Corwin Benton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Andrew Lorenz",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Thomas Johnson-Averette",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Kyle McKeough",
+        "hero": "Dorinthea Ironsong",
         "deck": "",
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
@@ -9574,6 +11414,51 @@
         "playerHero": "Cindra, Dracai of Retribution",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Dan Mui",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Ed Bracamontes",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Jacob Clements",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Justin Anthony",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Nathanael Frautschy",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Charles Castille": [
@@ -9836,6 +11721,78 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Sean Baker",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Chandler To",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Theodore Tan",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Emanuel Corps-Ortiz",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Lucas Oswald",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 13,
+        "opponent": "Evan Bridges",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 14,
+        "opponent": "ZACHARY JENSEN",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 15,
+        "opponent": "Michael Hamilton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "James Wray": [
@@ -10087,6 +12044,33 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Damien Riggins",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Jeremy Chen",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Zachary Knutson",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Eugene C": [
@@ -10938,6 +12922,51 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Jacob Baugh",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "ZACHARY JENSEN",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Phillip Kendall",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Mara Faris",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Yuki Lee Bender",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Daeton Harris": [
@@ -11283,6 +13312,33 @@
         "playerHero": "Fai, Rising Rebellion",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Andrew Rothermel",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Bea Budnik",
+        "hero": "Bravo, Showstopper",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Corwin Benton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Fai, Rising Rebellion",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Kaileb Shipman": [
@@ -11442,6 +13498,51 @@
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Charlie Heavilin",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Mark Morrison",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Joseph Marchant",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Zachary Knutson",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Brenden Jones",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Diana Green": [
@@ -11572,6 +13673,51 @@
         "playerHero": "Pleiades, Superstar",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Barrett Goss",
+        "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Ethan Davison",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Chandler To",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Caleb Lolley",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Naib Mobassir",
+        "hero": "Kassai of the Golden Sand",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Franklin Brown": [
@@ -11698,6 +13844,51 @@
         "round": 7,
         "opponent": "Eugene C",
         "hero": "Rhinar, Reckless Rampage",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Robin Andrews",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Drew Peastrel",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Andrew Rothermel",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Norberto Hernandez",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Zachary Knutson",
+        "hero": "Valda, Seismic Impact",
         "deck": "",
         "playerHero": "Gravy Bones, Shipwrecked Looter",
         "playerDeck": "",
@@ -12524,6 +14715,51 @@
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Andrew Lorenz",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Cavin Saravanan",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Charlie Heavilin",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Nathanael Frautschy",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Thomas Johnson-Averette",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Nick Webb": [
@@ -12712,6 +14948,33 @@
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Jeremy Chen",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Andrew Cook",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Mark Morrison",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Aidan Volden": [
@@ -12900,6 +15163,51 @@
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Micheal Porter",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Matthew Bowar",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Bea Budnik",
+        "hero": "Bravo, Showstopper",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Matthew McInnis",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Brian Hoffman",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Michael Allen": [
@@ -13014,6 +15322,51 @@
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Austin Redington",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Mara Faris",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Arjun Garg",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Sean Baker",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Player 2",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Domenic Wilkins": [
@@ -13144,6 +15497,51 @@
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Emanuel Corps-Ortiz",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Damien Riggins",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Ethan Davison",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Ed Bracamontes",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Hunter Platt",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Mel Falcon": [
@@ -13247,6 +15645,51 @@
         "playerHero": "Pleiades, Superstar",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Matthew Renz",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Dan Mui",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Austin Redington",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Patrick Weiss",
+        "hero": "Fang, Dracai of Blades",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Noah Beygelman",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Jesse Hudak": [
@@ -13346,6 +15789,51 @@
         "round": 7,
         "opponent": "Theodore Tan",
         "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Brodie Spurlock",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Phillip Spader",
+        "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Norberto Hernandez",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Andrew Cook",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Arjun Garg",
+        "hero": "Arakni, Marionette",
         "deck": "",
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
@@ -13845,6 +16333,51 @@
         "playerHero": "Marlynn, Treasure Hunter",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Taylor Nifong",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Sean Baker",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Kyle McKeough",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Jeremy Chen",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Theodore Tan",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Travis Yeo": [
@@ -14013,6 +16546,51 @@
         "playerHero": "Fang, Dracai of Blades",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Drew Peastrel",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Fang, Dracai of Blades",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Brian Hoffman",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Fang, Dracai of Blades",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Matthew Bowar",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Fang, Dracai of Blades",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Emery Powell",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Fang, Dracai of Blades",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Matthew McInnis",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Fang, Dracai of Blades",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Chandler Bushnell": [
@@ -14208,6 +16786,51 @@
         "playerHero": "Valda, Seismic Impact",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Robert Sexton",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Charlie Heavilin",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Wesley Dong",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "ZACHARY JENSEN",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Austin Revera",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Robin Andrews": [
@@ -14273,6 +16896,51 @@
         "playerHero": "Prism, Awakener of Sol",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Timothy Bowar",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Shane Martin",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Matthew Renz",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Wesley Dong",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Bea Budnik",
+        "hero": "Bravo, Showstopper",
+        "deck": "",
+        "playerHero": "Prism, Awakener of Sol",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Adrian Gebhart": [
@@ -14470,6 +17138,51 @@
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Shane Martin",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Zachary Lyons",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Justin Anthony",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Justin Kinison",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Patrick Weiss",
+        "hero": "Fang, Dracai of Blades",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Dakota Galloway": [
@@ -14587,6 +17300,51 @@
         "round": 7,
         "opponent": "Lucas Oswald",
         "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Chase Keeton",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Justin Anthony",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Naib Mobassir",
+        "hero": "Kassai of the Golden Sand",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Barrett Goss",
+        "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Damien Riggins",
+        "hero": "Pleiades, Superstar",
         "deck": "",
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
@@ -14721,6 +17479,51 @@
         "playerHero": "Cindra, Dracai of Retribution",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Justin Anthony",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Brenden Jones",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Yuki Lee Bender",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Timothy Bowar",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Matthew Renz",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Randall Robinson": [
@@ -15162,6 +17965,51 @@
         "playerHero": "Valda, Seismic Impact",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Zachary Lyons",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Player 2",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Cavin Saravanan",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Corwin Benton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Timothy Bowar",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Marcus Queen": [
@@ -15272,6 +18120,51 @@
         "round": 7,
         "opponent": "Phillip Spader",
         "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Caleb Lolley",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Jacob Clements",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Dagan White",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Austin Redington",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Marlynn, Treasure Hunter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Andrew Rothermel",
+        "hero": "Vynnset, Iron Maiden",
         "deck": "",
         "playerHero": "Marlynn, Treasure Hunter",
         "playerDeck": "",
@@ -15688,6 +18581,51 @@
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Yuki Lee Bender",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Thomas Johnson-Averette",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Ed Bracamontes",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Shane Martin",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Andrew Cook",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Dan Mui": [
@@ -15749,6 +18687,51 @@
         "round": 7,
         "opponent": "Drew Peastrel",
         "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Theodore Tan",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Emery Powell",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Barrett Goss",
+        "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Brian Hoffman",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Cindra, Dracai of Retribution",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Charlie Heavilin",
+        "hero": "Dash I/O",
         "deck": "",
         "playerHero": "Cindra, Dracai of Retribution",
         "playerDeck": "",
@@ -15948,6 +18931,51 @@
         "playerHero": "Arakni, Huntsman",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Brenden Jones",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Dagan White",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Austin Revera",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Andrew Rothermel",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Robert Sexton",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Arakni, Huntsman",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Kyle Proctor": [
@@ -16033,6 +19061,78 @@
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Matthew Bowar",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Austin Redington",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Emanuel Corps-Ortiz",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Lucas Oswald",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "ZACHARY JENSEN",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 13,
+        "opponent": "Austin Redington",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 14,
+        "opponent": "Emanuel Corps-Ortiz",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 15,
+        "opponent": "Jacob Clements",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Richard Moretti": [
@@ -16342,6 +19442,51 @@
         "playerHero": "Ira, Scarlet Revenger",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Dagan White",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Ira, Scarlet Revenger",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Robert Sexton",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Ira, Scarlet Revenger",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Dan Mui",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Ira, Scarlet Revenger",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Yasunari Sakuma",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Ira, Scarlet Revenger",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Mara Faris",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Ira, Scarlet Revenger",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Drew Peastrel": [
@@ -16403,6 +19548,24 @@
         "round": 7,
         "opponent": "Dan Mui",
         "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Patrick Weiss",
+        "hero": "Fang, Dracai of Blades",
+        "deck": "",
+        "playerHero": "Gravy Bones, Shipwrecked Looter",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Timothy Bowar",
+        "hero": "Gravy Bones, Shipwrecked Looter",
         "deck": "",
         "playerHero": "Gravy Bones, Shipwrecked Looter",
         "playerDeck": "",
@@ -16602,6 +19765,51 @@
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Emery Powell",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Taylor Nifong",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Robin Andrews",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Charlie Heavilin",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Norberto Hernandez",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Ben DeLange": [
@@ -16696,6 +19904,15 @@
         "playerHero": "Dash I/O",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Justin Kinison",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Shawn Edwards": [
@@ -16826,6 +20043,60 @@
         "playerHero": "Teklovossen, Esteemed Magnate",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Michael Hamilton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Justin Kinison",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Patrick Weiss",
+        "hero": "Fang, Dracai of Blades",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Kyle McKeough",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Justin Anthony",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 13,
+        "opponent": "Emanuel Corps-Ortiz",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Hayden Farrar": [
@@ -16994,6 +20265,60 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Kyle McKeough",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Emanuel Corps-Ortiz",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Evan Bridges",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Michael Hamilton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Jacob Clements",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 13,
+        "opponent": "ZACHARY JENSEN",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Andrew Chambers": [
@@ -17256,6 +20581,60 @@
         "playerHero": "Teklovossen, Esteemed Magnate",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Mara Faris",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Kyle McKeough",
+        "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Lucas Oswald",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Damien Riggins",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Austin Redington",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 13,
+        "opponent": "Jacob Clements",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Teklovossen, Esteemed Magnate",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Logan McNeely": [
@@ -17419,6 +20798,15 @@
       {
         "round": 7,
         "opponent": "ZACHARY JENSEN",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Arjun Garg",
         "hero": "Arakni, Marionette",
         "deck": "",
         "playerHero": "Oscilio, Constella Intelligence",
@@ -17778,6 +21166,51 @@
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Norberto Hernandez",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Yasunari Sakuma",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Matthew McInnis",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Theodore Tan",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Matthew Bowar",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Charlie Heavilin": [
@@ -17839,6 +21272,51 @@
         "round": 7,
         "opponent": "Evan Bridges",
         "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Corwin Benton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Hunter Platt",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Jeremy Chen",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Matthew Renz",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Dan Mui",
+        "hero": "Cindra, Dracai of Retribution",
         "deck": "",
         "playerHero": "Dash I/O",
         "playerDeck": "",
@@ -17984,6 +21462,51 @@
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Joseph Marchant",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Wesley Dong",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Timothy Bowar",
+        "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Ethan Davison",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Chandler To",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Casey Walker": [
@@ -18134,6 +21657,51 @@
         "playerHero": "Dash I/O",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Jacob Clements",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Nathanael Frautschy",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Noah Beygelman",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Phillip Kendall",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Ed Bracamontes",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Alexander Heger": [
@@ -18544,6 +22112,51 @@
         "playerHero": "Pleiades, Superstar",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Cavin Saravanan",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Austin Revera",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Caleb Lolley",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Evan Bridges",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Yasunari Sakuma",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Alex Herzog": [
@@ -18822,6 +22435,51 @@
         "round": 7,
         "opponent": "Mara Faris",
         "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Bea Budnik",
+        "hero": "Bravo, Showstopper",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Brodie Spurlock",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Brian Hoffman",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Mark Morrison",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Jeremy Chen",
+        "hero": "Oscilio, Constella Intelligence",
         "deck": "",
         "playerHero": "Pleiades, Superstar",
         "playerDeck": "",
@@ -20076,6 +23734,51 @@
         "playerHero": "Katsu, the Wanderer",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Chandler To",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Naib Mobassir",
+        "hero": "Kassai of the Golden Sand",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Damien Riggins",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Dagan White",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Wesley Dong",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Katsu, the Wanderer",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Bea Budnik": [
@@ -20141,6 +23844,51 @@
         "playerHero": "Bravo, Showstopper",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Thomas Johnson-Averette",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Bravo, Showstopper",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Joseph Marchant",
+        "hero": "Fai, Rising Rebellion",
+        "deck": "",
+        "playerHero": "Bravo, Showstopper",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Justin Kinison",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Bravo, Showstopper",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Noah Beygelman",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Bravo, Showstopper",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Robin Andrews",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Bravo, Showstopper",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Joshua Briggs": [
@@ -20249,6 +23997,51 @@
         "round": 7,
         "opponent": "Joshua Lau",
         "hero": "Dorinthea Ironsong",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Naib Mobassir",
+        "hero": "Kassai of the Golden Sand",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Jesse Kennon",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Sean Baker",
+        "hero": "Dash I/O",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Bea Budnik",
+        "hero": "Bravo, Showstopper",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Emery Powell",
+        "hero": "Pleiades, Superstar",
         "deck": "",
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
@@ -20383,6 +24176,42 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Zachary Knutson",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Matthew McInnis",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Brenden Jones",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Robert Sexton",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Jesse Carmack": [
@@ -20473,6 +24302,51 @@
         "round": 7,
         "opponent": "William Snead",
         "hero": "Rhinar, Reckless Rampage",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Phillip Spader",
+        "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Andrew Rothermel",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Hunter Platt",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Robin Andrews",
+        "hero": "Prism, Awakener of Sol",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Caleb Lolley",
+        "hero": "Katsu, the Wanderer",
         "deck": "",
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
@@ -20656,6 +24530,51 @@
         "playerHero": "Vynnset, Iron Maiden",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Evan Bridges",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Phillip Kendall",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Shane Martin",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Arjun Garg",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Barrett Goss",
+        "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Vynnset, Iron Maiden",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Codi Barnett": [
@@ -20849,6 +24768,51 @@
         "round": 7,
         "opponent": "Hayden Christoffersen",
         "hero": "Kassai of the Golden Sand",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Ethan Davison",
+        "hero": "Arakni, Huntsman",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Norberto Hernandez",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Zachary Lyons",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Player 2",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Corwin Benton",
+        "hero": "Oscilio, Constella Intelligence",
         "deck": "",
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
@@ -21426,6 +25390,51 @@
         "playerHero": "Kassai of the Golden Sand",
         "playerDeck": "",
         "result": "Loss"
+      },
+      {
+        "round": 8,
+        "opponent": "Noah Beygelman",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Kassai of the Golden Sand",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Caleb Lolley",
+        "hero": "Katsu, the Wanderer",
+        "deck": "",
+        "playerHero": "Kassai of the Golden Sand",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Yasunari Sakuma",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Kassai of the Golden Sand",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Taylor Nifong",
+        "hero": "Vynnset, Iron Maiden",
+        "deck": "",
+        "playerHero": "Kassai of the Golden Sand",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 12,
+        "opponent": "Dagan White",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Kassai of the Golden Sand",
+        "playerDeck": "",
+        "result": "Win"
       }
     ],
     "Logan King": [
@@ -21529,6 +25538,24 @@
         "playerHero": "Arakni, Marionette",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Brian Hoffman",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Noah Beygelman",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Hannah Watts": [
@@ -21619,6 +25646,51 @@
         "round": 7,
         "opponent": "Joseph Musgrove",
         "hero": "Gravy Bones, Shipwrecked Looter",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Jesse Kennon",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Patrick Weiss",
+        "hero": "Fang, Dracai of Blades",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Thomas Johnson-Averette",
+        "hero": "Pleiades, Superstar",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Dan Mui",
+        "hero": "Cindra, Dracai of Retribution",
+        "deck": "",
+        "playerHero": "Oscilio, Constella Intelligence",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Justin Kinison",
+        "hero": "Vynnset, Iron Maiden",
         "deck": "",
         "playerHero": "Oscilio, Constella Intelligence",
         "playerDeck": "",
@@ -22192,6 +26264,69 @@
         "playerHero": "Dash I/O",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Austin Revera",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 9,
+        "opponent": "Lucas Oswald",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 10,
+        "opponent": "Michael Hamilton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Jacob Clements",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Shane Martin",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 13,
+        "opponent": "Matthew Bowar",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 14,
+        "opponent": "Michael Hamilton",
+        "hero": "Oscilio, Constella Intelligence",
+        "deck": "",
+        "playerHero": "Dash I/O",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Tyler Brotton": [
@@ -22416,6 +26551,15 @@
         "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Yasunari Sakuma",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Robbie Valdez": [
@@ -23986,6 +28130,51 @@
         "playerHero": "Dorinthea Ironsong",
         "playerDeck": "",
         "result": "Win"
+      },
+      {
+        "round": 8,
+        "opponent": "Lucas Oswald",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Evan Bridges",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Nathanael Frautschy",
+        "hero": "Marlynn, Treasure Hunter",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Win"
+      },
+      {
+        "round": 11,
+        "opponent": "Matthew Bowar",
+        "hero": "Teklovossen, Esteemed Magnate",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Mark Morrison",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Dorinthea Ironsong",
+        "playerDeck": "",
+        "result": "Loss"
       }
     ],
     "Player 2": [
@@ -24040,6 +28229,42 @@
         "hero": "Pleiades, Superstar",
         "deck": "",
         "playerHero": "Pleiades, Superstar",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 9,
+        "opponent": "Zachary Knutson",
+        "hero": "Valda, Seismic Impact",
+        "deck": "",
+        "playerHero": "Valda, Seismic Impact",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 10,
+        "opponent": "Phillip Spader",
+        "hero": "Ira, Scarlet Revenger",
+        "deck": "",
+        "playerHero": "Ira, Scarlet Revenger",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 11,
+        "opponent": "Brenden Jones",
+        "hero": "Arakni, Marionette",
+        "deck": "",
+        "playerHero": "Arakni, Marionette",
+        "playerDeck": "",
+        "result": "Loss"
+      },
+      {
+        "round": 12,
+        "opponent": "Phillip Kendall",
+        "hero": "Victor Goldmane, High and Mighty",
+        "deck": "",
+        "playerHero": "Victor Goldmane, High and Mighty",
         "playerDeck": "",
         "result": "Loss"
       }
