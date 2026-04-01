@@ -109,6 +109,7 @@
           <button type="button" class="preset-btn" data-url="./data/showdown-brisbane.json">Showdown Brisbane(3/15)</button>
           <button type="button" class="preset-btn" data-url="./data/calling-toulouse.json">Calling Toulouse(3/7)</button>
           <button type="button" class="preset-btn" data-url="./data/calling-akihabara.json">Calling Akihabara(1/10)</button>
+          <button type="button" class="preset-btn" data-url="./data/world-championships-2025.json">World Championships2025(11/14)</button>
         </div>
       </div>
       <div>
@@ -243,19 +244,34 @@
         dl.appendChild(opt);
       }
     }
-    function renderPlayerHeader(container, playerName, hero, deck) {
+    function renderPlayerHeader(container, playerName, heroes, deck) {
       const card = document.createElement('div');
       card.className = 'round-card';
-      const heroImg = getHeroImage(hero);
+      const heroList = Array.isArray(heroes)
+        ? heroes.filter(Boolean)
+        : [(heroes || '').trim()].filter(Boolean);
+      const heroRows = heroList.length
+        ? heroList.map((hero) => {
+            const heroImg = getHeroImage(hero);
+            return `
+              <div class="opponent-row">
+                <img class="hero-icon" src="${heroImg}" alt="${escapeHtml(hero || '')}">
+                <div><div style="color:#444;">HERO: ${escapeHtml(hero || '不明')}</div></div>
+              </div>
+            `;
+          }).join('')
+        : `
+            <div class="opponent-row">
+              <img class="hero-icon" src="${getHeroImage('')}" alt="">
+              <div><div style="color:#444;">HERO: 不明</div></div>
+            </div>
+          `;
       card.innerHTML = `
         <div class="round-header">
           <div style="font-size:16px;">${escapeHtml(playerName)}</div>
           <div class="decklink">${deck ? `<a href="${deck}" target="_blank" rel="noopener">View decklist</a>` : ''}</div>
         </div>
-        <div class="opponent-row">
-          <img class="hero-icon" src="${heroImg}" alt="${escapeHtml(hero || '')}">
-          <div><div style="color:#444;">HERO: ${escapeHtml(hero || '不明')}</div></div>
-        </div>
+        ${heroRows}
       `;
       container.appendChild(card);
     }
@@ -267,10 +283,10 @@
         if (h) heroCounts.set(h, (heroCounts.get(h) || 0) + 1);
         if (r.playerDeck) latestDeck = r.playerDeck;
       }
-      let hero = '';
-      let max = -1;
-      for (const [h, c] of heroCounts.entries()) if (c > max) { hero = h; max = c; }
-      return { hero, deck: latestDeck };
+      const heroes = [...heroCounts.entries()]
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([h]) => h);
+      return { heroes, deck: latestDeck };
     }
     function renderResults(rows) {
       const sorted = [...rows].sort((a, b) => (a.round || 0) - (b.round || 0));
@@ -350,7 +366,7 @@
       const rows = state.playersMap[trimmed] || [];
       if (!rows.length) { setStatus(`「${trimmed}」の戦績は見つかりません。`); return; }
       const info = inferPlayerMainInfo(rows);
-      renderPlayerHeader(resultsEl, trimmed, info.hero, info.deck);
+      renderPlayerHeader(resultsEl, trimmed, info.heroes, info.deck);
       renderResults(rows);
       setStatus(`「${trimmed}」の戦績: ${rows.length}件`);
     }
