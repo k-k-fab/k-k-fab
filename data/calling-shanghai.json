@@ -1,6 +1,6 @@
 {
   "eventUrl": "https://fabtcg.com/coverage/calling-shanghai/",
-  "generatedAt": "2026-04-05T14:07:47.214Z",
+  "generatedAt": "2026-04-05T14:30:24.120Z",
   "rounds": [
     {
       "round": 1,
@@ -45,7 +45,7 @@
           "leftName": "zhang opq",
           "rightName": "Xiangjun Dai",
           "leftHero": "Kano",
-          "rightHero": "Kano",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -116,8 +116,8 @@
         {
           "leftName": "Bangliang Liu",
           "rightName": "Xin Yu",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Briar",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -135,7 +135,7 @@
           "leftName": "Michael Jaszczur",
           "rightName": "Judge John",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -143,7 +143,7 @@
         {
           "leftName": "Alex Gu",
           "rightName": "shao qi Chen",
-          "leftHero": "Fai",
+          "leftHero": "Levia",
           "rightHero": "Fai",
           "leftDeck": "",
           "rightDeck": "",
@@ -161,7 +161,7 @@
         {
           "leftName": "Shan Huang",
           "rightName": "ye zhao",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -171,7 +171,7 @@
           "leftName": "超 陆",
           "rightName": "Matthew Clark",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Terra",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -198,7 +198,7 @@
           "leftName": "Xinchun Wang",
           "rightName": "Xiu Meng Yip",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -233,7 +233,7 @@
         {
           "leftName": "Zhao Page",
           "rightName": "嘉诚 徐",
-          "leftHero": "Cindra",
+          "leftHero": "Dorinthea",
           "rightHero": "Cindra",
           "leftDeck": "",
           "rightDeck": "",
@@ -306,7 +306,7 @@
           "leftName": "Tom Hartley",
           "rightName": "炜祯 缪",
           "leftHero": "Riptide",
-          "rightHero": "Riptide",
+          "rightHero": "Boltyn",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -314,7 +314,7 @@
         {
           "leftName": "Enes Findik",
           "rightName": "Yingming Zhao",
-          "leftHero": "Kayo",
+          "leftHero": "Briar",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -386,7 +386,7 @@
         {
           "leftName": "Cheng Zhang",
           "rightName": "dean zhong",
-          "leftHero": "Kano",
+          "leftHero": "Lyath Goldmane",
           "rightHero": "Kano",
           "leftDeck": "",
           "rightDeck": "",
@@ -440,7 +440,7 @@
         {
           "leftName": "Nils Klaper",
           "rightName": "Lin Yancheng",
-          "leftHero": "Kayo",
+          "leftHero": "Dorinthea",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -512,7 +512,7 @@
         {
           "leftName": "Tsz Lung Wu",
           "rightName": "Nuno Miguel Correia das Neves",
-          "leftHero": "Kano",
+          "leftHero": "Florian",
           "rightHero": "Kano",
           "leftDeck": "",
           "rightDeck": "",
@@ -521,7 +521,7 @@
         {
           "leftName": "zhang chu",
           "rightName": "Weimu Song",
-          "leftHero": "Dash",
+          "leftHero": "Dorinthea",
           "rightHero": "Dash",
           "leftDeck": "",
           "rightDeck": "",
@@ -531,7 +531,7 @@
           "leftName": "Kin Bong Ernie Wong",
           "rightName": "pun yuicheung",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -539,7 +539,7 @@
         {
           "leftName": "Christopher Iaali",
           "rightName": "Xiao Xiao",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Briar",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -594,7 +594,7 @@
           "leftName": "Jude Cornett",
           "rightName": "shuyang zhao",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -638,8 +638,8 @@
         {
           "leftName": "Pat Eshghy",
           "rightName": "Johnny Zen",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Florian",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -701,8 +701,8 @@
         {
           "leftName": "Yang Haoyu",
           "rightName": "虾仁王 z",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Florian",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -728,8 +728,8 @@
         {
           "leftName": "ziye zhang",
           "rightName": "li shuo",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Dorinthea",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -764,7 +764,7 @@
         {
           "leftName": "jiasu chen",
           "rightName": "Martin Holík",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Florian",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -782,8 +782,8 @@
         {
           "leftName": "Jiaang Shi",
           "rightName": "Matteo Blasi",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Briar",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -810,7 +810,7 @@
           "leftName": "Connor Leverton",
           "rightName": "hc c",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -819,7 +819,7 @@
           "leftName": "JIA NIAN WANG",
           "rightName": "suk kyo suh",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -827,7 +827,7 @@
         {
           "leftName": "James Lewis",
           "rightName": "Jianan Zhou",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -846,7 +846,7 @@
           "leftName": "Eduardo Melo",
           "rightName": "YIKAI WANG",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -855,7 +855,7 @@
           "leftName": "大昕 刘",
           "rightName": "Tigran Grigorian",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -881,7 +881,7 @@
         {
           "leftName": "Jiahui Wu",
           "rightName": "zijun Guo",
-          "leftHero": "Riptide",
+          "leftHero": "Gravy Bones",
           "rightHero": "Riptide",
           "leftDeck": "",
           "rightDeck": "",
@@ -954,7 +954,7 @@
           "leftName": "Tang Li",
           "rightName": "Haotian Dong",
           "leftHero": "Fai",
-          "rightHero": "Fai",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -998,7 +998,7 @@
         {
           "leftName": "XIAO LUO",
           "rightName": "Chris Chee Shi Feng",
-          "leftHero": "Fai",
+          "leftHero": "Florian",
           "rightHero": "Fai",
           "leftDeck": "",
           "rightDeck": "",
@@ -1017,7 +1017,7 @@
           "leftName": "Timothy Lee",
           "rightName": "Zhengyuan Duan",
           "leftHero": "Vynnset",
-          "rightHero": "Vynnset",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -1044,7 +1044,7 @@
           "leftName": "Chun Kin Tse",
           "rightName": "huang junhao",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "DRAW"
@@ -1124,7 +1124,7 @@
         {
           "leftName": "Tang Wei",
           "rightName": "羽丰 韩",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Briar",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -1133,7 +1133,7 @@
         {
           "leftName": "XIAO LU",
           "rightName": "shoma yamamura",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Briar",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -1142,7 +1142,7 @@
         {
           "leftName": "Xingyu ZHOU",
           "rightName": "junkai shen",
-          "leftHero": "Bravo, Flattering Showman",
+          "leftHero": "Florian",
           "rightHero": "Bravo, Flattering Showman",
           "leftDeck": "",
           "rightDeck": "",
@@ -1237,7 +1237,7 @@
         {
           "leftName": "Bangliang Liu",
           "rightName": "Siming Hao",
-          "leftHero": "Vynnset",
+          "leftHero": "Briar",
           "rightHero": "Vynnset",
           "leftDeck": "",
           "rightDeck": "",
@@ -1247,7 +1247,7 @@
           "leftName": "Thomas Bailey Galbraith",
           "rightName": "Johnny Zen",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -1264,7 +1264,7 @@
         {
           "leftName": "Alex Gu",
           "rightName": "Dennis Xiao",
-          "leftHero": "Kayo",
+          "leftHero": "Levia",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -1274,7 +1274,7 @@
           "leftName": "William Bucknall",
           "rightName": "Christopher Iaali",
           "leftHero": "Dash",
-          "rightHero": "Dash",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -1301,7 +1301,7 @@
           "leftName": "Keegan Walls",
           "rightName": "James Lewis",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -1327,7 +1327,7 @@
         {
           "leftName": "Enes Findik",
           "rightName": "Jacob Trossing",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Briar",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -1337,7 +1337,7 @@
           "leftName": "Pudding Tam",
           "rightName": "Nils Klaper",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -1354,7 +1354,7 @@
         {
           "leftName": "Cheng Zhang",
           "rightName": "logan boyd",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Lyath Goldmane",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -1409,7 +1409,7 @@
           "leftName": "Wen Jun Zheng",
           "rightName": "Xiangjun Dai",
           "leftHero": "Fai",
-          "rightHero": "Fai",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -1436,7 +1436,7 @@
           "leftName": "shaopeng pu",
           "rightName": "Xingyu ZHOU",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -1463,7 +1463,7 @@
           "leftName": "yinfei li",
           "rightName": "Yang Haoyu",
           "leftHero": "Lexi",
-          "rightHero": "Lexi",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -1471,7 +1471,7 @@
         {
           "leftName": "ziye zhang",
           "rightName": "Andrea Mengucci",
-          "leftHero": "Fai",
+          "leftHero": "Dorinthea",
           "rightHero": "Fai",
           "leftDeck": "",
           "rightDeck": "",
@@ -1543,7 +1543,7 @@
         {
           "leftName": "Xiu Meng Yip",
           "rightName": "Timothy Teo",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -1552,7 +1552,7 @@
         {
           "leftName": "Matteo Blasi",
           "rightName": "Qiu Wenyang",
-          "leftHero": "Kano",
+          "leftHero": "Florian",
           "rightHero": "Kano",
           "leftDeck": "",
           "rightDeck": "",
@@ -1661,7 +1661,7 @@
           "leftName": "Jimmy Nguyen",
           "rightName": "Tigran Grigorian",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -1706,7 +1706,7 @@
           "leftName": "Guillem Las Heras",
           "rightName": "Matthew Clark",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Terra",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -1813,7 +1813,7 @@
         {
           "leftName": "huang junhao",
           "rightName": "jiajun ma",
-          "leftHero": "Lexi",
+          "leftHero": "Dorinthea",
           "rightHero": "Lexi",
           "leftDeck": "",
           "rightDeck": "",
@@ -1894,7 +1894,7 @@
         {
           "leftName": "Shan Huang",
           "rightName": "HAODONG SUN",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Florian",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -1921,7 +1921,7 @@
         {
           "leftName": "Xin Yu",
           "rightName": "Jean Luka Zorko",
-          "leftHero": "Kayo",
+          "leftHero": "Briar",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -1931,7 +1931,7 @@
           "leftName": "Xinchun Wang",
           "rightName": "Jiaang Shi",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2012,7 +2012,7 @@
           "leftName": "Jun Yan Cai",
           "rightName": "suk kyo suh",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2021,7 +2021,7 @@
           "leftName": "Louis Jia",
           "rightName": "jiasu chen",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2074,8 +2074,8 @@
         {
           "leftName": "Tsz Lung Wu",
           "rightName": "shuyang zhao",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Florian",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2083,7 +2083,7 @@
         {
           "leftName": "zhang chu",
           "rightName": "Roman Pinegin",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Dorinthea",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -2102,7 +2102,7 @@
           "leftName": "Xiao Xiao",
           "rightName": "Jiahui Wu",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Gravy Bones",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2128,7 +2128,7 @@
         {
           "leftName": "Pat Eshghy",
           "rightName": "jincheng zhang",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -2138,7 +2138,7 @@
           "leftName": "Yiyang Xie",
           "rightName": "YIKAI WANG",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2191,7 +2191,7 @@
         {
           "leftName": "pun yuicheung",
           "rightName": "Bridge Big",
-          "leftHero": "Dash",
+          "leftHero": "Dorinthea",
           "rightHero": "Dash",
           "leftDeck": "",
           "rightDeck": "",
@@ -2201,7 +2201,7 @@
           "leftName": "Teck Yeow Wong",
           "rightName": "Zhengyuan Duan",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2218,7 +2218,7 @@
         {
           "leftName": "炜祯 缪",
           "rightName": "yang yang",
-          "leftHero": "Kayo",
+          "leftHero": "Boltyn",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -2227,8 +2227,8 @@
         {
           "leftName": "Judge John",
           "rightName": "XIAO LU",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Briar",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2246,7 +2246,7 @@
           "leftName": "YuChen Liu",
           "rightName": "hc c",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2254,7 +2254,7 @@
         {
           "leftName": "XIAO LUO",
           "rightName": "Wentao Huang",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Florian",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -2264,7 +2264,7 @@
           "leftName": "YINLI GU",
           "rightName": "Tang Wei",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2272,7 +2272,7 @@
         {
           "leftName": "li shuo",
           "rightName": "Hongda Li",
-          "leftHero": "Fai",
+          "leftHero": "Briar",
           "rightHero": "Fai",
           "leftDeck": "",
           "rightDeck": "",
@@ -2350,7 +2350,7 @@
           "leftName": "Nicholas Tran",
           "rightName": "Tigran Grigorian",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2412,7 +2412,7 @@
         {
           "leftName": "Christopher Iaali",
           "rightName": "Connor Leverton",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Briar",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -2484,7 +2484,7 @@
         {
           "leftName": "Matthew Clark",
           "rightName": "魏 文彬",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Terra",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -2494,7 +2494,7 @@
           "leftName": "ye zhao",
           "rightName": "Bangliang Liu",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2539,7 +2539,7 @@
           "leftName": "Evan Herndon",
           "rightName": "James Lewis",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2548,7 +2548,7 @@
           "leftName": "Enki Dupaquier",
           "rightName": "Enes Findik",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2565,7 +2565,7 @@
         {
           "leftName": "Xingyu ZHOU",
           "rightName": "Andrea Mengucci",
-          "leftHero": "Fai",
+          "leftHero": "Florian",
           "rightHero": "Fai",
           "leftDeck": "",
           "rightDeck": "",
@@ -2583,7 +2583,7 @@
         {
           "leftName": "Xiu Meng Yip",
           "rightName": "logan boyd",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Florian",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -2620,7 +2620,7 @@
           "leftName": "Du Xuhang",
           "rightName": "YIKAI WANG",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2664,7 +2664,7 @@
         {
           "leftName": "ziye zhang",
           "rightName": "老抽 王",
-          "leftHero": "Oldhim",
+          "leftHero": "Dorinthea",
           "rightHero": "Oldhim",
           "leftDeck": "",
           "rightDeck": "",
@@ -2673,7 +2673,7 @@
         {
           "leftName": "Johnny Zen",
           "rightName": "Ryan Liu",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -2709,7 +2709,7 @@
         {
           "leftName": "Nils Klaper",
           "rightName": "Justin Cao",
-          "leftHero": "Kayo",
+          "leftHero": "Dorinthea",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -2755,7 +2755,7 @@
           "leftName": "Nuno Miguel Correia das Neves",
           "rightName": "Jiaang Shi",
           "leftHero": "Kano",
-          "rightHero": "Kano",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2799,7 +2799,7 @@
         {
           "leftName": "Matteo Blasi",
           "rightName": "Moran Zhuang",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -2827,7 +2827,7 @@
           "leftName": "Alessandro Miraldi",
           "rightName": "hc c",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -2854,7 +2854,7 @@
           "leftName": "Cheng Peng",
           "rightName": "suk kyo suh",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -2907,7 +2907,7 @@
         {
           "leftName": "Yang Haoyu",
           "rightName": "HAN Xintong",
-          "leftHero": "Oldhim",
+          "leftHero": "Florian",
           "rightHero": "Oldhim",
           "leftDeck": "",
           "rightDeck": "",
@@ -2925,7 +2925,7 @@
         {
           "leftName": "Cheng Zhang",
           "rightName": "Tom Chen",
-          "leftHero": "Kano",
+          "leftHero": "Lyath Goldmane",
           "rightHero": "Kano",
           "leftDeck": "",
           "rightDeck": "",
@@ -2988,7 +2988,7 @@
         {
           "leftName": "Xiangjun Dai",
           "rightName": "Gordon Koh Koh",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Dorinthea",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -2998,7 +2998,7 @@
           "leftName": "忠泽 蔡",
           "rightName": "Pat Eshghy",
           "leftHero": "Riptide",
-          "rightHero": "Riptide",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -3016,7 +3016,7 @@
           "leftName": "Siming Hao",
           "rightName": "Tang Wei",
           "leftHero": "Vynnset",
-          "rightHero": "Vynnset",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -3024,7 +3024,7 @@
         {
           "leftName": "Alex Gu",
           "rightName": "Jinghao Shi",
-          "leftHero": "Kayo",
+          "leftHero": "Levia",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -3043,7 +3043,7 @@
           "leftName": "Henry Lau",
           "rightName": "Judge John",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3052,7 +3052,7 @@
           "leftName": "Yiyuan Wong",
           "rightName": "li shuo",
           "leftHero": "Enigma",
-          "rightHero": "Enigma",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -3069,7 +3069,7 @@
         {
           "leftName": "pun yuicheung",
           "rightName": "Teck Yeow Wong",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Dorinthea",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -3132,7 +3132,7 @@
         {
           "leftName": "Tsz Lung Wu",
           "rightName": "Xinyu Gu",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Florian",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -3159,7 +3159,7 @@
         {
           "leftName": "huang junhao",
           "rightName": "Bridge Big",
-          "leftHero": "Dash",
+          "leftHero": "Dorinthea",
           "rightHero": "Dash",
           "leftDeck": "",
           "rightDeck": "",
@@ -3169,7 +3169,7 @@
           "leftName": "Matilda Soon",
           "rightName": "shuyang zhao",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -3196,7 +3196,7 @@
           "leftName": "Zeng sizhe",
           "rightName": "炜祯 缪",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Boltyn",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3249,8 +3249,8 @@
         {
           "leftName": "jiasu chen",
           "rightName": "zhang chu",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Florian",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3258,7 +3258,7 @@
         {
           "leftName": "Xin Yu",
           "rightName": "Yang-Chia Chang",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Briar",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -3267,7 +3267,7 @@
         {
           "leftName": "Shan Huang",
           "rightName": "zhichen zhong",
-          "leftHero": "Dash",
+          "leftHero": "Florian",
           "rightHero": "Dash",
           "leftDeck": "",
           "rightDeck": "",
@@ -3322,7 +3322,7 @@
           "leftName": "YINLI GU",
           "rightName": "Zhengyuan Duan",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3330,7 +3330,7 @@
         {
           "leftName": "XIAO LU",
           "rightName": "Elaine Cao",
-          "leftHero": "Enigma",
+          "leftHero": "Briar",
           "rightHero": "Enigma",
           "leftDeck": "",
           "rightDeck": "",
@@ -3385,7 +3385,7 @@
           "leftName": "Jun Yan Cai",
           "rightName": "XIAO LUO",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3393,8 +3393,8 @@
         {
           "leftName": "Jiahui Wu",
           "rightName": "Player 2",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Gravy Bones",
+          "rightHero": "Gravy Bones",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3443,7 +3443,7 @@
         {
           "leftName": "Matthew Clark",
           "rightName": "ye zhao",
-          "leftHero": "Kayo",
+          "leftHero": "Terra",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -3498,7 +3498,7 @@
           "leftName": "Brodie Spurlock",
           "rightName": "Christopher Iaali",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3507,7 +3507,7 @@
           "leftName": "Steven Young",
           "rightName": "Xiu Meng Yip",
           "leftHero": "Kano",
-          "rightHero": "Kano",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3524,7 +3524,7 @@
         {
           "leftName": "Tigran Grigorian",
           "rightName": "Enki Dupaquier",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Florian",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -3570,7 +3570,7 @@
           "leftName": "Thomas Bailey Galbraith",
           "rightName": "ziye zhang",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3606,7 +3606,7 @@
           "leftName": "Arthur Trehet",
           "rightName": "James Lewis",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3624,7 +3624,7 @@
           "leftName": "hongrui yin",
           "rightName": "Cheng Zhang",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Lyath Goldmane",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3633,7 +3633,7 @@
           "leftName": "Eduardo Melo",
           "rightName": "Matteo Blasi",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -3686,7 +3686,7 @@
         {
           "leftName": "Bangliang Liu",
           "rightName": "Andy Pham",
-          "leftHero": "Dash",
+          "leftHero": "Briar",
           "rightHero": "Dash",
           "leftDeck": "",
           "rightDeck": "",
@@ -3695,8 +3695,8 @@
         {
           "leftName": "Enes Findik",
           "rightName": "Pat Eshghy",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Briar",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3713,8 +3713,8 @@
         {
           "leftName": "Xingyu ZHOU",
           "rightName": "suk kyo suh",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Florian",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -3767,7 +3767,7 @@
         {
           "leftName": "Nils Klaper",
           "rightName": "SS LIU",
-          "leftHero": "Kayo",
+          "leftHero": "Dorinthea",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -3795,7 +3795,7 @@
           "leftName": "Tianyu Li",
           "rightName": "Johnny Zen",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3876,7 +3876,7 @@
           "leftName": "Alessandro Miraldi",
           "rightName": "Tang Wei",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3885,7 +3885,7 @@
           "leftName": "Isaac Lee",
           "rightName": "li shuo",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3902,7 +3902,7 @@
         {
           "leftName": "Yang Haoyu",
           "rightName": "Zihan Xu",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Florian",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -3939,7 +3939,7 @@
           "leftName": "Tim Sofsky",
           "rightName": "Jiaang Shi",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -3947,7 +3947,7 @@
         {
           "leftName": "Tsz Lung Wu",
           "rightName": "Avex Lim Lian Hui",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4011,7 +4011,7 @@
           "leftName": "Hayden Dale",
           "rightName": "Alex Gu",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Levia",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -4038,7 +4038,7 @@
           "leftName": "羽丰 韩",
           "rightName": "Xiangjun Dai",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -4056,7 +4056,7 @@
           "leftName": "Tariq Patel",
           "rightName": "Shan Huang",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -4110,7 +4110,7 @@
           "leftName": "Weimu Song",
           "rightName": "Judge John",
           "leftHero": "Dash",
-          "rightHero": "Dash",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -4173,7 +4173,7 @@
           "leftName": "shoma yamamura",
           "rightName": "YIKAI WANG",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -4244,7 +4244,7 @@
         {
           "leftName": "pun yuicheung",
           "rightName": "Jun Yan Cai",
-          "leftHero": "Kayo",
+          "leftHero": "Dorinthea",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4262,7 +4262,7 @@
         {
           "leftName": "hc c",
           "rightName": "jincheng zhang",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4298,7 +4298,7 @@
         {
           "leftName": "shuyang zhao",
           "rightName": "Viktor Nelipovich",
-          "leftHero": "Vynnset",
+          "leftHero": "Briar",
           "rightHero": "Vynnset",
           "leftDeck": "",
           "rightDeck": "",
@@ -4308,7 +4308,7 @@
           "leftName": "Yiyang Xie",
           "rightName": "Xin Yu",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -4343,7 +4343,7 @@
         {
           "leftName": "jiasu chen",
           "rightName": "Catch Rainbow",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4352,7 +4352,7 @@
         {
           "leftName": "huang junhao",
           "rightName": "cheng liu",
-          "leftHero": "Bravo, Flattering Showman",
+          "leftHero": "Dorinthea",
           "rightHero": "Bravo, Flattering Showman",
           "leftDeck": "",
           "rightDeck": "",
@@ -4397,8 +4397,8 @@
         {
           "leftName": "XIAO LUO",
           "rightName": "zhang chu",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Florian",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -4406,8 +4406,8 @@
         {
           "leftName": "炜祯 缪",
           "rightName": "Player 2",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Boltyn",
+          "rightHero": "Boltyn",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -4474,7 +4474,7 @@
         {
           "leftName": "Matthew Clark",
           "rightName": "Pedro Ugioni",
-          "leftHero": "Kayo",
+          "leftHero": "Terra",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4520,7 +4520,7 @@
           "leftName": "Francesco Giorgio",
           "rightName": "Enes Findik",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -4529,7 +4529,7 @@
           "leftName": "Martin Holík",
           "rightName": "Christopher Iaali",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -4564,7 +4564,7 @@
         {
           "leftName": "Tigran Grigorian",
           "rightName": "Tim Sofsky",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Florian",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -4573,7 +4573,7 @@
         {
           "leftName": "Xiu Meng Yip",
           "rightName": "Dennis Xiao",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4646,7 +4646,7 @@
           "leftName": "wei shen",
           "rightName": "suk kyo suh",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -4654,7 +4654,7 @@
         {
           "leftName": "Bangliang Liu",
           "rightName": "Jinghao Shi",
-          "leftHero": "Kayo",
+          "leftHero": "Briar",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4699,7 +4699,7 @@
         {
           "leftName": "Matteo Blasi",
           "rightName": "Alfian Poon",
-          "leftHero": "Dash",
+          "leftHero": "Florian",
           "rightHero": "Dash",
           "leftDeck": "",
           "rightDeck": "",
@@ -4762,7 +4762,7 @@
         {
           "leftName": "Tsz Lung Wu",
           "rightName": "YuDi Chen",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Florian",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -4835,7 +4835,7 @@
           "leftName": "RICARDO DIAZ",
           "rightName": "James Lewis",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -4843,7 +4843,7 @@
         {
           "leftName": "Xingyu ZHOU",
           "rightName": "jincheng zhang",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4879,8 +4879,8 @@
         {
           "leftName": "ziye zhang",
           "rightName": "jiasu chen",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Dorinthea",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -4888,7 +4888,7 @@
         {
           "leftName": "Nils Klaper",
           "rightName": "YIZHENG CHEN",
-          "leftHero": "Kayo",
+          "leftHero": "Dorinthea",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4933,7 +4933,7 @@
         {
           "leftName": "Johnny Zen",
           "rightName": "TZU HENG LIN",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -4942,7 +4942,7 @@
         {
           "leftName": "Cheng Zhang",
           "rightName": "Colin Li",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Lyath Goldmane",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -4952,7 +4952,7 @@
           "leftName": "Ralph Schlauri",
           "rightName": "Xiangjun Dai",
           "leftHero": "Enigma",
-          "rightHero": "Enigma",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -4979,7 +4979,7 @@
           "leftName": "Yu Wang",
           "rightName": "pun yuicheung",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5032,7 +5032,7 @@
         {
           "leftName": "Pat Eshghy",
           "rightName": "Liang Zhaoyuan",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Florian",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -5041,7 +5041,7 @@
         {
           "leftName": "Jiaang Shi",
           "rightName": "Xinyu Gu",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Briar",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -5050,8 +5050,8 @@
         {
           "leftName": "Yang Haoyu",
           "rightName": "li shuo",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Florian",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5059,7 +5059,7 @@
         {
           "leftName": "Tang Wei",
           "rightName": "shifu wen",
-          "leftHero": "Bravo, Flattering Showman",
+          "leftHero": "Briar",
           "rightHero": "Bravo, Flattering Showman",
           "leftDeck": "",
           "rightDeck": "",
@@ -5140,7 +5140,7 @@
         {
           "leftName": "Judge John",
           "rightName": "Wei-Te Fang",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Briar",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -5176,8 +5176,8 @@
         {
           "leftName": "Alex Gu",
           "rightName": "Shan Huang",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Levia",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5213,7 +5213,7 @@
           "leftName": "jiayang you",
           "rightName": "shuyang zhao",
           "leftHero": "Dash",
-          "rightHero": "Dash",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5240,7 +5240,7 @@
           "leftName": "Fish Do",
           "rightName": "YIKAI WANG",
           "leftHero": "Fai",
-          "rightHero": "Fai",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5276,7 +5276,7 @@
           "leftName": "超 陆",
           "rightName": "Xin Yu",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5284,8 +5284,8 @@
         {
           "leftName": "hc c",
           "rightName": "zhang chu",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Florian",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5294,7 +5294,7 @@
           "leftName": "Bridge Big",
           "rightName": "炜祯 缪",
           "leftHero": "Dash",
-          "rightHero": "Dash",
+          "rightHero": "Boltyn",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5312,7 +5312,7 @@
           "leftName": "Youcheng Kong",
           "rightName": "huang junhao",
           "leftHero": "Riptide",
-          "rightHero": "Riptide",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5362,7 +5362,7 @@
           "leftName": "Evan Herndon",
           "rightName": "Matthew Clark",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Terra",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5443,7 +5443,7 @@
           "leftName": "Darren Taing",
           "rightName": "Yang Haoyu",
           "leftHero": "Oldhim",
-          "rightHero": "Oldhim",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5461,7 +5461,7 @@
           "leftName": "Oh Oh",
           "rightName": "Xiu Meng Yip",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5470,7 +5470,7 @@
           "leftName": "ye zhao",
           "rightName": "Christopher Iaali",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5577,8 +5577,8 @@
         {
           "leftName": "Tigran Grigorian",
           "rightName": "ziye zhang",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Florian",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5658,8 +5658,8 @@
         {
           "leftName": "Enes Findik",
           "rightName": "James Lewis",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Briar",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5667,7 +5667,7 @@
         {
           "leftName": "Bangliang Liu",
           "rightName": "Wen Jun Zheng",
-          "leftHero": "Fai",
+          "leftHero": "Briar",
           "rightHero": "Fai",
           "leftDeck": "",
           "rightDeck": "",
@@ -5694,7 +5694,7 @@
         {
           "leftName": "Matteo Blasi",
           "rightName": "Jacob Trossing",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Florian",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -5740,7 +5740,7 @@
           "leftName": "SS LIU",
           "rightName": "Cheng Zhang",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Lyath Goldmane",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -5748,7 +5748,7 @@
         {
           "leftName": "Tsz Lung Wu",
           "rightName": "CYK Lionel",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Florian",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -5766,7 +5766,7 @@
         {
           "leftName": "suk kyo suh",
           "rightName": "Tong Liu",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -5775,7 +5775,7 @@
         {
           "leftName": "Nils Klaper",
           "rightName": "Ralph Schlauri",
-          "leftHero": "Enigma",
+          "leftHero": "Dorinthea",
           "rightHero": "Enigma",
           "leftDeck": "",
           "rightDeck": "",
@@ -5793,7 +5793,7 @@
         {
           "leftName": "Johnny Zen",
           "rightName": "Teoh Juwern",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -5812,7 +5812,7 @@
           "leftName": "Chris Chee Shi Feng",
           "rightName": "Judge John",
           "leftHero": "Fai",
-          "rightHero": "Fai",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5865,7 +5865,7 @@
         {
           "leftName": "pun yuicheung",
           "rightName": "Moran Zhuang",
-          "leftHero": "Kayo",
+          "leftHero": "Dorinthea",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -5892,7 +5892,7 @@
         {
           "leftName": "Xingyu ZHOU",
           "rightName": "Louis Jia",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Florian",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -5902,7 +5902,7 @@
           "leftName": "AK C",
           "rightName": "Xiangjun Dai",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5937,7 +5937,7 @@
         {
           "leftName": "li shuo",
           "rightName": "Siming Hao",
-          "leftHero": "Vynnset",
+          "leftHero": "Briar",
           "rightHero": "Vynnset",
           "leftDeck": "",
           "rightDeck": "",
@@ -5946,7 +5946,7 @@
         {
           "leftName": "Pat Eshghy",
           "rightName": "Hayden Dale",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -5973,7 +5973,7 @@
         {
           "leftName": "YIKAI WANG",
           "rightName": "dean zhong",
-          "leftHero": "Kano",
+          "leftHero": "Dorinthea",
           "rightHero": "Kano",
           "leftDeck": "",
           "rightDeck": "",
@@ -5982,8 +5982,8 @@
         {
           "leftName": "Tang Wei",
           "rightName": "huang junhao",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Briar",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -5992,7 +5992,7 @@
           "leftName": "Cheng Peng",
           "rightName": "Shan Huang",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -6072,8 +6072,8 @@
         {
           "leftName": "Alex Gu",
           "rightName": "shuyang zhao",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Levia",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6123,7 +6123,7 @@
           "leftName": "Pudding Tam",
           "rightName": "Matthew Clark",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Terra",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6212,7 +6212,7 @@
         {
           "leftName": "Xiu Meng Yip",
           "rightName": "Teck Yeow Wong",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Florian",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -6221,8 +6221,8 @@
         {
           "leftName": "Christopher Iaali",
           "rightName": "Yang Haoyu",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Briar",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6330,7 +6330,7 @@
           "leftName": "wei shen",
           "rightName": "pun yuicheung",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6348,7 +6348,7 @@
           "leftName": "Zachary Cauchi",
           "rightName": "Bangliang Liu",
           "leftHero": "Vynnset",
-          "rightHero": "Vynnset",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -6366,7 +6366,7 @@
           "leftName": "Peter Buddensiek",
           "rightName": "Tigran Grigorian",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6393,7 +6393,7 @@
           "leftName": "Jinghao Shi",
           "rightName": "Tsz Lung Wu",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6402,7 +6402,7 @@
           "leftName": "Martin Holík",
           "rightName": "suk kyo suh",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6428,7 +6428,7 @@
         {
           "leftName": "Enes Findik",
           "rightName": "bill huynh",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Briar",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -6438,7 +6438,7 @@
           "leftName": "John Wang",
           "rightName": "Nils Klaper",
           "leftHero": "Kano",
-          "rightHero": "Kano",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6492,7 +6492,7 @@
           "leftName": "沈 海江",
           "rightName": "Judge John",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6510,7 +6510,7 @@
           "leftName": "Li GongXu",
           "rightName": "Matteo Blasi",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -6528,7 +6528,7 @@
           "leftName": "Dennis Xiao",
           "rightName": "huang junhao",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -6554,7 +6554,7 @@
         {
           "leftName": "James Lewis",
           "rightName": "忠泽 蔡",
-          "leftHero": "Riptide",
+          "leftHero": "Florian",
           "rightHero": "Riptide",
           "leftDeck": "",
           "rightDeck": "",
@@ -6581,7 +6581,7 @@
         {
           "leftName": "Johnny Zen",
           "rightName": "可暄 赵",
-          "leftHero": "Kano",
+          "leftHero": "Florian",
           "rightHero": "Kano",
           "leftDeck": "",
           "rightDeck": "",
@@ -6591,7 +6591,7 @@
           "leftName": "Ralph Schlauri",
           "rightName": "YIKAI WANG",
           "leftHero": "Enigma",
-          "rightHero": "Enigma",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6599,8 +6599,8 @@
         {
           "leftName": "ziye zhang",
           "rightName": "Cheng Zhang",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Dorinthea",
+          "rightHero": "Lyath Goldmane",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6609,7 +6609,7 @@
           "leftName": "Chris Chee Shi Feng",
           "rightName": "Pat Eshghy",
           "leftHero": "Fai",
-          "rightHero": "Fai",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -6645,7 +6645,7 @@
           "leftName": "David Yau",
           "rightName": "Xiangjun Dai",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Dorinthea",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -6680,7 +6680,7 @@
         {
           "leftName": "Shan Huang",
           "rightName": "yin yue",
-          "leftHero": "Kayo",
+          "leftHero": "Florian",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -6690,7 +6690,7 @@
           "leftName": "AK C",
           "rightName": "Alex Gu",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Levia",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -6707,7 +6707,7 @@
         {
           "leftName": "Tang Wei",
           "rightName": "Dan Hartley",
-          "leftHero": "Dash",
+          "leftHero": "Briar",
           "rightHero": "Dash",
           "leftDeck": "",
           "rightDeck": "",
@@ -6743,7 +6743,7 @@
         {
           "leftName": "shuyang zhao",
           "rightName": "cheng liu",
-          "leftHero": "Bravo, Flattering Showman",
+          "leftHero": "Briar",
           "rightHero": "Bravo, Flattering Showman",
           "leftDeck": "",
           "rightDeck": "",
@@ -6775,7 +6775,7 @@
         {
           "leftName": "Matthew Clark",
           "rightName": "Yoshiaki Okamoto",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Terra",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -6785,7 +6785,7 @@
           "leftName": "Lancelot Errico",
           "rightName": "Christopher Iaali",
           "leftHero": "Kano",
-          "rightHero": "Kano",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -6829,7 +6829,7 @@
         {
           "leftName": "Xiu Meng Yip",
           "rightName": "Nicholas Tran",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Florian",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -6884,7 +6884,7 @@
           "leftName": "Michael Jaszczur",
           "rightName": "Bangliang Liu",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -6920,7 +6920,7 @@
           "leftName": "Alfian Poon",
           "rightName": "Enes Findik",
           "leftHero": "Dash",
-          "rightHero": "Dash",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7046,7 +7046,7 @@
           "leftName": "Arthur Trehet",
           "rightName": "Tigran Grigorian",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "DRAW"
@@ -7069,7 +7069,7 @@
           "leftName": "Law Wen",
           "rightName": "Matthew Clark",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Terra",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7078,7 +7078,7 @@
           "leftName": "Joniel Ibasco",
           "rightName": "Christopher Iaali",
           "leftHero": "Kano",
-          "rightHero": "Kano",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7114,7 +7114,7 @@
           "leftName": "Evan Herndon",
           "rightName": "Enes Findik",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -7131,7 +7131,7 @@
         {
           "leftName": "Xiu Meng Yip",
           "rightName": "Isaac Lee",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Florian",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -7204,7 +7204,7 @@
           "leftName": "Peter Buddensiek",
           "rightName": "Bangliang Liu",
           "leftHero": "Kayo",
-          "rightHero": "Kayo",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7326,7 +7326,7 @@
           "leftName": "Pudding Tam",
           "rightName": "Christopher Iaali",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7334,7 +7334,7 @@
         {
           "leftName": "Matthew Clark",
           "rightName": "Nicholas Tran",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Terra",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -7389,7 +7389,7 @@
           "leftName": "Enki Dupaquier",
           "rightName": "Bangliang Liu",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -7397,7 +7397,7 @@
         {
           "leftName": "Xiu Meng Yip",
           "rightName": "Jimmy Nguyen",
-          "leftHero": "Oldhim",
+          "leftHero": "Florian",
           "rightHero": "Oldhim",
           "leftDeck": "",
           "rightDeck": "",
@@ -7470,7 +7470,7 @@
           "leftName": "Evanking Chiu",
           "rightName": "Enes Findik",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7591,8 +7591,8 @@
         {
           "leftName": "Matthew Clark",
           "rightName": "Christopher Iaali",
-          "leftHero": "",
-          "rightHero": "",
+          "leftHero": "Terra",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -7645,7 +7645,7 @@
         {
           "leftName": "Xiu Meng Yip",
           "rightName": "Sam Sutherland",
-          "leftHero": "Oldhim",
+          "leftHero": "Florian",
           "rightHero": "Oldhim",
           "leftDeck": "",
           "rightDeck": "",
@@ -7681,7 +7681,7 @@
         {
           "leftName": "Bangliang Liu",
           "rightName": "PANG CHEN",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Briar",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -7718,7 +7718,7 @@
           "leftName": "logan boyd",
           "rightName": "Enes Findik",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7857,7 +7857,7 @@
         {
           "leftName": "Matthew Clark",
           "rightName": "Steven Young",
-          "leftHero": "Kano",
+          "leftHero": "Terra",
           "rightHero": "Kano",
           "leftDeck": "",
           "rightDeck": "",
@@ -7866,7 +7866,7 @@
         {
           "leftName": "Christopher Iaali",
           "rightName": "Gordon Koh Koh",
-          "leftHero": "Ira, Crimson Haze",
+          "leftHero": "Briar",
           "rightHero": "Ira, Crimson Haze",
           "leftDeck": "",
           "rightDeck": "",
@@ -7894,7 +7894,7 @@
           "leftName": "Enki Dupaquier",
           "rightName": "Xiu Meng Yip",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7912,7 +7912,7 @@
           "leftName": "Law Wen",
           "rightName": "Bangliang Liu",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -7930,7 +7930,7 @@
           "leftName": "Brodie Spurlock",
           "rightName": "Enes Findik",
           "leftHero": "Valda Brightaxe",
-          "rightHero": "Valda Brightaxe",
+          "rightHero": "Briar",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P1"
@@ -8114,7 +8114,7 @@
         {
           "leftName": "Matthew Clark",
           "rightName": "Enki Dupaquier",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Terra",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -8124,7 +8124,7 @@
           "leftName": "Yoshiaki Okamoto",
           "rightName": "Xiu Meng Yip",
           "leftHero": "Ira, Crimson Haze",
-          "rightHero": "Ira, Crimson Haze",
+          "rightHero": "Florian",
           "leftDeck": "",
           "rightDeck": "",
           "winner": "P2"
@@ -8141,7 +8141,7 @@
         {
           "leftName": "Christopher Iaali",
           "rightName": "Evan Herndon",
-          "leftHero": "Kayo",
+          "leftHero": "Briar",
           "rightHero": "Kayo",
           "leftDeck": "",
           "rightDeck": "",
@@ -8155,7 +8155,7 @@
         {
           "leftName": "Xiu Meng Yip",
           "rightName": "Enki Dupaquier",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Florian",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -8164,7 +8164,7 @@
         {
           "leftName": "Christopher Iaali",
           "rightName": "Steven Young",
-          "leftHero": "Kano",
+          "leftHero": "Briar",
           "rightHero": "Kano",
           "leftDeck": "",
           "rightDeck": "",
@@ -8178,7 +8178,7 @@
         {
           "leftName": "Christopher Iaali",
           "rightName": "Enki Dupaquier",
-          "leftHero": "Valda Brightaxe",
+          "leftHero": "Briar",
           "rightHero": "Valda Brightaxe",
           "leftDeck": "",
           "rightDeck": "",
@@ -8304,7 +8304,7 @@
       {
         "round": 4,
         "opponent": "Yang Haoyu",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -8351,7 +8351,7 @@
       {
         "round": 2,
         "opponent": "Johnny Zen",
-        "hero": "Oldhim",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -8369,7 +8369,7 @@
       {
         "round": 4,
         "opponent": "ziye zhang",
-        "hero": "Oldhim",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -8479,7 +8479,7 @@
       {
         "round": 4,
         "opponent": "shuyang zhao",
-        "hero": "Vynnset",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Vynnset",
         "playerDeck": "",
@@ -8517,7 +8517,7 @@
       {
         "round": 3,
         "opponent": "Nils Klaper",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -8573,7 +8573,7 @@
       {
         "round": 4,
         "opponent": "jiasu chen",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -8620,7 +8620,7 @@
       {
         "round": 2,
         "opponent": "Yang Haoyu",
-        "hero": "Lexi",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Lexi",
         "playerDeck": "",
@@ -8676,7 +8676,7 @@
       {
         "round": 1,
         "opponent": "Xiangjun Dai",
-        "hero": "Kano",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -8734,7 +8734,7 @@
         "opponent": "zhang opq",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -8743,7 +8743,7 @@
         "opponent": "Wen Jun Zheng",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -8752,7 +8752,7 @@
         "opponent": "Gordon Koh Koh",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -8761,7 +8761,7 @@
         "opponent": "羽丰 韩",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -8770,7 +8770,7 @@
         "opponent": "Ralph Schlauri",
         "hero": "Enigma",
         "deck": "",
-        "playerHero": "Enigma",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -8779,7 +8779,7 @@
         "opponent": "AK C",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -8788,7 +8788,7 @@
         "opponent": "David Yau",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       }
@@ -8916,7 +8916,7 @@
       {
         "round": 11,
         "opponent": "Bangliang Liu",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -8972,7 +8972,7 @@
       {
         "round": 5,
         "opponent": "suk kyo suh",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -8990,7 +8990,7 @@
       {
         "round": 7,
         "opponent": "pun yuicheung",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -9055,7 +9055,7 @@
       {
         "round": 2,
         "opponent": "Pat Eshghy",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -9073,7 +9073,7 @@
       {
         "round": 4,
         "opponent": "hc c",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -9082,7 +9082,7 @@
       {
         "round": 5,
         "opponent": "Xingyu ZHOU",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -9156,7 +9156,7 @@
       {
         "round": 6,
         "opponent": "Xiangjun Dai",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -9165,7 +9165,7 @@
       {
         "round": 7,
         "opponent": "Alex Gu",
-        "hero": "Kayo",
+        "hero": "Levia",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -9212,7 +9212,7 @@
       {
         "round": 5,
         "opponent": "Johnny Zen",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -9286,7 +9286,7 @@
       {
         "round": 7,
         "opponent": "Enes Findik",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -9351,7 +9351,7 @@
       {
         "round": 7,
         "opponent": "Tang Wei",
-        "hero": "Dash",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -9380,7 +9380,7 @@
       {
         "round": 3,
         "opponent": "Cheng Zhang",
-        "hero": "Kano",
+        "hero": "Lyath Goldmane",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -9512,7 +9512,7 @@
       {
         "round": 4,
         "opponent": "Cheng Zhang",
-        "hero": "Kayo",
+        "hero": "Lyath Goldmane",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -9568,7 +9568,7 @@
       {
         "round": 4,
         "opponent": "Bangliang Liu",
-        "hero": "Dash",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -9599,9 +9599,9 @@
       {
         "round": 1,
         "opponent": "Xin Yu",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9610,7 +9610,7 @@
         "opponent": "Siming Hao",
         "hero": "Vynnset",
         "deck": "",
-        "playerHero": "Vynnset",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9619,7 +9619,7 @@
         "opponent": "ye zhao",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -9628,7 +9628,7 @@
         "opponent": "Andy Pham",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9637,7 +9637,7 @@
         "opponent": "Jinghao Shi",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -9646,7 +9646,7 @@
         "opponent": "Wen Jun Zheng",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9655,7 +9655,7 @@
         "opponent": "Zachary Cauchi",
         "hero": "Vynnset",
         "deck": "",
-        "playerHero": "Vynnset",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9664,7 +9664,7 @@
         "opponent": "Michael Jaszczur",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9673,7 +9673,7 @@
         "opponent": "Peter Buddensiek",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9682,7 +9682,7 @@
         "opponent": "Enki Dupaquier",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -9691,7 +9691,7 @@
         "opponent": "PANG CHEN",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9700,7 +9700,7 @@
         "opponent": "Law Wen",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       }
@@ -9709,9 +9709,9 @@
       {
         "round": 1,
         "opponent": "Bangliang Liu",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -9720,7 +9720,7 @@
         "opponent": "Jean Luka Zorko",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -9729,7 +9729,7 @@
         "opponent": "Yang-Chia Chang",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -9738,7 +9738,7 @@
         "opponent": "Yiyang Xie",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -9747,7 +9747,7 @@
         "opponent": "超 陆",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -9792,7 +9792,7 @@
       {
         "round": 5,
         "opponent": "Pat Eshghy",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -9884,7 +9884,7 @@
       {
         "round": 3,
         "opponent": "Tigran Grigorian",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -9929,7 +9929,7 @@
       {
         "round": 8,
         "opponent": "Xiu Meng Yip",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -9947,7 +9947,7 @@
       {
         "round": 10,
         "opponent": "Matthew Clark",
-        "hero": "Valda Brightaxe",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -9976,7 +9976,7 @@
       {
         "round": 1,
         "opponent": "Judge John",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -10039,7 +10039,7 @@
       {
         "round": 8,
         "opponent": "Bangliang Liu",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -10088,16 +10088,16 @@
         "opponent": "Michael Jaszczur",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 2,
         "opponent": "XIAO LU",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10106,7 +10106,7 @@
         "opponent": "Henry Lau",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -10115,7 +10115,7 @@
         "opponent": "Weimu Song",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10124,7 +10124,7 @@
         "opponent": "Wei-Te Fang",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10133,7 +10133,7 @@
         "opponent": "Chris Chee Shi Feng",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10142,7 +10142,7 @@
         "opponent": "沈 海江",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -10153,7 +10153,7 @@
         "opponent": "shao qi Chen",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Levia",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10162,7 +10162,7 @@
         "opponent": "Dennis Xiao",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Levia",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -10171,7 +10171,7 @@
         "opponent": "Jinghao Shi",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Levia",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -10180,25 +10180,25 @@
         "opponent": "Hayden Dale",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Levia",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 5,
         "opponent": "Shan Huang",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Levia",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 6,
         "opponent": "shuyang zhao",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Levia",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10207,7 +10207,7 @@
         "opponent": "AK C",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Levia",
         "playerDeck": "",
         "result": "Win"
       }
@@ -10216,7 +10216,7 @@
       {
         "round": 1,
         "opponent": "Alex Gu",
-        "hero": "Fai",
+        "hero": "Levia",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -10281,7 +10281,7 @@
       {
         "round": 2,
         "opponent": "Christopher Iaali",
-        "hero": "Dash",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -10373,7 +10373,7 @@
       {
         "round": 6,
         "opponent": "suk kyo suh",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -10386,7 +10386,7 @@
         "opponent": "ye zhao",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -10395,7 +10395,7 @@
         "opponent": "HAODONG SUN",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -10404,7 +10404,7 @@
         "opponent": "zhichen zhong",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10413,16 +10413,16 @@
         "opponent": "Tariq Patel",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 5,
         "opponent": "Alex Gu",
-        "hero": "",
+        "hero": "Levia",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10431,7 +10431,7 @@
         "opponent": "Cheng Peng",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10440,7 +10440,7 @@
         "opponent": "yin yue",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       }
@@ -10449,7 +10449,7 @@
       {
         "round": 1,
         "opponent": "Shan Huang",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -10467,7 +10467,7 @@
       {
         "round": 3,
         "opponent": "Bangliang Liu",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -10476,7 +10476,7 @@
       {
         "round": 4,
         "opponent": "Matthew Clark",
-        "hero": "Kayo",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -10494,7 +10494,7 @@
       {
         "round": 6,
         "opponent": "Christopher Iaali",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -10559,7 +10559,7 @@
       {
         "round": 1,
         "opponent": "Matthew Clark",
-        "hero": "Oldhim",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -10595,7 +10595,7 @@
       {
         "round": 5,
         "opponent": "Xin Yu",
-        "hero": "Oldhim",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -10626,7 +10626,7 @@
         "opponent": "超 陆",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10635,7 +10635,7 @@
         "opponent": "Guillem Las Heras",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10644,7 +10644,7 @@
         "opponent": "魏 文彬",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10653,7 +10653,7 @@
         "opponent": "ye zhao",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10662,7 +10662,7 @@
         "opponent": "Pedro Ugioni",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10671,7 +10671,7 @@
         "opponent": "Evan Herndon",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10680,7 +10680,7 @@
         "opponent": "Pudding Tam",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -10689,7 +10689,7 @@
         "opponent": "Yoshiaki Okamoto",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10698,7 +10698,7 @@
         "opponent": "Law Wen",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10707,16 +10707,16 @@
         "opponent": "Nicholas Tran",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 11,
         "opponent": "Christopher Iaali",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Win"
       },
@@ -10725,7 +10725,7 @@
         "opponent": "Steven Young",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -10734,7 +10734,7 @@
         "opponent": "Enki Dupaquier",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Terra",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -10898,7 +10898,7 @@
       {
         "round": 6,
         "opponent": "Xiu Meng Yip",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -10992,7 +10992,7 @@
       {
         "round": 3,
         "opponent": "Matthew Clark",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -11039,7 +11039,7 @@
       {
         "round": 1,
         "opponent": "Xiu Meng Yip",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -11048,7 +11048,7 @@
       {
         "round": 2,
         "opponent": "Jiaang Shi",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -11061,7 +11061,7 @@
         "opponent": "Xinchun Wang",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11070,7 +11070,7 @@
         "opponent": "Timothy Teo",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11079,7 +11079,7 @@
         "opponent": "logan boyd",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11088,7 +11088,7 @@
         "opponent": "Steven Young",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -11097,7 +11097,7 @@
         "opponent": "Dennis Xiao",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11106,7 +11106,7 @@
         "opponent": "Oh Oh",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11115,7 +11115,7 @@
         "opponent": "Teck Yeow Wong",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11124,7 +11124,7 @@
         "opponent": "Nicholas Tran",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -11133,7 +11133,7 @@
         "opponent": "Isaac Lee",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11142,7 +11142,7 @@
         "opponent": "Jimmy Nguyen",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11151,7 +11151,7 @@
         "opponent": "Sam Sutherland",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11160,7 +11160,7 @@
         "opponent": "Enki Dupaquier",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11169,7 +11169,7 @@
         "opponent": "Yoshiaki Okamoto",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -11178,7 +11178,7 @@
         "opponent": "Enki Dupaquier",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -11225,7 +11225,7 @@
       {
         "round": 2,
         "opponent": "Enes Findik",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -11261,7 +11261,7 @@
       {
         "round": 6,
         "opponent": "Matteo Blasi",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -11373,7 +11373,7 @@
       {
         "round": 2,
         "opponent": "Bangliang Liu",
-        "hero": "Vynnset",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Vynnset",
         "playerDeck": "",
@@ -11382,7 +11382,7 @@
       {
         "round": 3,
         "opponent": "Tang Wei",
-        "hero": "Vynnset",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Vynnset",
         "playerDeck": "",
@@ -11409,7 +11409,7 @@
       {
         "round": 6,
         "opponent": "li shuo",
-        "hero": "Vynnset",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Vynnset",
         "playerDeck": "",
@@ -11456,7 +11456,7 @@
       {
         "round": 5,
         "opponent": "Cheng Zhang",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Lyath Goldmane",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -11534,7 +11534,7 @@
         "opponent": "嘉诚 徐",
         "hero": "Cindra",
         "deck": "",
-        "playerHero": "Cindra",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -11543,7 +11543,7 @@
       {
         "round": 1,
         "opponent": "Zhao Page",
-        "hero": "Cindra",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Cindra",
         "playerDeck": "",
@@ -11617,7 +11617,7 @@
       {
         "round": 2,
         "opponent": "James Lewis",
-        "hero": "Oldhim",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -11693,7 +11693,7 @@
       {
         "round": 2,
         "opponent": "Alex Gu",
-        "hero": "Kayo",
+        "hero": "Levia",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -11720,7 +11720,7 @@
       {
         "round": 5,
         "opponent": "Xiu Meng Yip",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -11738,7 +11738,7 @@
       {
         "round": 7,
         "opponent": "huang junhao",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -11906,7 +11906,7 @@
       {
         "round": 9,
         "opponent": "Christopher Iaali",
-        "hero": "Kano",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -12020,7 +12020,7 @@
       {
         "round": 4,
         "opponent": "Jiaang Shi",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -12029,7 +12029,7 @@
       {
         "round": 5,
         "opponent": "Tigran Grigorian",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -12157,7 +12157,7 @@
       {
         "round": 7,
         "opponent": "Matteo Blasi",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -12296,7 +12296,7 @@
       {
         "round": 3,
         "opponent": "Xin Yu",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -12325,7 +12325,7 @@
       {
         "round": 3,
         "opponent": "Xiangjun Dai",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -12406,7 +12406,7 @@
       {
         "round": 12,
         "opponent": "Christopher Iaali",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -12444,7 +12444,7 @@
       {
         "round": 4,
         "opponent": "James Lewis",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -12480,7 +12480,7 @@
       {
         "round": 8,
         "opponent": "Tigran Grigorian",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -12491,7 +12491,7 @@
       {
         "round": 1,
         "opponent": "炜祯 缪",
-        "hero": "Riptide",
+        "hero": "Boltyn",
         "deck": "",
         "playerHero": "Riptide",
         "playerDeck": "",
@@ -12540,7 +12540,7 @@
         "opponent": "Tom Hartley",
         "hero": "Riptide",
         "deck": "",
-        "playerHero": "Riptide",
+        "playerHero": "Boltyn",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -12549,7 +12549,7 @@
         "opponent": "yang yang",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Boltyn",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -12558,16 +12558,16 @@
         "opponent": "Zeng sizhe",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Boltyn",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 4,
         "opponent": "Player 2",
-        "hero": "",
+        "hero": "Boltyn",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Boltyn",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12576,7 +12576,7 @@
         "opponent": "Bridge Big",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Boltyn",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -12587,7 +12587,7 @@
         "opponent": "Yingming Zhao",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12596,7 +12596,7 @@
         "opponent": "Jacob Trossing",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12605,16 +12605,16 @@
         "opponent": "Enki Dupaquier",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 4,
         "opponent": "Pat Eshghy",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12623,16 +12623,16 @@
         "opponent": "Francesco Giorgio",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 6,
         "opponent": "James Lewis",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12641,7 +12641,7 @@
         "opponent": "bill huynh",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12650,7 +12650,7 @@
         "opponent": "Alfian Poon",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12659,7 +12659,7 @@
         "opponent": "Evan Herndon",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -12668,7 +12668,7 @@
         "opponent": "Evanking Chiu",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12677,7 +12677,7 @@
         "opponent": "logan boyd",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -12686,7 +12686,7 @@
         "opponent": "Brodie Spurlock",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -12695,7 +12695,7 @@
       {
         "round": 1,
         "opponent": "Enes Findik",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -12733,7 +12733,7 @@
       {
         "round": 2,
         "opponent": "Nils Klaper",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -12778,7 +12778,7 @@
       {
         "round": 7,
         "opponent": "Matthew Clark",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -12805,7 +12805,7 @@
       {
         "round": 10,
         "opponent": "Christopher Iaali",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -12946,7 +12946,7 @@
       {
         "round": 3,
         "opponent": "XIAO LU",
-        "hero": "Enigma",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Enigma",
         "playerDeck": "",
@@ -13058,7 +13058,7 @@
       {
         "round": 2,
         "opponent": "Cheng Zhang",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Lyath Goldmane",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -13067,7 +13067,7 @@
       {
         "round": 3,
         "opponent": "Xiu Meng Yip",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -13139,7 +13139,7 @@
       {
         "round": 11,
         "opponent": "Enes Findik",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -13370,7 +13370,7 @@
       {
         "round": 5,
         "opponent": "huang junhao",
-        "hero": "Riptide",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Riptide",
         "playerDeck": "",
@@ -13417,7 +13417,7 @@
       {
         "round": 5,
         "opponent": "James Lewis",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -13437,7 +13437,7 @@
       {
         "round": 2,
         "opponent": "suk kyo suh",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -13446,7 +13446,7 @@
       {
         "round": 3,
         "opponent": "XIAO LUO",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -13455,7 +13455,7 @@
       {
         "round": 4,
         "opponent": "pun yuicheung",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -13520,7 +13520,7 @@
       {
         "round": 5,
         "opponent": "Nils Klaper",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -13540,7 +13540,7 @@
       {
         "round": 2,
         "opponent": "Shan Huang",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -13596,7 +13596,7 @@
       {
         "round": 4,
         "opponent": "Shan Huang",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -13636,7 +13636,7 @@
         "opponent": "dean zhong",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Lyath Goldmane",
         "playerDeck": "",
         "result": "Win"
       },
@@ -13645,7 +13645,7 @@
         "opponent": "logan boyd",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Lyath Goldmane",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -13654,7 +13654,7 @@
         "opponent": "Tom Chen",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Lyath Goldmane",
         "playerDeck": "",
         "result": "Win"
       },
@@ -13663,7 +13663,7 @@
         "opponent": "hongrui yin",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Lyath Goldmane",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -13672,7 +13672,7 @@
         "opponent": "Colin Li",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Lyath Goldmane",
         "playerDeck": "",
         "result": "Win"
       },
@@ -13681,16 +13681,16 @@
         "opponent": "SS LIU",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Lyath Goldmane",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 7,
         "opponent": "ziye zhang",
-        "hero": "",
+        "hero": "Dorinthea",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Lyath Goldmane",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -13699,7 +13699,7 @@
       {
         "round": 1,
         "opponent": "Cheng Zhang",
-        "hero": "Kano",
+        "hero": "Lyath Goldmane",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -13744,7 +13744,7 @@
       {
         "round": 6,
         "opponent": "YIKAI WANG",
-        "hero": "Kano",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -13764,7 +13764,7 @@
       {
         "round": 2,
         "opponent": "jiasu chen",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -13800,7 +13800,7 @@
       {
         "round": 6,
         "opponent": "Xingyu ZHOU",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -13847,7 +13847,7 @@
       {
         "round": 5,
         "opponent": "Enes Findik",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -13975,7 +13975,7 @@
       {
         "round": 7,
         "opponent": "Xiangjun Dai",
-        "hero": "Valda Brightaxe",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -14170,7 +14170,7 @@
       {
         "round": 2,
         "opponent": "ziye zhang",
-        "hero": "Fai",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -14179,7 +14179,7 @@
       {
         "round": 3,
         "opponent": "Xingyu ZHOU",
-        "hero": "Fai",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -14307,7 +14307,7 @@
       {
         "round": 5,
         "opponent": "Judge John",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -14392,7 +14392,7 @@
       {
         "round": 4,
         "opponent": "Tsz Lung Wu",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -14542,7 +14542,7 @@
         "opponent": "Lin Yancheng",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -14551,7 +14551,7 @@
         "opponent": "Pudding Tam",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -14560,7 +14560,7 @@
         "opponent": "Justin Cao",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -14569,7 +14569,7 @@
         "opponent": "SS LIU",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -14578,7 +14578,7 @@
         "opponent": "YIZHENG CHEN",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -14587,7 +14587,7 @@
         "opponent": "Ralph Schlauri",
         "hero": "Enigma",
         "deck": "",
-        "playerHero": "Enigma",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -14596,7 +14596,7 @@
         "opponent": "John Wang",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -14605,7 +14605,7 @@
       {
         "round": 1,
         "opponent": "Nils Klaper",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -14764,7 +14764,7 @@
       {
         "round": 3,
         "opponent": "Matteo Blasi",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -14791,7 +14791,7 @@
       {
         "round": 6,
         "opponent": "pun yuicheung",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -14829,7 +14829,7 @@
       {
         "round": 3,
         "opponent": "hc c",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -14838,7 +14838,7 @@
       {
         "round": 4,
         "opponent": "Tang Wei",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -14903,7 +14903,7 @@
       {
         "round": 4,
         "opponent": "huang junhao",
-        "hero": "Bravo, Flattering Showman",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Bravo, Flattering Showman",
         "playerDeck": "",
@@ -14930,7 +14930,7 @@
       {
         "round": 7,
         "opponent": "shuyang zhao",
-        "hero": "Bravo, Flattering Showman",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Bravo, Flattering Showman",
         "playerDeck": "",
@@ -15192,7 +15192,7 @@
       {
         "round": 8,
         "opponent": "Matthew Clark",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -15237,7 +15237,7 @@
       {
         "round": 13,
         "opponent": "Xiu Meng Yip",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -15342,7 +15342,7 @@
       {
         "round": 5,
         "opponent": "Xiangjun Dai",
-        "hero": "Enigma",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Enigma",
         "playerDeck": "",
@@ -15351,7 +15351,7 @@
       {
         "round": 6,
         "opponent": "Nils Klaper",
-        "hero": "Enigma",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Enigma",
         "playerDeck": "",
@@ -15360,7 +15360,7 @@
       {
         "round": 7,
         "opponent": "YIKAI WANG",
-        "hero": "Enigma",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Enigma",
         "playerDeck": "",
@@ -15389,7 +15389,7 @@
       {
         "round": 3,
         "opponent": "Tsz Lung Wu",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -15407,7 +15407,7 @@
       {
         "round": 5,
         "opponent": "Jiaang Shi",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -15438,16 +15438,16 @@
         "opponent": "Nuno Miguel Correia das Neves",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 2,
         "opponent": "shuyang zhao",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15456,7 +15456,7 @@
         "opponent": "Xinyu Gu",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15465,7 +15465,7 @@
         "opponent": "Avex Lim Lian Hui",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15474,7 +15474,7 @@
         "opponent": "YuDi Chen",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -15483,7 +15483,7 @@
         "opponent": "CYK Lionel",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15492,7 +15492,7 @@
         "opponent": "Jinghao Shi",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -15501,7 +15501,7 @@
       {
         "round": 1,
         "opponent": "Tsz Lung Wu",
-        "hero": "Kano",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -15519,7 +15519,7 @@
       {
         "round": 3,
         "opponent": "Jiaang Shi",
-        "hero": "Kano",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -15532,7 +15532,7 @@
         "opponent": "Weimu Song",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -15541,34 +15541,34 @@
         "opponent": "Roman Pinegin",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 3,
         "opponent": "jiasu chen",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 4,
         "opponent": "XIAO LUO",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 5,
         "opponent": "hc c",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -15577,7 +15577,7 @@
       {
         "round": 1,
         "opponent": "zhang chu",
-        "hero": "Dash",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -15604,7 +15604,7 @@
       {
         "round": 4,
         "opponent": "Judge John",
-        "hero": "Dash",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -15615,7 +15615,7 @@
       {
         "round": 1,
         "opponent": "pun yuicheung",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -15673,7 +15673,7 @@
         "opponent": "Kin Bong Ernie Wong",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -15682,7 +15682,7 @@
         "opponent": "Bridge Big",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15691,7 +15691,7 @@
         "opponent": "Teck Yeow Wong",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -15700,7 +15700,7 @@
         "opponent": "Jun Yan Cai",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15709,7 +15709,7 @@
         "opponent": "Yu Wang",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15718,7 +15718,7 @@
         "opponent": "Moran Zhuang",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15727,7 +15727,7 @@
         "opponent": "wei shen",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -15738,7 +15738,7 @@
         "opponent": "Xiao Xiao",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15747,7 +15747,7 @@
         "opponent": "William Bucknall",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15756,7 +15756,7 @@
         "opponent": "Connor Leverton",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15765,7 +15765,7 @@
         "opponent": "Brodie Spurlock",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -15774,7 +15774,7 @@
         "opponent": "Martin Holík",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15783,16 +15783,16 @@
         "opponent": "ye zhao",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 7,
         "opponent": "Yang Haoyu",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15801,7 +15801,7 @@
         "opponent": "Lancelot Errico",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15810,7 +15810,7 @@
         "opponent": "Joniel Ibasco",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15819,16 +15819,16 @@
         "opponent": "Pudding Tam",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 11,
         "opponent": "Matthew Clark",
-        "hero": "",
+        "hero": "Terra",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -15837,7 +15837,7 @@
         "opponent": "Gordon Koh Koh",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15846,7 +15846,7 @@
         "opponent": "Evan Herndon",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15855,7 +15855,7 @@
         "opponent": "Steven Young",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -15864,7 +15864,7 @@
         "opponent": "Enki Dupaquier",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       }
@@ -15873,7 +15873,7 @@
       {
         "round": 1,
         "opponent": "Christopher Iaali",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -15882,7 +15882,7 @@
       {
         "round": 2,
         "opponent": "Jiahui Wu",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Gravy Bones",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -16032,7 +16032,7 @@
       {
         "round": 3,
         "opponent": "Judge John",
-        "hero": "Oldhim",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -16229,7 +16229,7 @@
       {
         "round": 2,
         "opponent": "Xiangjun Dai",
-        "hero": "Fai",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -16265,7 +16265,7 @@
       {
         "round": 6,
         "opponent": "Bangliang Liu",
-        "hero": "Fai",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -16388,7 +16388,7 @@
       {
         "round": 2,
         "opponent": "XIAO LUO",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -16444,7 +16444,7 @@
       {
         "round": 1,
         "opponent": "shuyang zhao",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -16556,16 +16556,16 @@
         "opponent": "Jude Cornett",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 2,
         "opponent": "Tsz Lung Wu",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -16574,7 +16574,7 @@
         "opponent": "Matilda Soon",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -16583,7 +16583,7 @@
         "opponent": "Viktor Nelipovich",
         "hero": "Vynnset",
         "deck": "",
-        "playerHero": "Vynnset",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -16592,16 +16592,16 @@
         "opponent": "jiayang you",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 6,
         "opponent": "Alex Gu",
-        "hero": "",
+        "hero": "Levia",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -16610,7 +16610,7 @@
         "opponent": "cheng liu",
         "hero": "Bravo, Flattering Showman",
         "deck": "",
-        "playerHero": "Bravo, Flattering Showman",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -16637,7 +16637,7 @@
       {
         "round": 3,
         "opponent": "Yang Haoyu",
-        "hero": "Oldhim",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -16684,7 +16684,7 @@
       {
         "round": 4,
         "opponent": "Johnny Zen",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -16951,7 +16951,7 @@
       {
         "round": 2,
         "opponent": "Xingyu ZHOU",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -16998,7 +16998,7 @@
       {
         "round": 2,
         "opponent": "炜祯 缪",
-        "hero": "Kayo",
+        "hero": "Boltyn",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -17072,7 +17072,7 @@
       {
         "round": 3,
         "opponent": "li shuo",
-        "hero": "Enigma",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Enigma",
         "playerDeck": "",
@@ -17130,9 +17130,9 @@
       {
         "round": 1,
         "opponent": "Johnny Zen",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -17141,7 +17141,7 @@
         "opponent": "jincheng zhang",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -17150,16 +17150,16 @@
         "opponent": "忠泽 蔡",
         "hero": "Riptide",
         "deck": "",
-        "playerHero": "Riptide",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 4,
         "opponent": "Enes Findik",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -17168,7 +17168,7 @@
         "opponent": "Liang Zhaoyuan",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -17177,7 +17177,7 @@
         "opponent": "Hayden Dale",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -17186,7 +17186,7 @@
         "opponent": "Chris Chee Shi Feng",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -17195,9 +17195,9 @@
       {
         "round": 1,
         "opponent": "Pat Eshghy",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -17206,7 +17206,7 @@
         "opponent": "Thomas Bailey Galbraith",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -17215,7 +17215,7 @@
         "opponent": "Ryan Liu",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -17224,7 +17224,7 @@
         "opponent": "Tianyu Li",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -17233,7 +17233,7 @@
         "opponent": "TZU HENG LIN",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -17242,7 +17242,7 @@
         "opponent": "Teoh Juwern",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -17251,7 +17251,7 @@
         "opponent": "可暄 赵",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -17269,7 +17269,7 @@
       {
         "round": 2,
         "opponent": "YIKAI WANG",
-        "hero": "Oldhim",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -17287,7 +17287,7 @@
       {
         "round": 4,
         "opponent": "Xin Yu",
-        "hero": "Oldhim",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -17343,7 +17343,7 @@
       {
         "round": 3,
         "opponent": "James Lewis",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -17370,7 +17370,7 @@
       {
         "round": 6,
         "opponent": "Matthew Clark",
-        "hero": "Kayo",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -17397,7 +17397,7 @@
       {
         "round": 9,
         "opponent": "Enes Findik",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -17433,7 +17433,7 @@
       {
         "round": 13,
         "opponent": "Christopher Iaali",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -17599,7 +17599,7 @@
       {
         "round": 6,
         "opponent": "Yang Haoyu",
-        "hero": "Oldhim",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -17682,7 +17682,7 @@
       {
         "round": 7,
         "opponent": "Judge John",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -17792,7 +17792,7 @@
       {
         "round": 7,
         "opponent": "Bangliang Liu",
-        "hero": "Vynnset",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Vynnset",
         "playerDeck": "",
@@ -17841,7 +17841,7 @@
       {
         "round": 3,
         "opponent": "Pat Eshghy",
-        "hero": "Riptide",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Riptide",
         "playerDeck": "",
@@ -17877,7 +17877,7 @@
       {
         "round": 7,
         "opponent": "James Lewis",
-        "hero": "Riptide",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Riptide",
         "playerDeck": "",
@@ -17998,7 +17998,7 @@
       {
         "round": 8,
         "opponent": "Christopher Iaali",
-        "hero": "Kano",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -18063,7 +18063,7 @@
       {
         "round": 3,
         "opponent": "Alex Gu",
-        "hero": "Kayo",
+        "hero": "Levia",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -18081,7 +18081,7 @@
       {
         "round": 5,
         "opponent": "Bangliang Liu",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -18099,7 +18099,7 @@
       {
         "round": 7,
         "opponent": "Tsz Lung Wu",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -18220,9 +18220,9 @@
       {
         "round": 1,
         "opponent": "虾仁王 z",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18231,7 +18231,7 @@
         "opponent": "yinfei li",
         "hero": "Lexi",
         "deck": "",
-        "playerHero": "Lexi",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -18240,7 +18240,7 @@
         "opponent": "HAN Xintong",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18249,16 +18249,16 @@
         "opponent": "Zihan Xu",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 5,
         "opponent": "li shuo",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18267,16 +18267,16 @@
         "opponent": "Darren Taing",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 7,
         "opponent": "Christopher Iaali",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -18285,9 +18285,9 @@
       {
         "round": 1,
         "opponent": "Yang Haoyu",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -18314,7 +18314,7 @@
       {
         "round": 3,
         "opponent": "Shan Huang",
-        "hero": "Dash",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -18343,7 +18343,7 @@
       {
         "round": 3,
         "opponent": "YIKAI WANG",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -18493,9 +18493,9 @@
       {
         "round": 1,
         "opponent": "li shuo",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18504,7 +18504,7 @@
         "opponent": "Andrea Mengucci",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -18513,7 +18513,7 @@
         "opponent": "老抽 王",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18522,34 +18522,34 @@
         "opponent": "Thomas Bailey Galbraith",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 5,
         "opponent": "jiasu chen",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 6,
         "opponent": "Tigran Grigorian",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 7,
         "opponent": "Cheng Zhang",
-        "hero": "",
+        "hero": "Lyath Goldmane",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       }
@@ -18558,9 +18558,9 @@
       {
         "round": 1,
         "opponent": "ziye zhang",
-        "hero": "",
+        "hero": "Dorinthea",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -18569,7 +18569,7 @@
         "opponent": "Hongda Li",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18578,7 +18578,7 @@
         "opponent": "Yiyuan Wong",
         "hero": "Enigma",
         "deck": "",
-        "playerHero": "Enigma",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -18587,16 +18587,16 @@
         "opponent": "Isaac Lee",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 5,
         "opponent": "Yang Haoyu",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -18605,7 +18605,7 @@
         "opponent": "Siming Hao",
         "hero": "Vynnset",
         "deck": "",
-        "playerHero": "Vynnset",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -18650,7 +18650,7 @@
       {
         "round": 5,
         "opponent": "Tsz Lung Wu",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -18760,7 +18760,7 @@
       {
         "round": 4,
         "opponent": "Alex Gu",
-        "hero": "Kayo",
+        "hero": "Levia",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -18778,7 +18778,7 @@
       {
         "round": 6,
         "opponent": "Pat Eshghy",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -18816,7 +18816,7 @@
       {
         "round": 3,
         "opponent": "suk kyo suh",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -18843,7 +18843,7 @@
       {
         "round": 6,
         "opponent": "Shan Huang",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -18937,7 +18937,7 @@
       {
         "round": 5,
         "opponent": "Matthew Clark",
-        "hero": "Kayo",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -19038,7 +19038,7 @@
       {
         "round": 5,
         "opponent": "Tang Wei",
-        "hero": "Bravo, Flattering Showman",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Bravo, Flattering Showman",
         "playerDeck": "",
@@ -19069,7 +19069,7 @@
         "opponent": "Martin Holík",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19078,16 +19078,16 @@
         "opponent": "Louis Jia",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 3,
         "opponent": "zhang chu",
-        "hero": "",
+        "hero": "Dorinthea",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19096,16 +19096,16 @@
         "opponent": "Catch Rainbow",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 5,
         "opponent": "ziye zhang",
-        "hero": "",
+        "hero": "Dorinthea",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -19114,7 +19114,7 @@
       {
         "round": 1,
         "opponent": "jiasu chen",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -19150,7 +19150,7 @@
       {
         "round": 5,
         "opponent": "Christopher Iaali",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -19168,7 +19168,7 @@
       {
         "round": 7,
         "opponent": "suk kyo suh",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -19379,7 +19379,7 @@
       {
         "round": 11,
         "opponent": "Xiu Meng Yip",
-        "hero": "Oldhim",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -19399,9 +19399,9 @@
       {
         "round": 1,
         "opponent": "Matteo Blasi",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19410,7 +19410,7 @@
         "opponent": "Xinchun Wang",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19419,7 +19419,7 @@
         "opponent": "Nuno Miguel Correia das Neves",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19428,7 +19428,7 @@
         "opponent": "Tim Sofsky",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19437,7 +19437,7 @@
         "opponent": "Xinyu Gu",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -19446,9 +19446,9 @@
       {
         "round": 1,
         "opponent": "Jiaang Shi",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19457,7 +19457,7 @@
         "opponent": "Qiu Wenyang",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19466,7 +19466,7 @@
         "opponent": "Moran Zhuang",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19475,7 +19475,7 @@
         "opponent": "Eduardo Melo",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19484,7 +19484,7 @@
         "opponent": "Alfian Poon",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19493,7 +19493,7 @@
         "opponent": "Jacob Trossing",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19502,7 +19502,7 @@
         "opponent": "Li GongXu",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       }
@@ -19630,7 +19630,7 @@
       {
         "round": 2,
         "opponent": "Xin Yu",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -19789,7 +19789,7 @@
       {
         "round": 1,
         "opponent": "hc c",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -19807,7 +19807,7 @@
       {
         "round": 3,
         "opponent": "Christopher Iaali",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -19838,7 +19838,7 @@
         "opponent": "Connor Leverton",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19847,7 +19847,7 @@
         "opponent": "YuChen Liu",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19856,7 +19856,7 @@
         "opponent": "Alessandro Miraldi",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19865,16 +19865,16 @@
         "opponent": "jincheng zhang",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 5,
         "opponent": "zhang chu",
-        "hero": "",
+        "hero": "Dorinthea",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       }
@@ -19883,7 +19883,7 @@
       {
         "round": 1,
         "opponent": "suk kyo suh",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -19923,7 +19923,7 @@
         "opponent": "JIA NIAN WANG",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19932,7 +19932,7 @@
         "opponent": "Jun Yan Cai",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19941,16 +19941,16 @@
         "opponent": "Cheng Peng",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 4,
         "opponent": "Xingyu ZHOU",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19959,7 +19959,7 @@
         "opponent": "wei shen",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -19968,7 +19968,7 @@
         "opponent": "Tong Liu",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19977,7 +19977,7 @@
         "opponent": "Martin Holík",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -19988,7 +19988,7 @@
         "opponent": "Jianan Zhou",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -19997,7 +19997,7 @@
         "opponent": "Keegan Walls",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -20006,7 +20006,7 @@
         "opponent": "Evan Herndon",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -20015,7 +20015,7 @@
         "opponent": "Arthur Trehet",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -20024,16 +20024,16 @@
         "opponent": "RICARDO DIAZ",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 6,
         "opponent": "Enes Findik",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -20042,7 +20042,7 @@
         "opponent": "忠泽 蔡",
         "hero": "Riptide",
         "deck": "",
-        "playerHero": "Riptide",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       }
@@ -20051,7 +20051,7 @@
       {
         "round": 1,
         "opponent": "James Lewis",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -20116,7 +20116,7 @@
       {
         "round": 6,
         "opponent": "Tsz Lung Wu",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -20219,7 +20219,7 @@
       {
         "round": 1,
         "opponent": "YIKAI WANG",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -20246,7 +20246,7 @@
       {
         "round": 4,
         "opponent": "Matteo Blasi",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -20259,7 +20259,7 @@
         "opponent": "Eduardo Melo",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -20268,7 +20268,7 @@
         "opponent": "Yiyang Xie",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -20277,7 +20277,7 @@
         "opponent": "Du Xuhang",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -20286,7 +20286,7 @@
         "opponent": "shoma yamamura",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -20295,7 +20295,7 @@
         "opponent": "Fish Do",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -20304,7 +20304,7 @@
         "opponent": "dean zhong",
         "hero": "Kano",
         "deck": "",
-        "playerHero": "Kano",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -20313,7 +20313,7 @@
         "opponent": "Ralph Schlauri",
         "hero": "Enigma",
         "deck": "",
-        "playerHero": "Enigma",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -20322,7 +20322,7 @@
       {
         "round": 1,
         "opponent": "Tigran Grigorian",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -20344,7 +20344,7 @@
         "opponent": "大昕 刘",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -20353,7 +20353,7 @@
         "opponent": "Jimmy Nguyen",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -20362,7 +20362,7 @@
         "opponent": "Nicholas Tran",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -20371,7 +20371,7 @@
         "opponent": "Enki Dupaquier",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -20380,16 +20380,16 @@
         "opponent": "Tim Sofsky",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 6,
         "opponent": "ziye zhang",
-        "hero": "",
+        "hero": "Dorinthea",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -20398,7 +20398,7 @@
         "opponent": "Peter Buddensiek",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -20407,7 +20407,7 @@
         "opponent": "Arthur Trehet",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Draw"
       }
@@ -20425,7 +20425,7 @@
       {
         "round": 2,
         "opponent": "zhang chu",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -20499,7 +20499,7 @@
       {
         "round": 3,
         "opponent": "ziye zhang",
-        "hero": "Oldhim",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -20573,7 +20573,7 @@
       {
         "round": 7,
         "opponent": "Tigran Grigorian",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -20591,7 +20591,7 @@
       {
         "round": 9,
         "opponent": "Bangliang Liu",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -20638,7 +20638,7 @@
       {
         "round": 2,
         "opponent": "huang junhao",
-        "hero": "Lexi",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Lexi",
         "playerDeck": "",
@@ -20651,7 +20651,7 @@
         "opponent": "zijun Guo",
         "hero": "Riptide",
         "deck": "",
-        "playerHero": "Riptide",
+        "playerHero": "Gravy Bones",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -20660,16 +20660,16 @@
         "opponent": "Xiao Xiao",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Gravy Bones",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 3,
         "opponent": "Player 2",
-        "hero": "",
+        "hero": "Gravy Bones",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Gravy Bones",
         "playerDeck": "",
         "result": "Win"
       }
@@ -20678,7 +20678,7 @@
       {
         "round": 1,
         "opponent": "Jiahui Wu",
-        "hero": "Riptide",
+        "hero": "Gravy Bones",
         "deck": "",
         "playerHero": "Riptide",
         "playerDeck": "",
@@ -20752,7 +20752,7 @@
       {
         "round": 2,
         "opponent": "Zhengyuan Duan",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -20761,7 +20761,7 @@
       {
         "round": 3,
         "opponent": "pun yuicheung",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -20797,7 +20797,7 @@
       {
         "round": 7,
         "opponent": "Xiu Meng Yip",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -21082,7 +21082,7 @@
       {
         "round": 10,
         "opponent": "Enes Findik",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -21111,7 +21111,7 @@
       {
         "round": 2,
         "opponent": "pun yuicheung",
-        "hero": "Dash",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -21120,7 +21120,7 @@
       {
         "round": 3,
         "opponent": "huang junhao",
-        "hero": "Dash",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -21138,7 +21138,7 @@
       {
         "round": 5,
         "opponent": "炜祯 缪",
-        "hero": "Dash",
+        "hero": "Boltyn",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -21194,7 +21194,7 @@
       {
         "round": 4,
         "opponent": "Christopher Iaali",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -21266,7 +21266,7 @@
       {
         "round": 12,
         "opponent": "Enes Findik",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -21414,7 +21414,7 @@
       {
         "round": 9,
         "opponent": "Matthew Clark",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -21441,7 +21441,7 @@
       {
         "round": 12,
         "opponent": "Bangliang Liu",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -21470,7 +21470,7 @@
       {
         "round": 3,
         "opponent": "Johnny Zen",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -21526,7 +21526,7 @@
       {
         "round": 5,
         "opponent": "YIKAI WANG",
-        "hero": "Fai",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -21804,7 +21804,7 @@
       {
         "round": 3,
         "opponent": "shuyang zhao",
-        "hero": "Kayo",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -21815,7 +21815,7 @@
       {
         "round": 1,
         "opponent": "Haotian Dong",
-        "hero": "Fai",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -21864,7 +21864,7 @@
         "opponent": "Tang Li",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -21927,7 +21927,7 @@
       {
         "round": 7,
         "opponent": "Johnny Zen",
-        "hero": "Kano",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -21974,7 +21974,7 @@
       {
         "round": 5,
         "opponent": "shuyang zhao",
-        "hero": "Dash",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -21994,7 +21994,7 @@
       {
         "round": 2,
         "opponent": "hc c",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -22032,7 +22032,7 @@
       {
         "round": 2,
         "opponent": "Xiu Meng Yip",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -22088,7 +22088,7 @@
       {
         "round": 2,
         "opponent": "Tigran Grigorian",
-        "hero": "Oldhim",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -22160,7 +22160,7 @@
       {
         "round": 10,
         "opponent": "Xiu Meng Yip",
-        "hero": "Oldhim",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -22256,7 +22256,7 @@
       {
         "round": 3,
         "opponent": "Enes Findik",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -22265,7 +22265,7 @@
       {
         "round": 4,
         "opponent": "Tigran Grigorian",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -22319,7 +22319,7 @@
       {
         "round": 10,
         "opponent": "Bangliang Liu",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -22337,7 +22337,7 @@
       {
         "round": 12,
         "opponent": "Xiu Meng Yip",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -22346,7 +22346,7 @@
       {
         "round": 13,
         "opponent": "Matthew Clark",
-        "hero": "Valda Brightaxe",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -22355,7 +22355,7 @@
       {
         "round": 14,
         "opponent": "Xiu Meng Yip",
-        "hero": "Valda Brightaxe",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -22364,7 +22364,7 @@
       {
         "round": 15,
         "opponent": "Christopher Iaali",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -22377,7 +22377,7 @@
         "opponent": "Chris Chee Shi Feng",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -22386,7 +22386,7 @@
         "opponent": "Wentao Huang",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -22395,16 +22395,16 @@
         "opponent": "Jun Yan Cai",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 4,
         "opponent": "zhang chu",
-        "hero": "",
+        "hero": "Dorinthea",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -22413,7 +22413,7 @@
       {
         "round": 1,
         "opponent": "XIAO LUO",
-        "hero": "Fai",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -22458,7 +22458,7 @@
       {
         "round": 6,
         "opponent": "Judge John",
-        "hero": "Fai",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -22467,7 +22467,7 @@
       {
         "round": 7,
         "opponent": "Pat Eshghy",
-        "hero": "Fai",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -22487,7 +22487,7 @@
       {
         "round": 2,
         "opponent": "Tang Wei",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -22496,7 +22496,7 @@
       {
         "round": 3,
         "opponent": "Zhengyuan Duan",
-        "hero": "Valda Brightaxe",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Valda Brightaxe",
         "playerDeck": "",
@@ -22590,7 +22590,7 @@
       {
         "round": 1,
         "opponent": "Zhengyuan Duan",
-        "hero": "Vynnset",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Vynnset",
         "playerDeck": "",
@@ -22657,7 +22657,7 @@
         "opponent": "Timothy Lee",
         "hero": "Vynnset",
         "deck": "",
-        "playerHero": "Vynnset",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -22666,7 +22666,7 @@
         "opponent": "Teck Yeow Wong",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -22675,7 +22675,7 @@
         "opponent": "YINLI GU",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -22693,7 +22693,7 @@
       {
         "round": 2,
         "opponent": "Matthew Clark",
-        "hero": "Oldhim",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -22850,7 +22850,7 @@
       {
         "round": 7,
         "opponent": "Shan Huang",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -22899,7 +22899,7 @@
       {
         "round": 1,
         "opponent": "huang junhao",
-        "hero": "Oldhim",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Oldhim",
         "playerDeck": "",
@@ -22966,7 +22966,7 @@
         "opponent": "Chun Kin Tse",
         "hero": "Oldhim",
         "deck": "",
-        "playerHero": "Oldhim",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Draw"
       },
@@ -22975,7 +22975,7 @@
         "opponent": "jiajun ma",
         "hero": "Lexi",
         "deck": "",
-        "playerHero": "Lexi",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Draw"
       },
@@ -22984,7 +22984,7 @@
         "opponent": "Bridge Big",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -22993,7 +22993,7 @@
         "opponent": "cheng liu",
         "hero": "Bravo, Flattering Showman",
         "deck": "",
-        "playerHero": "Bravo, Flattering Showman",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -23002,16 +23002,16 @@
         "opponent": "Youcheng Kong",
         "hero": "Riptide",
         "deck": "",
-        "playerHero": "Riptide",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
       {
         "round": 6,
         "opponent": "Tang Wei",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       },
@@ -23020,7 +23020,7 @@
         "opponent": "Dennis Xiao",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Dorinthea",
         "playerDeck": "",
         "result": "Win"
       }
@@ -23038,7 +23038,7 @@
       {
         "round": 2,
         "opponent": "Matteo Blasi",
-        "hero": "Kano",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -23325,7 +23325,7 @@
       {
         "round": 4,
         "opponent": "Xiu Meng Yip",
-        "hero": "Kano",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -23397,7 +23397,7 @@
       {
         "round": 12,
         "opponent": "Matthew Clark",
-        "hero": "Kano",
+        "hero": "Terra",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -23415,7 +23415,7 @@
       {
         "round": 14,
         "opponent": "Christopher Iaali",
-        "hero": "Kano",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -23444,7 +23444,7 @@
       {
         "round": 3,
         "opponent": "炜祯 缪",
-        "hero": "Kayo",
+        "hero": "Boltyn",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -23677,7 +23677,7 @@
       {
         "round": 2,
         "opponent": "li shuo",
-        "hero": "Fai",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Fai",
         "playerDeck": "",
@@ -23760,7 +23760,7 @@
       {
         "round": 4,
         "opponent": "Nils Klaper",
-        "hero": "Kayo",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -23778,7 +23778,7 @@
       {
         "round": 6,
         "opponent": "Cheng Zhang",
-        "hero": "Kayo",
+        "hero": "Lyath Goldmane",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -23928,7 +23928,7 @@
       {
         "round": 7,
         "opponent": "Nils Klaper",
-        "hero": "Kano",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Kano",
         "playerDeck": "",
@@ -24089,7 +24089,7 @@
         "opponent": "羽丰 韩",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -24098,7 +24098,7 @@
         "opponent": "YINLI GU",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -24107,7 +24107,7 @@
         "opponent": "Siming Hao",
         "hero": "Vynnset",
         "deck": "",
-        "playerHero": "Vynnset",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       },
@@ -24116,7 +24116,7 @@
         "opponent": "Alessandro Miraldi",
         "hero": "Valda Brightaxe",
         "deck": "",
-        "playerHero": "Valda Brightaxe",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -24125,16 +24125,16 @@
         "opponent": "shifu wen",
         "hero": "Bravo, Flattering Showman",
         "deck": "",
-        "playerHero": "Bravo, Flattering Showman",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 6,
         "opponent": "huang junhao",
-        "hero": "",
+        "hero": "Dorinthea",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -24143,7 +24143,7 @@
         "opponent": "Dan Hartley",
         "hero": "Dash",
         "deck": "",
-        "playerHero": "Dash",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Win"
       }
@@ -24152,7 +24152,7 @@
       {
         "round": 1,
         "opponent": "Tang Wei",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -24179,7 +24179,7 @@
       {
         "round": 4,
         "opponent": "Xiangjun Dai",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -24201,16 +24201,16 @@
         "opponent": "shoma yamamura",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 2,
         "opponent": "Judge John",
-        "hero": "",
+        "hero": "Briar",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -24219,7 +24219,7 @@
         "opponent": "Elaine Cao",
         "hero": "Enigma",
         "deck": "",
-        "playerHero": "Enigma",
+        "playerHero": "Briar",
         "playerDeck": "",
         "result": "Loss"
       }
@@ -24228,7 +24228,7 @@
       {
         "round": 1,
         "opponent": "XIAO LU",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -24255,7 +24255,7 @@
       {
         "round": 4,
         "opponent": "YIKAI WANG",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -24295,7 +24295,7 @@
         "opponent": "junkai shen",
         "hero": "Bravo, Flattering Showman",
         "deck": "",
-        "playerHero": "Bravo, Flattering Showman",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -24304,7 +24304,7 @@
         "opponent": "shaopeng pu",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       },
@@ -24313,16 +24313,16 @@
         "opponent": "Andrea Mengucci",
         "hero": "Fai",
         "deck": "",
-        "playerHero": "Fai",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 4,
         "opponent": "suk kyo suh",
-        "hero": "",
+        "hero": "Florian",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -24331,7 +24331,7 @@
         "opponent": "jincheng zhang",
         "hero": "Kayo",
         "deck": "",
-        "playerHero": "Kayo",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Loss"
       },
@@ -24340,7 +24340,7 @@
         "opponent": "Louis Jia",
         "hero": "Ira, Crimson Haze",
         "deck": "",
-        "playerHero": "Ira, Crimson Haze",
+        "playerHero": "Florian",
         "playerDeck": "",
         "result": "Win"
       }
@@ -24349,7 +24349,7 @@
       {
         "round": 1,
         "opponent": "Xingyu ZHOU",
-        "hero": "Bravo, Flattering Showman",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Bravo, Flattering Showman",
         "playerDeck": "",
@@ -24387,7 +24387,7 @@
       {
         "round": 4,
         "opponent": "li shuo",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -24432,7 +24432,7 @@
       {
         "round": 9,
         "opponent": "Xiu Meng Yip",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -24526,7 +24526,7 @@
       {
         "round": 5,
         "opponent": "pun yuicheung",
-        "hero": "Ira, Crimson Haze",
+        "hero": "Dorinthea",
         "deck": "",
         "playerHero": "Ira, Crimson Haze",
         "playerDeck": "",
@@ -24629,7 +24629,7 @@
       {
         "round": 6,
         "opponent": "Johnny Zen",
-        "hero": "Kayo",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Kayo",
         "playerDeck": "",
@@ -24714,7 +24714,7 @@
       {
         "round": 5,
         "opponent": "Matteo Blasi",
-        "hero": "Dash",
+        "hero": "Florian",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -24741,7 +24741,7 @@
       {
         "round": 8,
         "opponent": "Enes Findik",
-        "hero": "Dash",
+        "hero": "Briar",
         "deck": "",
         "playerHero": "Dash",
         "playerDeck": "",
@@ -24882,18 +24882,18 @@
       {
         "round": 3,
         "opponent": "Jiahui Wu",
-        "hero": "",
+        "hero": "Gravy Bones",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Gravy Bones",
         "playerDeck": "",
         "result": "Loss"
       },
       {
         "round": 4,
         "opponent": "炜祯 缪",
-        "hero": "",
+        "hero": "Boltyn",
         "deck": "",
-        "playerHero": "",
+        "playerHero": "Boltyn",
         "playerDeck": "",
         "result": "Loss"
       },
